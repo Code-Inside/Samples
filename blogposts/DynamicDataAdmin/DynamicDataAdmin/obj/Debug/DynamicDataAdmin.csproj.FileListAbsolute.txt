@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DynamicDataAdmin\DynamicDataAdmin\bin\DynamicDataAdmin.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DynamicDataAdmin\DynamicDataAdmin\bin\DynamicDataAdmin.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DynamicDataAdmin\DynamicDataAdmin\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DynamicDataAdmin\DynamicDataAdmin\obj\Debug\DynamicDataAdmin.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DynamicDataAdmin\DynamicDataAdmin\obj\Debug\DynamicDataAdmin.pdb

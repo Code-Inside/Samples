@@ -1,0 +1,6 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\AmazonDemo.exe.config
+bin\Debug\AmazonDemo.exe
+bin\Debug\AmazonDemo.pdb
+obj\Debug\AmazonDemo.exe
+obj\Debug\AmazonDemo.pdb

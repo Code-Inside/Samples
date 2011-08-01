@@ -1,0 +1,86 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Web.config" caret="7976" fromTop="14" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Global.asax.cs" caret="1337" fromTop="16" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LocalizationWebFormView.cs" caret="0" fromTop="0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:LanguageController.cs" caret="0" fromTop="0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:ResourceExtensions.cs" caret="709" fromTop="18" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LocalizedFilter.cs" caret="598" fromTop="16" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LanguageHelper.cs" caret="1684" fromTop="24" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Web.config" caret="2448" fromTop="24" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Global.asax.cs" caret="1279" fromTop="34" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Web.config" caret="7976" fromTop="14" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LanguageHelper.cs" caret="252" fromTop="0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LanguageHelper.cs" caret="1341" fromTop="6" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LanguageHelper.cs" caret="1608" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="System" priority="2" />
+      <Item value="public" priority="2" />
+      <Item value="string" priority="1" />
+      <Item value="return" priority="0" />
+      <Item value="Configuration" priority="1" />
+      <Item value="Lib" priority="1" />
+      <Item value="Testclass" priority="2" />
+      <Item value="new" priority="0" />
+      <Item value="test" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="context" priority="1" />
+      <Item value="override" priority="0" />
+      <Item value="if" priority="0" />
+      <Item value="HttpContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Lib.Testclass">
+      <Item value="Test" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpApplication">
+      <Item value="Context" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="Request" priority="1" />
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Url" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="LocalPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="CurrentUICulture" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

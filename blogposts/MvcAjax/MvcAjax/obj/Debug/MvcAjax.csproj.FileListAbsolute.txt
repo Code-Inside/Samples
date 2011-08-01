@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcAjax\MvcAjax\bin\MvcAjax.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcAjax\MvcAjax\bin\MvcAjax.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcAjax\MvcAjax\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcAjax\MvcAjax\obj\Debug\MvcAjax.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcAjax\MvcAjax\obj\Debug\MvcAjax.pdb

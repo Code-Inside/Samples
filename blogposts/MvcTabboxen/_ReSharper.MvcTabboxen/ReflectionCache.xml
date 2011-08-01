@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="85d707d2-bbf0-4694-a18d-27540df9b879" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="fe6dbf46-7622-4e22-801a-23b503742d57" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="cfa0e852-19b5-47da-9cdd-e4300cd97f68" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="40632e1d-5d93-4dbc-8bbb-70985ce6c613" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492571960000000" />
+  <Assembly Name="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="f0a82bb5-9dab-4e3c-b403-05bb9dde806c" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="41921730-3221-4c6e-8389-0b56a6e3db67" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="b33d1bd1-7024-4e8d-b3b0-d4dc734010f9" Timestamp="633559706920000000" XmlDocIndexTimestamp="633559706920000000" />
+  <Assembly Name="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="e636935a-6943-463f-aca8-faf01858c708" Timestamp="633719507140000000" XmlDocIndexTimestamp="633713436180000000" />
+</Assemblies>

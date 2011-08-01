@@ -1,0 +1,112 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F2E83A88-7677-4C2E-9162-B2994EB9BD2C/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="2622" fromTop="25" />
+      <File id="F2E83A88-7677-4C2E-9162-B2994EB9BD2C/d:Controllers/f:HomeController.cs" caret="538" fromTop="19" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="1217" fromTop="17" />
+      <File id="F2E83A88-7677-4C2E-9162-B2994EB9BD2C/d:Controllers/f:HomeController.cs" caret="538" fromTop="21" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="2622" fromTop="32" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="2113" fromTop="30" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="2265" fromTop="24" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="698" fromTop="4" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="990" fromTop="13" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="1805" fromTop="23" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="1384" fromTop="9" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="2609" fromTop="21" />
+      <File id="F2E83A88-7677-4C2E-9162-B2994EB9BD2C/d:Controllers/f:HomeController.cs" caret="298" fromTop="12" />
+      <File id="F2E83A88-7677-4C2E-9162-B2994EB9BD2C/d:Controllers/f:HomeController.cs" caret="0" fromTop="0" />
+      <File id="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA/f:When_HomeController_is_called.cs" caret="331" fromTop="2" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:MvcControllerHttpContextTests.Controllers.HomeController">
+      <Item value="ControllerContext" priority="0" />
+      <Item value="Index`0" priority="0" />
+      <Item value="Response" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ControllerContext">
+      <Item value="HttpContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Request" priority="1" />
+      <Item value="Response" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="UserAgent" priority="1" />
+      <Item value="Cookies" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="3" />
+      <Item value="void" priority="4" />
+      <Item value="protected" priority="5" />
+      <Item value="When_HomeController_is_called`0" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="this" priority="8" />
+      <Item value="x" priority="0" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="result" priority="1" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="HttpCookieCollection`0" priority="0" />
+      <Item value="new" priority="1" />
+      <Item value="HttpCookieCollection" priority="0" />
+      <Item value="ViewResult`0" priority="0" />
+      <Item value="Act`0" priority="1" />
+      <Item value="HttpCookie`0" priority="0" />
+      <Item value="_expectedCookie" priority="0" />
+      <Item value="HttpCookie" priority="0" />
+      <Item value="HttpResponseBase`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Mock`1">
+      <Item value="Setup`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Moq.Language.Flow.ISetup`2">
+      <Item value="Returns`4" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MvcControllerHttpContextTests.Tests.When_HomeController_is_called">
+      <Item value="_httpRequestBaseMock" priority="0" />
+      <Item value="_expectedUserAgentInViewBagMessage" priority="1" />
+      <Item value="Sut" priority="0" />
+      <Item value="_result" priority="1" />
+      <Item value="_expectedCookie" priority="1" />
+      <Item value="_cookieCollection" priority="0" />
+      <Item value="_httpRepsonseBaseMock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="AreEqual`0" priority="1" />
+      <Item value="AreSame`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewResult">
+      <Item value="ViewBag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponseBase">
+      <Item value="Cookies" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpCookie">
+      <Item value="Name" priority="0" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpCookieCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

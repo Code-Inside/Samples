@@ -1,0 +1,36 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:LogOn.aspx" caret="386" scrollPosition="0|2" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:Controllers/f:AccountController.cs" caret="12755" scrollPosition="0|219" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:Controllers/f:HomeController.cs" caret="0" scrollPosition="0|1" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="822" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:LogOn.aspx" caret="715" scrollPosition="0|0" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:LogOn.aspx" caret="389" scrollPosition="0|2" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="680" scrollPosition="0|0" />
+      <File id="8ACC8AC8-A3C3-4063-99BD-D9CEBFE6BDF9/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="822" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

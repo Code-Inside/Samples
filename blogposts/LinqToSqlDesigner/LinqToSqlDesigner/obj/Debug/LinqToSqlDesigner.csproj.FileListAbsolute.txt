@@ -1,0 +1,11 @@
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\bin\Debug\NORTHWND.MDF
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\bin\Debug\NORTHWND_log.ldf
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\bin\Debug\LinqToSqlDesigner.exe.config
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\bin\Debug\LinqToSqlDesigner.exe
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\bin\Debug\LinqToSqlDesigner.pdb
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\obj\Debug\LinqToSqlDesigner.exe
+C:\Users\Admin\AppData\Local\Temporary Projects\LinqToSqlDesigner\obj\Debug\LinqToSqlDesigner.pdb
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlDesigner\LinqToSqlDesigner\bin\Debug\LinqToSqlDesigner.exe.config
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlDesigner\LinqToSqlDesigner\obj\Debug\LinqToSqlDesigner.exe
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlDesigner\LinqToSqlDesigner\obj\Debug\LinqToSqlDesigner.pdb

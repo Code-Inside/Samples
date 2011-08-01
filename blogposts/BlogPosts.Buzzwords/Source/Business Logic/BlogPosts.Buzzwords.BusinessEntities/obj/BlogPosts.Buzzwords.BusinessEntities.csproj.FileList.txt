@@ -1,0 +1,5 @@
+bin\Debug\BlogPosts.Buzzwords.BusinessEntities.dll
+bin\Debug\BlogPosts.Buzzwords.BusinessEntities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\BlogPosts.Buzzwords.BusinessEntities.dll
+obj\Debug\BlogPosts.Buzzwords.BusinessEntities.pdb

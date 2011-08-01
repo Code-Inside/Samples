@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MyEvents\MyEvents.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MyEvents\MyEvents.ConsoleApp\bin\Debug\MyEvents.ConsoleApp.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MyEvents\MyEvents.ConsoleApp\bin\Debug\MyEvents.ConsoleApp.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MyEvents\MyEvents.ConsoleApp\obj\Debug\MyEvents.ConsoleApp.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MyEvents\MyEvents.ConsoleApp\obj\Debug\MyEvents.ConsoleApp.pdb

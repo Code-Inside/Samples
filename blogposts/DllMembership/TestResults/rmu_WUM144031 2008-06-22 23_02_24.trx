@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4b3eff1a-7d84-4b44-bf80-78221cdb6810" name="rmu@WUM144031 2008-06-22 23:02:24" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="0b73bf9f-50b7-4440-b355-e176a0e58cfe">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\TestResults\rmu_WUM144031 2008-06-22 23_02_24">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WUM144031" outcome="Error" timestamp="2008-06-22T23:03:00.8748000+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2008-06-22T23:02:24.4108000+02:00" queuing="2008-06-22T23:02:26.6038000+02:00" start="2008-06-22T23:02:26.9058000+02:00" finish="2008-06-22T23:03:00.8748000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="MembershipService_Retrieve_MembershipUsers_Works" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\dllmembership\dllmembership.test\bin\debug\dllmembership.test.dll" id="942fa7a4-37cc-b8d5-89cf-ff90a466664c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6fd3608c-2ccd-498b-b19e-992497c58d60" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\bin\Debug\DllMembership.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DllMembership.Test.MembershipServiceTest, DllMembership.Test" name="MembershipService_Retrieve_MembershipUsers_Works" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" executionId="e55dd2f1-5fa3-42a1-9fc7-063b9ebd8c20" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e55dd2f1-5fa3-42a1-9fc7-063b9ebd8c20" testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" testName="MembershipService_Retrieve_MembershipUsers_Works" computerName="WUM144031" duration="00:00:33.6160000" startTime="2008-06-22T23:02:27.2588000+02:00" endTime="2008-06-22T23:03:00.8748000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

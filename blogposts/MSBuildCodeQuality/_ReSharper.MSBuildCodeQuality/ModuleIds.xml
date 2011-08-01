@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="D4C68A4A-C1BF-4972-93BD-CC08BE592156" ModuleId="MSBuildCodeQuality.ConsoleApp" />
+  <Module PersistentId="F346C3C7-56E6-415D-97DB-F14EF6007D51" ModuleId="MSBuildCodeQuality.Business" />
+  <Module PersistentId="BE326E02-862B-4701-955D-3AE673090EA7" ModuleId="MSBuildCodeQuality.ConApp" />
+</Modules>

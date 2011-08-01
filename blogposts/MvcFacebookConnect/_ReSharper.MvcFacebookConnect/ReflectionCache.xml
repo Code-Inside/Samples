@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="149d3241-530d-4b1f-9420-6b9e8204bd54" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="537165fc-6e01-4a63-899a-ac1071de2869" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="a1156a35-5c13-47eb-b5da-950ab0f79156" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="fecfdbc3-7a19-41ab-8ae8-4cb1a65cf770" Timestamp="633641001300000000" XmlDocIndexTimestamp="633492571960000000" />
+  <Assembly Name="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="d65b3fa6-b11f-4fc2-bfa3-ed238d3b32d9" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="d9513e9d-1d5c-4126-bd88-34bd0f3312a0" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="293adde3-835f-4a12-b0b6-5d60c1161ea8" Timestamp="633559706920000000" XmlDocIndexTimestamp="633559706920000000" />
+  <Assembly Name="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="cdcec0ee-345d-4e79-8fc9-bd50158692d4" Timestamp="633719507140000000" XmlDocIndexTimestamp="633713436180000000" />
+  <Assembly Name="Facebook, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null" Image="236e5b9e-0b94-4a88-9b2f-469bcc4a0806" Timestamp="633915862000000000" />
+  <Assembly Name="Facebook.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null" Image="d592692b-1e41-47f2-affe-37f716f8da31" Timestamp="633915862020000000" />
+  <Assembly Name="Facebook.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null" Image="c72b289c-9d9a-4c37-8afe-49d049d1974f" Timestamp="633905450780000000" />
+</Assemblies>

@@ -1,0 +1,10 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\LinqToSqlTest\bin\Debug\LinqToSqlTest.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\LinqToSqlTest\bin\Debug\LinqToSqlTest.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\LinqToSqlTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\LinqToSqlTest\obj\Debug\LinqToSqlTest.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\LinqToSqlTest\obj\Debug\LinqToSqlTest.pdb
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Debug\LinqToSqlTest.exe
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Debug\LinqToSqlTest.pdb
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\bin\Debug\LinqToSqlTest.exe
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\bin\Debug\LinqToSqlTest.pdb
+C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Debug\ResolveAssemblyReference.cache

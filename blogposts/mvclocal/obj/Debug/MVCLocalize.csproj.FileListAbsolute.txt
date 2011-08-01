@@ -1,0 +1,10 @@
+C:\Users\rmu.MMSDOM\Desktop\mvclocal\bin\MVCLocalize.dll
+C:\Users\rmu.MMSDOM\Desktop\mvclocal\bin\MVCLocalize.pdb
+C:\Users\rmu.MMSDOM\Desktop\mvclocal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu.MMSDOM\Desktop\mvclocal\obj\Debug\MVCLocalize.dll
+C:\Users\rmu.MMSDOM\Desktop\mvclocal\obj\Debug\MVCLocalize.pdb
+C:\Users\rmu\Desktop\mvclocal\bin\MVCLocalize.dll
+C:\Users\rmu\Desktop\mvclocal\bin\MVCLocalize.pdb
+C:\Users\rmu\Desktop\mvclocal\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Desktop\mvclocal\obj\Debug\MVCLocalize.dll
+C:\Users\rmu\Desktop\mvclocal\obj\Debug\MVCLocalize.pdb

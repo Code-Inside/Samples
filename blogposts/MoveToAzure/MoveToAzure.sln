@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveToAzure.WebApp", "MoveToAzure.WebApp\MoveToAzure.WebApp.csproj", "{D25F755D-655C-48FD-94C2-87DB264D9987}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MoveToAzure.WebHost", "MoveToAzure.WebHost\MoveToAzure.WebHost.ccproj", "{CC95810C-B420-48C2-AAFF-70376338BA6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D25F755D-655C-48FD-94C2-87DB264D9987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D25F755D-655C-48FD-94C2-87DB264D9987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D25F755D-655C-48FD-94C2-87DB264D9987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D25F755D-655C-48FD-94C2-87DB264D9987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC95810C-B420-48C2-AAFF-70376338BA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC95810C-B420-48C2-AAFF-70376338BA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC95810C-B420-48C2-AAFF-70376338BA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC95810C-B420-48C2-AAFF-70376338BA6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

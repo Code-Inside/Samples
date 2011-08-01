@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="c513ce99-9921-4b8c-a5c1-c28e178a7d06" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="a9a02a81-91b4-4b5e-a678-612632b7b944" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="59758b1a-6707-4f41-95b2-bcd98bfe971b" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="612d7318-5b5c-4624-94ea-83c5b163049d" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492571960000000" />
+  <Assembly Name="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="ddd38bb5-bf85-456a-8941-a5d708ee8a49" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="b3588323-eef8-44f1-a046-c25274c70de2" Timestamp="633529644480000000" XmlDocIndexTimestamp="633492570660000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="4973774d-c2ca-491f-b981-c6f6c274fb37" Timestamp="633559706920000000" XmlDocIndexTimestamp="633559706920000000" />
+  <Assembly Name="System.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Image="47474741-2656-4576-9d50-61479ed3a83f" Timestamp="633719507140000000" XmlDocIndexTimestamp="633713436180000000" />
+  <Assembly Name="Elmah, Version=1.0.11211.0, Culture=neutral, PublicKeyToken=null" Image="bef9b962-0d4e-43af-8465-a61b48987c1a" Timestamp="633776545060000000" />
+</Assemblies>

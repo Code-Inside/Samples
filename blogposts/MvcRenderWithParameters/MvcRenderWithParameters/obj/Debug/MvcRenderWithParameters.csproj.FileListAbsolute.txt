@@ -1,0 +1,6 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\bin\MvcRenderWithParameters.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\bin\MvcRenderWithParameters.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\bin\Microsoft.Web.Mvc.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\obj\Debug\MvcRenderWithParameters.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderWithParameters\MvcRenderWithParameters\obj\Debug\MvcRenderWithParameters.pdb

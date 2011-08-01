@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RedirectModul\RedirectModul\bin\RedirectModul.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RedirectModul\RedirectModul\bin\RedirectModul.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RedirectModul\RedirectModul\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RedirectModul\RedirectModul\obj\Debug\RedirectModul.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RedirectModul\RedirectModul\obj\Debug\RedirectModul.pdb

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCompact", "SQLCompact\SQLCompact.csproj", "{F32FB6B4-DDB0-4D37-84A2-EB8376806DBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F32FB6B4-DDB0-4D37-84A2-EB8376806DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32FB6B4-DDB0-4D37-84A2-EB8376806DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32FB6B4-DDB0-4D37-84A2-EB8376806DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32FB6B4-DDB0-4D37-84A2-EB8376806DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

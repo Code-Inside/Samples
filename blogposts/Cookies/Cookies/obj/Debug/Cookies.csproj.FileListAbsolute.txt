@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Cookies\Cookies\bin\Cookies.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Cookies\Cookies\bin\Cookies.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Cookies\Cookies\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Cookies\Cookies\obj\Debug\Cookies.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Cookies\Cookies\obj\Debug\Cookies.pdb

@@ -1,0 +1,10 @@
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\bin\Debug\Glass.exe
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\bin\Debug\Glass.pdb
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Window1.baml
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Window1.g.cs
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\App.g.cs
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Glass_MarkupCompile.cache
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Glass.g.resources
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Glass.exe
+C:\Users\Robert\Documents\Expression\Expression Blend Projects\Glass\Glass\obj\Debug\Glass.pdb

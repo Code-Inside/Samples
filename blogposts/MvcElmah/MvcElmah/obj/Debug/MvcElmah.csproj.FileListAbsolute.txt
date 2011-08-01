@@ -1,0 +1,6 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\bin\MvcElmah.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\bin\MvcElmah.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\bin\Elmah.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\obj\Debug\MvcElmah.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcElmah\MvcElmah\obj\Debug\MvcElmah.pdb

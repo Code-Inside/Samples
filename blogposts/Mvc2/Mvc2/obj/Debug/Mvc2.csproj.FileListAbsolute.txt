@@ -1,0 +1,8 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\bin\Mvc2.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\bin\Mvc2.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\bin\System.Web.Abstractions.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\bin\System.Web.Mvc.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\bin\System.Web.Routing.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\obj\Debug\Mvc2.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Mvc2\Mvc2\obj\Debug\Mvc2.pdb

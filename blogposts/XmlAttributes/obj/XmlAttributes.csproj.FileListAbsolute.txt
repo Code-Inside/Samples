@@ -1,0 +1,5 @@
+C:\Users\Robert\Desktop\XmlAttributes\bin\Debug\XmlAttributes.exe
+C:\Users\Robert\Desktop\XmlAttributes\bin\Debug\XmlAttributes.pdb
+C:\Users\Robert\Desktop\XmlAttributes\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\XmlAttributes\obj\Debug\XmlAttributes.exe
+C:\Users\Robert\Desktop\XmlAttributes\obj\Debug\XmlAttributes.pdb

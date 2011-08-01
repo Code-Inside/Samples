@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="DFDFAED6-C761-430C-8D41-51DFCA18CC39" ModuleId="MvcSessionless" />
+  <Module PersistentId="45D7C4AA-A6F2-4211-97C9-82F0BE33B625" ModuleId="MvcSessionless.Tests" />
+  <Module PersistentId="1B1E5F5B-5DF9-4F84-911A-8DDF9608FFD2" ModuleId="MvcSessionless.ConsoleTestApp" />
+</Modules>

@@ -1,0 +1,45 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1311" scrollPosition="0|6" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:OpenID.aspx" caret="701" scrollPosition="1|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/f:Web.config" caret="0" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:LogOnUserControl.ascx" caret="80" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/f:Global.asax.cs" caret="110" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:Controllers/f:HomeController.cs" caret="1018" scrollPosition="0|15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="228" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="845" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1081" scrollPosition="0|6" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1311" scrollPosition="0|6" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:Controllers/f:HomeController.cs" caret="1389" scrollPosition="0|18" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:Controllers/f:HomeController.cs" caret="601" scrollPosition="0|18" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:OpenID.aspx" caret="206" scrollPosition="0|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:OpenID.aspx" caret="3685" scrollPosition="0|21" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:__RESHARPER__DummyWebPages_/f:OpenID.aspx" caret="701" scrollPosition="1|0" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/d:Controllers/f:HomeController.cs" caret="1018" scrollPosition="0|15" />
+      <File id="DE0720E4-F119-4447-B0FB-EF5963761FFF/f:Global.asax.cs" caret="772" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

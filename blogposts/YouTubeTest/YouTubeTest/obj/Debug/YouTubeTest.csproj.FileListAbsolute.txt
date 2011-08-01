@@ -1,0 +1,7 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\bin\Debug\YouTubeTest.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\bin\Debug\YouTubeTest.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\bin\Debug\Google.GData.Client.dll
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\bin\Debug\Google.GData.Extensions.dll
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\obj\Debug\YouTubeTest.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\YouTubeTest\obj\Debug\YouTubeTest.pdb

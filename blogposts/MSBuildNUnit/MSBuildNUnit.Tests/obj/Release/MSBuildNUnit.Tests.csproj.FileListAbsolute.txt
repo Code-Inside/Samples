@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\Build\OutDir\MSBuildNUnit.Tests.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\Build\OutDir\MSBuildNUnit.Tests.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Tests\obj\Release\MSBuildNUnit.Tests.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Tests\obj\Release\MSBuildNUnit.Tests.pdb

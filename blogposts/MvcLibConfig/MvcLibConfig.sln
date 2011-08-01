@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcLibConfig", "MvcLibConfig\MvcLibConfig.csproj", "{83490ABA-D915-4A1B-9F35-D8CFDE029223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib", "Lib\Lib.csproj", "{200F0A39-8FBA-4BAF-B16A-6ED55439806C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83490ABA-D915-4A1B-9F35-D8CFDE029223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83490ABA-D915-4A1B-9F35-D8CFDE029223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83490ABA-D915-4A1B-9F35-D8CFDE029223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83490ABA-D915-4A1B-9F35-D8CFDE029223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{200F0A39-8FBA-4BAF-B16A-6ED55439806C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{200F0A39-8FBA-4BAF-B16A-6ED55439806C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{200F0A39-8FBA-4BAF-B16A-6ED55439806C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{200F0A39-8FBA-4BAF-B16A-6ED55439806C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

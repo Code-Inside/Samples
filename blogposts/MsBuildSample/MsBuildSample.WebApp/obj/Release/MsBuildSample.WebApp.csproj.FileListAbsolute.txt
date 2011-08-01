@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\MsBuildSample.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\MsBuildSample.WebApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Release\MsBuildSample.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Release\MsBuildSample.WebApp.pdb

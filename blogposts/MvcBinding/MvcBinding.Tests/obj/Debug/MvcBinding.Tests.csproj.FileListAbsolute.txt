@@ -1,0 +1,8 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\bin\Debug\MvcBinding.Tests.dll.config
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\bin\Debug\MvcBinding.Tests.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\bin\Debug\MvcBinding.Tests.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\bin\Debug\MvcBinding.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\bin\Debug\MvcBinding.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\obj\Debug\MvcBinding.Tests.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding.Tests\obj\Debug\MvcBinding.Tests.pdb

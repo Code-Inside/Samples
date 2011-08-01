@@ -1,0 +1,14 @@
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.WinApp.exe
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.WinApp.pdb
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Data.dll
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Model.dll
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Service.dll
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Data.pdb
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Service.pdb
+D:\_CP\WebHistory\WebHistory.WinApp\bin\Debug\WebHistory.Model.pdb
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\ResolveAssemblyReference.cache
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\WebHistory.WinApp.Form1.resources
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\WebHistory.WinApp.Properties.Resources.resources
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\WebHistory.WinApp.csproj.GenerateResource.Cache
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\WebHistory.WinApp.exe
+D:\_CP\WebHistory\WebHistory.WinApp\obj\Debug\WebHistory.WinApp.pdb

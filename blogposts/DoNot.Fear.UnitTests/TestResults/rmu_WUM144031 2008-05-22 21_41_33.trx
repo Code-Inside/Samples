@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="160ab75a-3901-4447-b0bb-82c62e35c454" name="rmu@WUM144031 2008-05-22 21:41:33" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="07da1f20-161b-480e-bf60-702c8fb33c14">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\TestResults\rmu_WUM144031 2008-05-22 21_41_33">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Data\bin\Debug\DoNot.Fear.UnitTests.Data.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-05-22T21:41:33.6656000+02:00" queuing="2008-05-22T21:41:34.0516000+02:00" start="2008-05-22T21:41:34.0866000+02:00" finish="2008-05-22T21:41:34.5356000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="DataManager_GetData_IsNotNull" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\donot.fear.unittests\donot.fear.unittests.test\bin\debug\donot.fear.unittests.test.dll" id="dac2f5b7-3f9b-830e-9ac8-b9395f1a5e71">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="adc46ecd-7fd0-411c-9966-682e9c1950e1" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Test\bin\Debug\DoNot.Fear.UnitTests.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DoNot.Fear.UnitTests.Test.DataManagerTest, DoNot.Fear.UnitTests.Test" name="DataManager_GetData_IsNotNull" />
+    </UnitTest>
+    <UnitTest name="DataManager_GetData_CheckForZero" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\donot.fear.unittests\donot.fear.unittests.test\bin\debug\donot.fear.unittests.test.dll" id="21c7a67a-35ce-a1fc-d8ab-7c65d959719e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0c2d3783-de8e-46ca-8d75-76dcf266038d" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Test\bin\Debug\DoNot.Fear.UnitTests.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DoNot.Fear.UnitTests.Test.DataManagerTest, DoNot.Fear.UnitTests.Test" name="DataManager_GetData_CheckForZero" />
+    </UnitTest>
+    <UnitTest name="DataManager_ConnectToData_IsTrue" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\donot.fear.unittests\donot.fear.unittests.test\bin\debug\donot.fear.unittests.test.dll" id="54ff56bf-b01f-0610-e753-9fd5093d152b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="28dbe1c3-83be-42d8-abf7-5cfaea3b2fab" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Test\bin\Debug\DoNot.Fear.UnitTests.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DoNot.Fear.UnitTests.Test.DataManagerTest, DoNot.Fear.UnitTests.Test" name="DataManager_ConnectToData_IsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21c7a67a-35ce-a1fc-d8ab-7c65d959719e" executionId="0c2d3783-de8e-46ca-8d75-76dcf266038d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54ff56bf-b01f-0610-e753-9fd5093d152b" executionId="28dbe1c3-83be-42d8-abf7-5cfaea3b2fab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dac2f5b7-3f9b-830e-9ac8-b9395f1a5e71" executionId="adc46ecd-7fd0-411c-9966-682e9c1950e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0c2d3783-de8e-46ca-8d75-76dcf266038d" testId="21c7a67a-35ce-a1fc-d8ab-7c65d959719e" testName="DataManager_GetData_CheckForZero" computerName="WUM144031" duration="00:00:00.1764189" startTime="2008-05-22T21:41:34.1766000+02:00" endTime="2008-05-22T21:41:34.5066000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreNotEqual failed. Expected any value except:&lt;0&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   bei DoNot.Fear.UnitTests.Test.DataManagerTest.DataManager_GetData_CheckForZero() in C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Test\DataManagerTest.cs:Zeile 37.
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="28dbe1c3-83be-42d8-abf7-5cfaea3b2fab" testId="54ff56bf-b01f-0610-e753-9fd5093d152b" testName="DataManager_ConnectToData_IsTrue" computerName="WUM144031" duration="00:00:00.0002994" startTime="2008-05-22T21:41:34.5196000+02:00" endTime="2008-05-22T21:41:34.5246000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="adc46ecd-7fd0-411c-9966-682e9c1950e1" testId="dac2f5b7-3f9b-830e-9ac8-b9395f1a5e71" testName="DataManager_GetData_IsNotNull" computerName="WUM144031" duration="00:00:00.0002107" startTime="2008-05-22T21:41:34.5256000+02:00" endTime="2008-05-22T21:41:34.5296000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

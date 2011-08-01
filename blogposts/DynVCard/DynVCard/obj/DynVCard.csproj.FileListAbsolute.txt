@@ -1,0 +1,5 @@
+C:\Users\Robert\Desktop\Blogpost\DynVCard\DynVCard\bin\DynVCard.dll
+C:\Users\Robert\Desktop\Blogpost\DynVCard\DynVCard\bin\DynVCard.pdb
+C:\Users\Robert\Desktop\Blogpost\DynVCard\DynVCard\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\Blogpost\DynVCard\DynVCard\obj\Debug\DynVCard.dll
+C:\Users\Robert\Desktop\Blogpost\DynVCard\DynVCard\obj\Debug\DynVCard.pdb

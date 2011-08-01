@@ -1,0 +1,25 @@
+﻿<Window x:Class="WPFSimpleDatabinding.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:CodeInside="clr-namespace:WPFSimpleDatabinding"
+    Title="WPFSimple Databinding" Height="300" Width="300" x:Name="window">
+    <Window.Resources>
+        <CodeInside:Title x:Key="MyTitleElement" Value="My first databinded sample" />
+    </Window.Resources>
+    <StackPanel>
+        <Label>
+            <Binding Source="{StaticResource MyTitleElement}" Path="Value" />
+        </Label>
+        <ListBox x:Name="PersonCollectionListBox">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Firstname}" />
+                        <TextBlock Text="{Binding Lastname}"/>
+                        <TextBlock Text="{Binding Age}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</Window>

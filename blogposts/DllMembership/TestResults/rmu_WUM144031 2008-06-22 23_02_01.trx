@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b6d4b38a-ff95-4aa5-9e4c-1f8cb469d926" name="rmu@WUM144031 2008-06-22 23:02:01" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="0b73bf9f-50b7-4440-b355-e176a0e58cfe">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\TestResults\rmu_WUM144031 2008-06-22 23_02_01">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-06-22T23:02:01.3418000+02:00" queuing="2008-06-22T23:02:01.7338000+02:00" start="2008-06-22T23:02:01.7688000+02:00" finish="2008-06-22T23:02:02.1458000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="MembershipService_Retrieve_MembershipUsers_Works" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\dllmembership\dllmembership.test\bin\debug\dllmembership.test.dll" id="942fa7a4-37cc-b8d5-89cf-ff90a466664c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6fd3608c-2ccd-498b-b19e-992497c58d60" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\bin\Debug\DllMembership.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DllMembership.Test.MembershipServiceTest, DllMembership.Test" name="MembershipService_Retrieve_MembershipUsers_Works" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" executionId="6fd3608c-2ccd-498b-b19e-992497c58d60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6fd3608c-2ccd-498b-b19e-992497c58d60" testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" testName="MembershipService_Retrieve_MembershipUsers_Works" computerName="WUM144031" duration="00:00:00.0828885" startTime="2008-06-22T23:02:01.8328000+02:00" endTime="2008-06-22T23:02:02.0848000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DllMembership.Test.MembershipServiceTest.MembershipService_Retrieve_MembershipUsers_Works threw exception:  System.Configuration.Provider.ProviderException: Der Wert für die maxInvalidPasswordAttempts-Eigenschaft muss eine positive 32-Bit-Ganzzahl sein..</Message>
+          <StackTrace>    bei System.Web.Util.SecUtility.GetIntValue(NameValueCollection config, String valueName, Int32 defaultValue, Boolean zeroAllowed, Int32 maxValueAllowed)
+   bei System.Web.Security.SqlMembershipProvider.Initialize(String name, NameValueCollection config)
+   bei System.Web.Security.Membership.Initialize()
+   bei System.Web.Security.Membership.GetAllUsers(Int32 pageIndex, Int32 pageSize, Int32&amp; totalRecords)
+   bei System.Web.Security.Membership.GetAllUsers()
+   bei DllMembership.Lib.MembershipService.GetUsers() in C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\MembershipService.cs:Zeile 13.
+   bei DllMembership.Test.MembershipServiceTest.MembershipService_Retrieve_MembershipUsers_Works() in C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\MembershipServiceTest.cs:Zeile 28.
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

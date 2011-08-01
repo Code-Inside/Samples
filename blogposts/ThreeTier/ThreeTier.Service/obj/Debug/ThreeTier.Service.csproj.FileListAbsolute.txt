@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\bin\Debug\ThreeTier.Service.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\bin\Debug\ThreeTier.Service.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\bin\Debug\ThreeTier.Data.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\bin\Debug\ThreeTier.Data.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\obj\Debug\ThreeTier.Service.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Service\obj\Debug\ThreeTier.Service.pdb

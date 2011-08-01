@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://BlogPosts.Buzzwords.ServiceContracts/2007/10" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" name="BuzzwordService" targetNamespace="http://BlogPosts.Buzzwords.ServiceContracts/2007/10" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://BlogPosts.Buzzwords.ServiceContracts/2007/10/Imports">
+      <xsd:import schemaLocation="http://localhost:53598/BlogPosts.Buzzwords.Host/BuzzwordService.svc?xsd=xsd0" namespace="http://BlogPosts.Buzzwords.ServiceContracts/2007/10" />
+      <xsd:import schemaLocation="http://localhost:53598/BlogPosts.Buzzwords.Host/BuzzwordService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:53598/BlogPosts.Buzzwords.Host/BuzzwordService.svc?xsd=xsd2" namespace="http://BlogPosts.Buzzwords.DataContracts/2007/10" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBuzzwordService_Insert_InputMessage">
+    <wsdl:part name="parameters" element="tns:Insert" />
+  </wsdl:message>
+  <wsdl:message name="IBuzzwordService_Load_InputMessage">
+    <wsdl:part name="parameters" element="tns:Load" />
+  </wsdl:message>
+  <wsdl:message name="IBuzzwordService_Load_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBuzzwordService">
+    <wsdl:operation name="Insert">
+      <wsdl:input wsaw:Action="Insert" message="tns:IBuzzwordService_Insert_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Load">
+      <wsdl:input wsaw:Action="Load" message="tns:IBuzzwordService_Load_InputMessage" />
+      <wsdl:output wsaw:Action="http://BlogPosts.Buzzwords.ServiceContracts/2007/10/IBuzzwordService/LoadResponse" message="tns:IBuzzwordService_Load_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IBuzzwordService" type="tns:IBuzzwordService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Insert">
+      <soap:operation soapAction="Insert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="Load">
+      <soap:operation soapAction="Load" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BuzzwordService">
+    <wsdl:port name="BasicHttpBinding_IBuzzwordService" binding="tns:BasicHttpBinding_IBuzzwordService">
+      <soap:address location="http://localhost:53598/BlogPosts.Buzzwords.Host/BuzzwordService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

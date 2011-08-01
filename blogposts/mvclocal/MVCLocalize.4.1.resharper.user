@@ -1,0 +1,89 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:MVCLocalize.Controllers.LanguageController">
+      <Item value="ControllerContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ControllerContext">
+      <Item value="RequestContext" priority="0" />
+      <Item value="HttpContext" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Request" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="Url" priority="0" />
+      <Item value="UrlReferrer" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="Redirect" priority="0" />
+      <Item value="else" priority="0" />
+      <Item value="LanguageHelper" priority="0" />
+      <Item value="MVCLocalize" priority="0" />
+      <Item value="LocalizationResources" priority="0" />
+      <Item value="Test" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MVCLocalize.Code.LanguageHelper">
+      <Item value="GetLanguage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MVCLocalize.Resources.Test">
+      <Item value="Teststring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@MVCLocalize.LocalizationResources.Test">
+      <Item value="Teststring" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:AccountController.cs" caret="0" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LanguageHelper.cs" caret="0" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Global.asax.cs" caret="668" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1875" scrollPosition="35|9" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="89" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:LanguageController.cs" caret="187" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LocalizedFilter.cs" caret="0" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:LocalizationResources/f:Test.de.Designer.cs" caret="0" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:HomeController.cs" caret="387" scrollPosition="7|4" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Default.aspx.cs" caret="318" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:LocalizationResources/f:Test.Designer.cs" caret="2895" scrollPosition="0|48" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:LanguageController.cs" caret="976" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:HomeController.cs" caret="735" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Global.asax.cs" caret="473" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="161" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Global.asax.cs" caret="668" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:LanguageController.cs" caret="187" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:HomeController.cs" caret="189" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="121" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1875" scrollPosition="35|21" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="161" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/f:Default.aspx.cs" caret="170" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:HomeController.cs" caret="287" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Code/f:LocalizedFilter.cs" caret="0" scrollPosition="0|0" />
+      <File id="C1596681-0788-415C-9284-F8D4E8ACEFA1/d:Controllers/f:HomeController.cs" caret="506" scrollPosition="12|4" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

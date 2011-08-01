@@ -1,0 +1,10 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\bin\Release\CSharp3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\bin\Release\CSharp3.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Release\CSharp3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Release\CSharp3.pdb
+C:\Users\Robert\Desktop\Blogpost\CSharp3\CSharp3\obj\Release\CSharp3.exe
+C:\Users\Robert\Desktop\Blogpost\CSharp3\CSharp3\obj\Release\CSharp3.pdb
+C:\Users\Robert\Desktop\Blogpost\CSharp3\CSharp3\bin\Release\CSharp3.exe
+C:\Users\Robert\Desktop\Blogpost\CSharp3\CSharp3\bin\Release\CSharp3.pdb
+C:\Users\Robert\Desktop\Blogpost\CSharp3\CSharp3\obj\Release\ResolveAssemblyReference.cache

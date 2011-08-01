@@ -1,0 +1,84 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/d:Properties/f:Settings.Designer.cs" caret="0" fromTop="0" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Person.cs" caret="65" fromTop="4" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Employee.cs" caret="114" fromTop="6" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:App.config" caret="460" fromTop="9" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="800" fromTop="29" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="4749" fromTop="10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="0" fromTop="7" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="0" fromTop="11" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="7744" fromTop="31" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="176" fromTop="7" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:App.config" caret="60" fromTop="2" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:App.config" caret="207" fromTop="5" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Employee.cs" caret="43" fromTop="2" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="264" fromTop="12" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="724" fromTop="27" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="403" fromTop="6" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="4402" fromTop="24" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:App.config" caret="514" fromTop="12" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="1211" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="ObjectDumperTest" priority="0" />
+      <Item value="public" priority="5" />
+      <Item value="class" priority="1" />
+      <Item value="Guid" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="int" priority="0" />
+      <Item value="namespace" priority="0" />
+      <Item value="Person" priority="2" />
+      <Item value="ObjectDumper" priority="0" />
+      <Item value="new" priority="2" />
+      <Item value="newPerson" priority="2" />
+      <Item value="Console" priority="0" />
+      <Item value="dumpObjectsOnlyOnce" priority="0" />
+      <Item value="o" priority="1" />
+      <Item value="is" priority="1" />
+      <Item value="Employee" priority="1" />
+      <Item value="emp" priority="2" />
+      <Item value="DateTime" priority="1" />
+      <Item value="_log" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ObjectDumperTest.ObjectDumper">
+      <Item value="LogObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ObjectDumperTest.Person">
+      <Item value="Age" priority="0" />
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="ReadLine" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ObjectDumperTest.Employee">
+      <Item value="Age" priority="0" />
+      <Item value="HiredOn" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

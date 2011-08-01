@@ -1,0 +1,243 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{A4CE1F84-CB1D-4A84-BF15-AB4F78EB6329}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Logic", "Business Logic", "{5129D33D-6A60-4FBD-AB69-9E44B3E8E851}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.BusinessEntities", "Source\Business Logic\BlogPosts.Buzzwords.BusinessEntities\BlogPosts.Buzzwords.BusinessEntities.csproj", "{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.BusinessLogic", "Source\Business Logic\BlogPosts.Buzzwords.BusinessLogic\BlogPosts.Buzzwords.BusinessLogic.csproj", "{052260C1-CA42-422C-BB20-2C55C4A20989}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resource Access", "Resource Access", "{B1163F9F-1351-40D9-9463-D09B57A85BF3}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.DataAccess", "Source\Resource Access\BlogPosts.Buzzwords.DataAccess\BlogPosts.Buzzwords.DataAccess.csproj", "{F44BD95F-B676-4888-9D83-21D19EBB3238}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Interface", "Service Interface", "{D7FAA77F-7099-4AAC-A08E-B62B2D696A43}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.DataContracts", "Source\Service Interface\BlogPosts.Buzzwords.DataContracts\BlogPosts.Buzzwords.DataContracts.csproj", "{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.FaultContracts", "Source\Service Interface\BlogPosts.Buzzwords.FaultContracts\BlogPosts.Buzzwords.FaultContracts.csproj", "{BB676668-0B43-4D29-9F57-8B6DF328D14A}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.ServiceImplementation", "Source\Service Interface\BlogPosts.Buzzwords.ServiceImplementation\BlogPosts.Buzzwords.ServiceImplementation.csproj", "{21C22D34-AF9E-4158-91B1-567FAFBD147F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.ServiceContracts", "Source\Service Interface\BlogPosts.Buzzwords.ServiceContracts\BlogPosts.Buzzwords.ServiceContracts.csproj", "{F31ED853-86DF-499D-A517-4376CC58CCE2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{43B19A18-133B-43BA-B6F0-9B8BE6F08A52}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "C:\...\BlogPosts.Buzzwords.Host\", "Tests\BlogPosts.Buzzwords.Host\", "{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}"
+	ProjectSection(WebsiteProperties) = preProject
+		ProjectReferences = "{21C22D34-AF9E-4158-91B1-567FAFBD147F}|BlogPosts.Buzzwords.ServiceImplementation.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/BlogPosts.Buzzwords.Host"
+		Debug.AspNetCompiler.PhysicalPath = "Tests\BlogPosts.Buzzwords.Host\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\BlogPosts.Buzzwords.Host\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/BlogPosts.Buzzwords.Host"
+		Release.AspNetCompiler.PhysicalPath = "Tests\BlogPosts.Buzzwords.Host\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\BlogPosts.Buzzwords.Host\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53598"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogPosts.Buzzwords.Client", "Tests\BlogPosts.Buzzwords.Client\BlogPosts.Buzzwords.Client.csproj", "{02E11F94-EA37-4059-B8BF-C00AE94A5172}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Functional Tests", "Functional Tests", "{60FD42C8-6B24-40D6-BA13-1F23284D6DBC}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{4A1FF717-9191-4193-972B-78193D40993D}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Release|.NET.ActiveCfg = Release|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{052260C1-CA42-422C-BB20-2C55C4A20989}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Release|.NET.ActiveCfg = Release|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F44BD95F-B676-4888-9D83-21D19EBB3238}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Release|.NET.ActiveCfg = Release|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Release|.NET.ActiveCfg = Release|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F31ED853-86DF-499D-A517-4376CC58CCE2}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Debug|.NET.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Debug|.NET.Build.0 = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Release|.NET.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Release|.NET.Build.0 = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Release|.NET.ActiveCfg = Release|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5129D33D-6A60-4FBD-AB69-9E44B3E8E851} = {A4CE1F84-CB1D-4A84-BF15-AB4F78EB6329}
+		{B1163F9F-1351-40D9-9463-D09B57A85BF3} = {A4CE1F84-CB1D-4A84-BF15-AB4F78EB6329}
+		{D7FAA77F-7099-4AAC-A08E-B62B2D696A43} = {A4CE1F84-CB1D-4A84-BF15-AB4F78EB6329}
+		{DF7A57AA-09DA-4FB6-A6EF-7CC537C5A746} = {5129D33D-6A60-4FBD-AB69-9E44B3E8E851}
+		{052260C1-CA42-422C-BB20-2C55C4A20989} = {5129D33D-6A60-4FBD-AB69-9E44B3E8E851}
+		{F44BD95F-B676-4888-9D83-21D19EBB3238} = {B1163F9F-1351-40D9-9463-D09B57A85BF3}
+		{959C7299-F4F1-497F-8D94-FB9DA4A6CA6B} = {D7FAA77F-7099-4AAC-A08E-B62B2D696A43}
+		{BB676668-0B43-4D29-9F57-8B6DF328D14A} = {D7FAA77F-7099-4AAC-A08E-B62B2D696A43}
+		{21C22D34-AF9E-4158-91B1-567FAFBD147F} = {D7FAA77F-7099-4AAC-A08E-B62B2D696A43}
+		{F31ED853-86DF-499D-A517-4376CC58CCE2} = {D7FAA77F-7099-4AAC-A08E-B62B2D696A43}
+		{D497C32E-42C1-4CE8-8042-B0FEBC1841F5} = {43B19A18-133B-43BA-B6F0-9B8BE6F08A52}
+		{02E11F94-EA37-4059-B8BF-C00AE94A5172} = {43B19A18-133B-43BA-B6F0-9B8BE6F08A52}
+		{60FD42C8-6B24-40D6-BA13-1F23284D6DBC} = {43B19A18-133B-43BA-B6F0-9B8BE6F08A52}
+		{4A1FF717-9191-4193-972B-78193D40993D} = {43B19A18-133B-43BA-B6F0-9B8BE6F08A52}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		ISWCFSolution = True
+		Locked = True
+		UnLocked = False
+		DataContractNamespace = http://BlogPosts.Buzzwords.DataContracts/2007/10
+		FaultContractNamespace = http://BlogPosts.Buzzwords.FaultContracts/2007/10
+		ServiceContractNamespace = http://BlogPosts.Buzzwords.ServiceContracts/2007/10
+	EndGlobalSection
+EndGlobal

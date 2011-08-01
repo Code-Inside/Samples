@@ -1,0 +1,14 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\bin\Debug\WPFSimpleDatabinding.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\bin\Debug\WPFSimpleDatabinding.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\Window1.g.cs
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\App.g.cs
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding_MarkupCompile.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding_MarkupCompile.lref
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\Window1.baml
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding.g.resources
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding.Properties.Resources.resources
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding.csproj.GenerateResource.Cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\WPFSimpleDatabinding.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WPFSimpleDatabinding\WPFSimpleDatabinding\obj\Debug\GeneratedInternalTypeHelper.g.cs

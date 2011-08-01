@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D3CF7430-6DA4-42B0-BD90-CA39D16687B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Web</RootNamespace>
+    <AssemblyName>Microsoft.Web.Mvc</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <SignAssembly>false</SignAssembly>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceAssemblies\System.Web.Abstractions.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Routing, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceAssemblies\System.Web.Routing.dll</HintPath>
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Internal\ExpressionHelper.cs" />
+    <Compile Include="Mvc\ActionDescriptorCreator.cs" />
+    <Compile Include="Mvc\AjaxExtensions.cs" />
+    <Compile Include="Mvc\AsyncActionDescriptor.cs" />
+    <Compile Include="Mvc\AsyncActionMethodSelector.cs" />
+    <Compile Include="Mvc\AsyncCallback`1.cs" />
+    <Compile Include="Mvc\AsyncController.cs" />
+    <Compile Include="Mvc\AsyncControllerActionInvoker.cs" />
+    <Compile Include="Mvc\AsyncControllerDescriptorCache.cs" />
+    <Compile Include="Mvc\AsyncManager.cs" />
+    <Compile Include="Mvc\AsyncResultWrapper.cs" />
+    <Compile Include="Mvc\AsyncRouteCollectionExtensions.cs" />
+    <Compile Include="Mvc\AsyncTimeoutAttribute.cs" />
+    <Compile Include="Mvc\BeginInvokeCallback.cs" />
+    <Compile Include="Mvc\BinaryHtmlExtensions.cs" />
+    <Compile Include="Mvc\ByteArrayModelBinder.cs" />
+    <Compile Include="Mvc\ContinuationListnener.cs" />
+    <Compile Include="Mvc\AcceptAjaxAttribute.cs" />
+    <Compile Include="Mvc\RequireSslAttribute.cs" />
+    <Compile Include="Mvc\DescriptorUtil.cs" />
+    <Compile Include="Mvc\IAsyncActionDescriptor.cs" />
+    <Compile Include="Mvc\IAsyncActionInvoker.cs" />
+    <Compile Include="Mvc\IAsyncController.cs" />
+    <Compile Include="Mvc\IAsyncManagerContainer.cs" />
+    <Compile Include="Mvc\ManualAsyncResult.cs" />
+    <Compile Include="Mvc\MethodDispatcherCache.cs" />
+    <Compile Include="Mvc\MethodDispatcher.cs" />
+    <Compile Include="Mvc\MvcAsyncHandler.cs" />
+    <Compile Include="Mvc\MvcAsyncRouteHandler.cs" />
+    <Compile Include="Mvc\MvcHttpAsyncHandler.cs" />
+    <Compile Include="Mvc\NoAsyncTimeoutAttribute.cs" />
+    <Compile Include="Mvc\ObjectAsyncResult`1.cs" />
+    <Compile Include="Mvc\OutstandingAsyncOperations.cs" />
+    <Compile Include="Mvc\ReaderWriterCache`2.cs" />
+    <Compile Include="Mvc\ReflectedAsyncControllerDescriptor.cs" />
+    <Compile Include="Mvc\ReflectedAsyncPatternActionDescriptor.cs" />
+    <Compile Include="Mvc\ReflectedDelegatePatternActionDescriptor.cs" />
+    <Compile Include="Mvc\ReflectedEventPatternActionDescriptor.cs" />
+    <Compile Include="Mvc\SingleFireEvent.cs" />
+    <Compile Include="Mvc\SynchronizationContextHelper.cs" />
+    <Compile Include="Mvc\TypeHelpers.cs" />
+    <Compile Include="Mvc\ButtonBuilder.cs" />
+    <Compile Include="Mvc\ButtonsAndLinkExtensions.cs" />
+    <Compile Include="Mvc\CacheExtensions.cs" />
+    <Compile Include="Mvc\ContentTypeAttribute.cs" />
+    <Compile Include="Mvc\Controls\ActionLink.cs" />
+    <Compile Include="Mvc\Controls\EncodeType.cs" />
+    <Compile Include="Mvc\Controls\DropDownList.cs" />
+    <Compile Include="Mvc\Controls\Hidden.cs" />
+    <Compile Include="Mvc\Controls\Label.cs" />
+    <Compile Include="Mvc\Controls\MvcControl.cs" />
+    <Compile Include="Mvc\Controls\MvcInputControl.cs" />
+    <Compile Include="Mvc\Controls\Password.cs" />
+    <Compile Include="Mvc\Controls\Repeater.cs" />
+    <Compile Include="Mvc\Controls\RepeaterItem.cs" />
+    <Compile Include="Mvc\Controls\RouteValues.cs" />
+    <Compile Include="Mvc\Controls\TextBox.cs" />
+    <Compile Include="Mvc\CookieTempDataProvider.cs" />
+    <Compile Include="Mvc\ExpressionInputExtensions.cs" />
+    <Compile Include="Mvc\SkipBindingAttribute.cs" />
+    <Compile Include="Mvc\FileCollectionModelBinder.cs" />
+    <Compile Include="Mvc\FormExtensions.cs" />
+    <Compile Include="Mvc\HtmlButtonType.cs" />
+    <Compile Include="Mvc\LinkBuilder.cs" />
+    <Compile Include="Mvc\LinkExtensions.cs" />
+    <Compile Include="Mvc\LinqBinaryModelBinder.cs" />
+    <Compile Include="Mvc\MvcSubstitutionCallback.cs" />
+    <Compile Include="Mvc\RadioExtensions.cs" />
+    <Compile Include="Mvc\ImageExtensions.cs" />
+    <Compile Include="Mvc\MailToExtensions.cs" />
+    <Compile Include="Mvc\ViewExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\MvcResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MvcResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SystemWebMvc\System.Web.Mvc.csproj">
+      <Project>{3D3FFD8A-624D-4E9B-954B-E1C105507975}</Project>
+      <Name>System.Web.Mvc</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\MvcResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MvcResources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

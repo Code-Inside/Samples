@@ -1,0 +1,58 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4763A370-0F5E-4DC4-9B33-0C25C533C078/d:Controllers/f:HomeController.cs" caret="343" fromTop="13" />
+      <File id="96E00307-3E7E-4660-BD01-9E14E0BE3BCB/d:Controllers/f:AccountControllerTest.cs" caret="1003" fromTop="7" />
+      <File id="2FAE0AF5-A257-42CC-9BDF-179E0194CBB5/f:UnitTest1.cs" caret="330" fromTop="10" />
+      <File id="523282AE-0450-4678-B236-5F3643AC851A/f:MSBuild.Community.Tasks.Targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?Lib?MSBuild.Community.Tasks.Targets" caret="0" fromTop="0" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="29" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.bat/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.bat" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="13" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="1" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="9" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="8" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="3" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="3" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="5" />
+      <File id="96E00307-3E7E-4660-BD01-9E14E0BE3BCB/d:Controllers/f:AccountControllerTest.cs" caret="779" fromTop="0" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="13" />
+      <File id="2FAE0AF5-A257-42CC-9BDF-179E0194CBB5/f:UnitTest1.cs" caret="328" fromTop="10" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="141" fromTop="0" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="24" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="7" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1218" fromTop="21" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.targets" caret="1188" fromTop="23" />
+      <File id="99E09168-853E-4112-9509-158024F068A8/f:BuildSolution.bat/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MsBuildSample?Build?BuildSolution.bat" caret="101" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="JsonResult`0" priority="0" />
+      <Item value="ViewResult`0" priority="0" />
+      <Item value="Assert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

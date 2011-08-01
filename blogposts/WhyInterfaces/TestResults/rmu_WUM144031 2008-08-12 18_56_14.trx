@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="af246de8-f5ba-45a0-a1bf-226f4d820ca2" name="rmu@WUM144031 2008-08-12 18:56:14" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="094adb68-4cc9-4b7c-95ca-ff1afb8085f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\TestResults\rmu_WUM144031 2008-08-12 18_56_14">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Data\bin\Debug\WhyInterfaces.Data.dll" />
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\bin\Debug\WhyInterfaces.Service.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-08-12T18:56:14.1400000+02:00" queuing="2008-08-12T18:56:14.5110000+02:00" start="2008-08-12T18:56:14.6190000+02:00" finish="2008-08-12T18:56:14.8960000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="PersonService_ReturnPersons_Work" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\whyinterfaces\whyinterfaces.test\bin\debug\whyinterfaces.test.dll" id="926a2df8-11a8-5f48-af46-0917e882ec86">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6cea34eb-50a0-4032-8c60-a839cfaf0184" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Test\bin\Debug\WhyInterfaces.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="WhyInterfaces.Test.PersonServiceUnitTest, WhyInterfaces.Test" name="PersonService_ReturnPersons_Work" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="926a2df8-11a8-5f48-af46-0917e882ec86" executionId="6cea34eb-50a0-4032-8c60-a839cfaf0184" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6cea34eb-50a0-4032-8c60-a839cfaf0184" testId="926a2df8-11a8-5f48-af46-0917e882ec86" testName="PersonService_ReturnPersons_Work" computerName="WUM144031" duration="00:00:00.0042640" startTime="2008-08-12T18:56:14.6250000+02:00" endTime="2008-08-12T18:56:14.8910000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

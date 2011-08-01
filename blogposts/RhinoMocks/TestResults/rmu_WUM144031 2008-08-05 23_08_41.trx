@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6954d1fa-8bdf-4ebd-b5ee-b08844a279e8" name="rmu@WUM144031 2008-08-05 23:08:41" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="75c4f12d-3acd-47f7-a6c8-51e0a6cb1d26">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\TestResults\rmu_WUM144031 2008-08-05 23_08_41">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\bin\Debug\RhinoMocks.Data.dll" />
+      <DeploymentItem filename="C:\Users\rmu\Desktop\Rhino.Mocks.dll" />
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Services\bin\Debug\RhinoMocks.Services.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="WUM144031" outcome="Error" timestamp="2008-08-05T23:13:01.7146275+02:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2008-08-05T23:08:41.4856275+02:00" queuing="2008-08-05T23:08:44.4556275+02:00" start="2008-08-05T23:08:44.7956275+02:00" finish="2008-08-05T23:13:01.7246275+02:00" />
+  <TestDefinitions>
+    <UnitTest name="PersonService_GetPersonByAge_Works" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\rhinomocks\rhinomocks.tests\bin\debug\rhinomocks.tests.dll" id="58f407db-bf53-6d4d-2117-4192b28ac444">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Tests\bin\Debug\RhinoMocks.Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="RhinoMocks.Tests.PersonServiceTest, RhinoMocks.Tests" name="PersonService_GetPersonByAge_Works" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="58f407db-bf53-6d4d-2117-4192b28ac444" executionId="1afca5da-1d72-4313-a5b5-e17f0095dbd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1afca5da-1d72-4313-a5b5-e17f0095dbd7" testId="58f407db-bf53-6d4d-2117-4192b28ac444" testName="PersonService_GetPersonByAge_Works" computerName="WUM144031" duration="00:04:16.7300000" startTime="2008-08-05T23:08:44.9936275+02:00" endTime="2008-08-05T23:13:01.7236275+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

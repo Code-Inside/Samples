@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7cf71dc1-0c05-4b71-b045-4d8f82c1c6b0" name="rmu@WUM144031 2008-05-22 21:46:10" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="07da1f20-161b-480e-bf60-702c8fb33c14">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\TestResults\rmu_WUM144031 2008-05-22 21_46_10">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Data\bin\Debug\DoNot.Fear.UnitTests.Data.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-05-22T21:46:10.5856000+02:00" queuing="2008-05-22T21:46:10.9426000+02:00" start="2008-05-22T21:46:10.9586000+02:00" finish="2008-05-22T21:46:11.2466000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="DataManager_GetData_CheckForZero" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\donot.fear.unittests\donot.fear.unittests.test\bin\debug\donot.fear.unittests.test.dll" id="21c7a67a-35ce-a1fc-d8ab-7c65d959719e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="93d0af90-a032-4bea-abbc-cd1de3318ade" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DoNot.Fear.UnitTests\DoNot.Fear.UnitTests.Test\bin\Debug\DoNot.Fear.UnitTests.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DoNot.Fear.UnitTests.Test.DataManagerTest, DoNot.Fear.UnitTests.Test" name="DataManager_GetData_CheckForZero" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="21c7a67a-35ce-a1fc-d8ab-7c65d959719e" executionId="93d0af90-a032-4bea-abbc-cd1de3318ade" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="93d0af90-a032-4bea-abbc-cd1de3318ade" testId="21c7a67a-35ce-a1fc-d8ab-7c65d959719e" testName="DataManager_GetData_CheckForZero" computerName="WUM144031" duration="00:00:00.0127225" startTime="2008-05-22T21:46:11.0786000+02:00" endTime="2008-05-22T21:46:11.2386000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,96 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Mvc2.Views.Shared.Site" %>
+<%@ Import Namespace="Mvc2.Controllers" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>My Sample MVC Application</title>
+    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="page">
+
+        <div id="header">
+            <p id="logo">
+                <a href="">My Membership-Sample MVC Application</a>
+            </p>
+            <ul id="mainMenu">
+                <asp:LoginView runat="server" ID="asd">
+                    <AnonymousTemplate>
+                     <li>
+                        <%= Html.ActionLink<LoginController>(link => link.Index(), "Login")%>
+                    </li>
+                    <li>
+                        <%= Html.ActionLink<LoginController>(link => link.Register(), "Register")%>
+                    </li>
+                    </AnonymousTemplate>
+                    <RoleGroups>
+                        <asp:RoleGroup Roles="Admin">
+                            <ContentTemplate>
+                                <li>
+                                <%= Html.ActionLink<UseradminController>(link => link.Index(), "Useradmin")%>
+                                </li>
+                                <li>
+                                <%= Html.ActionLink<ProfileController>(link => link.Index(), "Profile")%>
+                                </li>
+                                <li>
+                                <%= Html.ActionLink<LoginController>(link => link.Logout(), "Logout")%>
+                                </li>    
+                            </ContentTemplate>
+                        </asp:RoleGroup>
+                    </RoleGroups>
+                    <LoggedInTemplate>
+                        <li>
+                        <%= Html.ActionLink<ProfileController>(link => link.Index(), "Profil")%>
+                        </li>
+                        <li>
+                        <%= Html.ActionLink<LoginController>(link => link.Logout(), "Logout")%>
+                        </li>    
+                    </LoggedInTemplate>
+                </asp:LoginView>
+                <li>
+                    <%= Html.ActionLink("Home", "Index", "Home")%>
+                </li>
+                <li>
+                    <%= Html.ActionLink("About", "About", "Home")%>
+                </li>
+            </ul>
+        </div>
+
+        <div id="mainContent">
+
+            <div class="columnsContainer">
+
+                <div class="leftColumn">
+                    <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div><!--/leftColumn-->
+
+                <div class="rightColumn">
+                    <h2>
+                        MVC Help Topics</h2>
+                    <ul>
+                        <li><a href="http://msdn2.microsoft.com/en-us/asp.net/default.aspx">ASP.NET Dev Center</a></li>
+                        <li><a href="http://www.asp.net/">ASP.NET Official Site</a></li>
+                        <li><a href="http://asp.net/downloads/">MVC Framework Download</a></li>
+                        <li><a href="http://forums.asp.net/1146.aspx">MVC Framework Forums</a></li>
+                        <li><a href="http://quickstarts.asp.net/3-5-extensions/mvc/default.aspx">MVC Framework Documentation</a></li>
+                    </ul>
+                </div><!--/rightColumn-->
+
+                <div class="clear">
+                </div>
+
+            </div><!--/columnsContainer-->
+
+            <div id="footer">
+                <p>
+                    My Sample MVC Application &copy; Copyright 2008
+                </p>
+            </div><!--/footer-->
+
+        </div><!--/mainContent-->
+
+    </div><!--/page-->
+</body>
+</html>

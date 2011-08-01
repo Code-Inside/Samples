@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WebPageScreenshots\WebPageScreenshots\WebPageScreenshots\bin\Debug\WebPageScreenshots.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WebPageScreenshots\WebPageScreenshots\WebPageScreenshots\bin\Debug\WebPageScreenshots.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WebPageScreenshots\WebPageScreenshots\WebPageScreenshots\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WebPageScreenshots\WebPageScreenshots\WebPageScreenshots\obj\Debug\WebPageScreenshots.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WebPageScreenshots\WebPageScreenshots\WebPageScreenshots\obj\Debug\WebPageScreenshots.pdb

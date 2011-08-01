@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\bin\Debug\RhinoMocks.Data.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\bin\Debug\RhinoMocks.Data.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\obj\Debug\RhinoMocks.Data.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\RhinoMocks\RhinoMocks.Data\obj\Debug\RhinoMocks.Data.pdb

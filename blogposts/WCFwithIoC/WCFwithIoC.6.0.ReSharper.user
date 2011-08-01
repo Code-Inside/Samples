@@ -1,0 +1,34 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="985F4AB0-C9EB-4695-BFA2-082CD7CF0166/f:Service1.svc.cs" caret="385" fromTop="11" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="1367" fromTop="16" />
+      <File id="F53E9402-7EB7-401C-85DA-9FC4D10FD3F3/f:IService1.cs" caret="309" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="407" fromTop="6" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="1204" fromTop="18" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="2911" fromTop="33" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="560" fromTop="10" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="1318" fromTop="4" />
+      <File id="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8/f:Program.cs" caret="1255" fromTop="5" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\lib</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

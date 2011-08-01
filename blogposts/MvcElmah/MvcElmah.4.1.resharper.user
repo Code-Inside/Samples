@@ -1,0 +1,39 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Global.asax.cs" caret="482" scrollPosition="0|0" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|141" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|3" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|3" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|101" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|109" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="12312" scrollPosition="0|158" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Global.asax.cs" caret="482" scrollPosition="0|0" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="7414" scrollPosition="0|107" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="10219" scrollPosition="0|113" />
+      <File id="CA32AC8F-75E9-4154-847C-7D89650BEC59/f:Web.config" caret="11003" scrollPosition="88|124" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

@@ -1,0 +1,1629 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicrosoftAjax</name>
+    </assembly>
+    <members>
+        <member name="T:Sys.IDisposable">
+            <summary>
+            Provides a common interface for application-defined tasks associated with closing,
+            releasing, or resetting resources held by instances of a registered Microsoft AJAX
+            Library class.
+            </summary>
+        </member>
+        <member name="M:Sys.IDisposable.Dispose">
+            <summary>
+            Releases resources held by an object, or prepares an object for reuse.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.WebServiceProxy">
+            <summary>
+            Enables calling a method of a specified Web service asynchronously.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebServiceProxy.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.Net.WebServiceProxy"/> class.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebServiceProxy.Invoke(System.String,System.String,System.Boolean,System.Dictionary)">
+            <summary>
+            Invokes the specified Web service method.
+            </summary>
+            <param name="servicePath">The Web service URL.</param>
+            <param name="methodName">The name of the Web service method to invoke.</param>
+            <param name="useGet">false if the Web request HTTP verb is POST; otherwise, true. The default is false.</param>
+            <param name="parameters">A dictionary that contains name/value pairs that correspond to the parameters of the method to call.</param>
+            <returns>The <see cref="T:Sys.Net.WebRequest"/> that was created to invoke the method.</returns>
+        </member>
+        <member name="M:Sys.Net.WebServiceProxy.Invoke(System.String,System.String,System.Boolean,System.Dictionary,Sys.Net.WebServiceSuccessCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            <summary>
+            Invokes the specified Web service method.
+            </summary>
+            <param name="servicePath">The Web service URL.</param>
+            <param name="methodName">The name of the Web service method to invoke.</param>
+            <param name="useGet">false if the Web request HTTP verb is POST; otherwise, true. The default is false.</param>
+            <param name="parameters">A dictionary that contains name/value pairs that correspond to the parameters of the method to call.</param>
+            <param name="successCallback">The function invoked as a callback if the Web service method call returns successfully. If no callback function is provided, no action is taken when the Web service method finishes successfully.</param>
+            <param name="failedCallback">The function invoked as a callback if the Web service method call fails. If no callback function is provided, no action is taken if an error occurs during the Web service method call.</param>
+            <param name="userContext">Any user-specific information to be passed to either callback.</param>
+            <returns>The <see cref="T:Sys.Net.WebRequest"/> that was created to invoke the method.</returns>
+        </member>
+        <member name="M:Sys.Net.WebServiceProxy.Invoke(System.String,System.String,System.Boolean,System.Dictionary,Sys.Net.WebServiceSuccessCallback,Sys.Net.WebServiceFailureCallback,System.Object,System.Int32)">
+            <summary>
+            Invokes the specified Web service method.
+            </summary>
+            <param name="servicePath">The Web service URL.</param>
+            <param name="methodName">The name of the Web service method to invoke.</param>
+            <param name="useGet">false if the Web request HTTP verb is POST; otherwise, true. The default is false.</param>
+            <param name="parameters">A dictionary that contains name/value pairs that correspond to the parameters of the method to call.</param>
+            <param name="successCallback">The function invoked as a callback if the Web service method call returns successfully. If no callback function is provided, no action is taken when the Web service method finishes successfully.</param>
+            <param name="failedCallback">The function invoked as a callback if the Web service method call fails. If no callback function is provided, no action is taken if an error occurs during the Web service method call.</param>
+            <param name="userContext">Any user-specific information to be passed to either callback.</param>
+            <param name="timeout">The time in milliseconds after which the request is timed out and aborted.</param>
+            <returns>The <see cref="T:Sys.Net.WebRequest"/> that was created to invoke the method.</returns>
+        </member>
+        <member name="P:Sys.Net.WebServiceProxy.DefaultFailedCallback">
+            <summary>
+            Gets or sets the default failed callback function for the <see cref="T:Sys.Net.WebServiceProxy"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceProxy.DefaultSucceededCallback">
+            <summary>
+            Gets or sets the default succeeded callback function for the <see cref="T:Sys.Net.WebServiceProxy"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceProxy.DefaultUserContext">
+            <summary>
+            Gets or sets the default user context for the <see cref="T:Sys.Net.WebServiceProxy"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceProxy.Path">
+            <summary>
+            Gets or sets the path to the Web service for the <see cref="T:Sys.Net.WebServiceProxy"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceProxy.Timeout">
+            <summary>
+            Gets or sets the time-out value in milliseconds for the <see cref="T:Sys.Net.WebServiceProxy"/> instance.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.DomEventHandler">
+            <summary>
+            Event handler for DOM events.
+            </summary>
+            <param name="e">The <see cref="T:Sys.UI.DomEvent"/> object that contains the event data.</param>
+        </member>
+        <member name="T:Sys.Services.ProfileGroup">
+            <summary>
+            Defines the type of an element as a group in the <see cref="P:Sys.Services.ProfileService.Properties">Properties</see>
+            collection of the <see cref="T:Sys.Services.ProfileService"/> class.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.ProfileGroup.#ctor(System.Dictionary)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.Services.ProfileGroup"/> class.
+            </summary>
+            <param name="properties">The profile data to group.</param>
+        </member>
+        <member name="T:Sys.CancelEventArgs">
+            <summary>
+            Used by event sources that enable the handler to cancel the operation in progress.
+            </summary>
+        </member>
+        <member name="T:Sys.EventArgs">
+            <summary>
+            Used by event sources to pass event argument information.
+            </summary>
+        </member>
+        <member name="F:Sys.EventArgs.Empty">
+            <summary>
+            A static object of type <see cref="T:Sys.EventArgs"/> that is used as a convenient way to
+            specify an empty EventArgs instance.
+            </summary>
+        </member>
+        <member name="P:Sys.CancelEventArgs.Cancel">
+            <summary>
+            Gets or sets a value that specifies whether the event source should cancel the operation that caused the event.
+            </summary>
+            <value>true to request that the event be canceled; otherwise, false. The default is false.</value>
+        </member>
+        <member name="T:Sys.StringBuilder">
+            <summary>
+            Provides an optimized mechanism to concatenate strings.
+            </summary>
+        </member>
+        <member name="M:Sys.StringBuilder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.StringBuilder"/> class.
+            </summary>
+        </member>
+        <member name="M:Sys.StringBuilder.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.StringBuilder"/> class.
+            </summary>
+            <param name="initialText">
+            The string that is used to initialize the value of the instance. If the value is null,
+            the new StringBuilder instance will contain an empty string ("").
+            </param>
+        </member>
+        <member name="M:Sys.StringBuilder.Append(System.String)">
+            <summary>
+            Appends a copy of a specified string to the end of the <see cref="T:Sys.StringBuilder"/> instance.
+            </summary>
+            <param name="text">The string to append to the end of the StringBuilder instance.</param>
+        </member>
+        <member name="M:Sys.StringBuilder.AppendLine">
+            <summary>
+            Appends a string with a line terminator to the end of the <see cref="T:Sys.StringBuilder"/> instance.
+            </summary>
+        </member>
+        <member name="M:Sys.StringBuilder.AppendLine(System.String)">
+            <summary>
+            Appends a string with a line terminator to the end of the <see cref="T:Sys.StringBuilder"/> instance.
+            </summary>
+            <param name="text">The string to append with a line terminator to the end fo the StringBuilder instance.</param>
+        </member>
+        <member name="M:Sys.StringBuilder.Clear">
+            <summary>
+            Clears the contents of the <see cref="T:Sys.StringBuilder"/> instance.
+            </summary>
+        </member>
+        <member name="M:Sys.StringBuilder.IsEmpty">
+            <summary>
+            Determines whether the <see cref="T:Sys.StringBuilder"/> object has any content.
+            </summary>
+            <returns>true if the StringBuilder instance contains no elements; otherwise, false.</returns>
+        </member>
+        <member name="M:Sys.StringBuilder.ToString">
+            <summary>
+            Creates a string from the contents of a <see cref="T:Sys.StringBuilder"/> instance.
+            </summary>
+            <returns>A string representation of the StringBuilder instance.</returns>
+        </member>
+        <member name="M:Sys.StringBuilder.ToString(System.String)">
+            <summary>
+            Creates a string from the contents of a <see cref="T:Sys.StringBuilder"/> instance, and
+            optionally inserts a delimeter between each element of the created string.
+            </summary>
+            <param name="separator">A string to append between each element of the string that is returned.</param>
+            <returns>
+            A string representation of the StringBuilder instance. If <paramref name="separator"/>
+            is specified, the delimeter string is inserted between each element of the returned string.
+            </returns>
+        </member>
+        <member name="T:Sys.Services.ProfileServiceCompletedCallback">
+            <summary>
+            Delegate for responding to the <see cref="M:Sys.Services.ProfileService.Load(System.String[],Sys.Services.ProfileServiceCompletedCallback,Sys.Net.WebServiceFailureCallback,System.Object)"/> and <see cref="M:Sys.Services.ProfileService.Save(System.String[],Sys.Services.ProfileServiceCompletedCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            ProfileService.Save</see> success events.
+            </summary>
+            <param name="propertyCount">Indicates the number of properties returned by the profile service.</param>
+            <param name="userContext">Any user-specific information. userContext can be any JavaScript primitive type, array, or object.</param>
+            <param name="methodName">The name of the Web service method that was invoked.</param>
+        </member>
+        <member name="T:Sys.IContainer">
+            <summary>
+            Provides a common interface for all components that can contain other components.
+            </summary>
+        </member>
+        <member name="M:Sys.IContainer.AddComponent(Sys.Component)">
+            <summary>
+            Adds a <see cref="T:Sys.Component"/> object to the current container.
+            </summary>
+            <param name="component">The Component object to add.</param>
+        </member>
+        <member name="M:Sys.IContainer.GetComponents">
+            <summary>
+            Returns an array of all objects in the current container that inherit from <see cref="T:Sys.Component"/>.
+            </summary>
+            <returns>An array of all objects in the current container that inherit from Component.</returns>
+        </member>
+        <member name="M:Sys.IContainer.FindComponent(System.String)">
+            <summary>
+            Returns the specified <see cref="T:Sys.Component"/> instance.
+            </summary>
+            <param name="id">The ID of the Component object to search for.</param>
+            <returns>The Component instance with the specified ID.</returns>
+        </member>
+        <member name="M:Sys.IContainer.RemoveComponent(Sys.Component)">
+            <summary>
+            Removes a <see cref="T:Sys.Component"/> object from the current container.
+            </summary>
+            <param name="component">The Component object to remove.</param>
+        </member>
+        <member name="T:Sys.Component">
+            <summary>
+            Provides the base class for the <see cref="T:Sys.UI.Control"/> and <see cref="T:Sys.UI.Behavior"/> classes,
+            and for any other object whose lifetime should be managed by Microsoft ASP.NET AJAX.
+            </summary>
+        </member>
+        <member name="T:Sys.INotifyDisposing">
+            <summary>
+            Defines the <see cref="E:Sys.INotifyDisposing.Disposing">Disposing</see> event.
+            </summary>
+        </member>
+        <member name="E:Sys.INotifyDisposing.Disposing">
+            <summary>
+            Occurs when an object's resources are released.
+            </summary>
+        </member>
+        <member name="T:Sys.INotifyPropertyChange">
+            <summary>
+            Defines the <see cref="E:Sys.INotifyPropertyChange.PropertyChanged">PropertyChanged</see> event.
+            </summary>
+        </member>
+        <member name="E:Sys.INotifyPropertyChange.PropertyChanged">
+            <summary>
+            Occurs when a component property is set to a new value.
+            </summary>
+        </member>
+        <member name="M:Sys.Component.BeginUpdate">
+            <summary>
+            Sets the <see cref="P:Sys.Component.IsUpdating"/> property of the current <see cref="T:Sys.Component"/> object to true.
+            </summary>
+        </member>
+        <member name="M:Sys.Component.Create(System.Type)">
+            <summary>
+            Returns a new instance of the <see cref="T:Sys.Component"/> class that uses the specified
+            parameters and calls the <see cref="M:Sys.Component.Initialize"/> method.
+            </summary>
+            <param name="type">The type of the component to create.</param>
+            <returns>A new instance of the Component class that uses the specified parameters.</returns>
+        </member>
+        <member name="M:Sys.Component.Create(System.Type,System.Dictionary,System.Dictionary,System.Dictionary,System.DHTML.DOMElement)">
+            <summary>
+            Returns a new instance of the <see cref="T:Sys.Component"/> class that uses the specified
+            parameters and calls the <see cref="M:Sys.Component.Initialize"/> method.
+            </summary>
+            <param name="type">The type of the component to create.</param>
+            <param name="properties">A JSON object that describes the properties and their values.</param>
+            <param name="events">A JSON object that describes the events and their handlers.</param>
+            <param name="references">A JSON object that describes the properties that are references to other components.</param>
+            <param name="element">The DOM element the component must be attached to.</param>
+            <returns>A new instance of the Component class that uses the specified parameters.</returns>
+        </member>
+        <member name="M:Sys.Component.Dispose">
+            <summary>
+            Raises the <see cref="E:Sys.Component.Disposing"/> event of the current <see cref="T:Sys.Component"/> object
+            and removes the component from the application.
+            </summary>
+        </member>
+        <member name="M:Sys.Component.EndUpdate">
+            <summary>
+            Sets the <see cref="P:Sys.Component.IsUpdating"/> property of the current <see cref="T:Sys.Component"/> object
+            to false, calls the <see cref="M:Sys.Component.Initialize"/> method if it has not already been called,
+            and then calls the <see cref="M:Sys.Component.Updated"/> method.
+            </summary>
+        </member>
+        <member name="M:Sys.Component.Initialize">
+            <summary>
+            Sets the <see cref="P:Sys.Component.IsInitialized"/> property of the current <see cref="T:Sys.Component"/>
+            object to true.
+            </summary>
+        </member>
+        <member name="M:Sys.Component.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the <see cref="E:Sys.Component.PropertyChanged"/> event for the specified property.
+            </summary>
+            <param name="propertyName">The name of the property that changed.</param>
+        </member>
+        <member name="M:Sys.Component.Updated">
+            <summary>
+            Has no built-in functionality; the Updated method is a placeholder for post-update logic
+            in derived classes.
+            </summary>
+        </member>
+        <member name="P:Sys.Component.Events">
+            <summary>
+            Gets an <see cref="T:Sys.EventHandlerList"/> object that contains references to all the events
+            and handlers for the current <see cref="T:Sys.Component"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.Component.ID">
+            <summary>
+            Gets or sets the ID of the current <see cref="T:Sys.Component"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.Component.IsInitialized">
+            <summary>
+            Gets a value indicating whether the current <see cref="T:Sys.Component"/> object is initialized.
+            </summary>
+        </member>
+        <member name="P:Sys.Component.IsUpdating">
+            <summary>
+            Gets a value indicating whether the current <see cref="T:Sys.Component"/> object is updating.
+            </summary>
+        </member>
+        <member name="E:Sys.Component.Disposing">
+            <summary>
+            Raised when the <see cref="M:Sys.Component.Dispose"/> method is called for a component.
+            </summary>
+        </member>
+        <member name="E:Sys.Component.PropertyChanged">
+            <summary>
+            Raised when a property changes.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.WebRequest">
+            <summary>
+            Provides an API to make Web requests.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebRequest.GetResolvedUrl">
+            <summary>
+            Gets the resolved URL of the <see cref="T:Sys.Net.WebRequest"/> instance.
+            </summary>
+            <returns>
+            The absolute URL representation of the URL associated with the WebRequest instance.
+            The URL includes the protocol identifier and the fully qualified domain name.
+            </returns>
+        </member>
+        <member name="M:Sys.Net.WebRequest.Invoke">
+            <summary>
+            Executes the Web request.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.Body">
+            <summary>
+            Gets or sets the HTTP body of the WebRequest.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.Executor">
+            <summary>
+            Gets the executor of the associated <see cref="T:Sys.Net.WebRequest"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.Headers">
+            <summary>
+            Gets the dictionary of name/value pairs that contains the HTTP headers that are sent with the Web request.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.HttpVerb">
+            <summary>
+            Gets or sets the HTTP verb for the Web request, which must be an HTTP verb that is recognized by the Web server, such as "GET" or "POST".
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.Timeout">
+            <summary>
+            Gets or sets the time-out value in milliseconds for the <see cref="T:Sys.Net.WebRequest"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.Url">
+            <summary>
+            Gets or sets the URL of the <see cref="T:Sys.Net.WebRequest"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequest.UserContext">
+            <summary>
+            Gets or sets the user context associated with the <see cref="T:Sys.Net.WebRequest"/> instance.
+            </summary>
+        </member>
+        <member name="E:Sys.Net.WebRequest.Completed">
+            <summary>
+            Occurs when the work being performed by the associated executor is finished. An executor
+            finishes its work in one of three states: completed, aborted, or timed out.
+            </summary>
+        </member>
+        <member name="T:Sys.PropertyChangedEventArgs">
+            <summary>
+            Describes property changes.
+            </summary>
+        </member>
+        <member name="M:Sys.PropertyChangedEventArgs.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.PropertyChangedEventArgs"/> class.
+            </summary>
+            <param name="propertyName">The name of the property that changed.</param>
+        </member>
+        <member name="P:Sys.PropertyChangedEventArgs.PropertyName">
+            <summary>
+            Gets the name of the property that changed.
+            </summary>
+        </member>
+        <member name="T:Sys.PropertyChangedEventHandler">
+            <summary>
+            Delegate for the <see cref="E:Sys.INotifyPropertyChange.PropertyChanged"/> event.
+            </summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="e">The <see cref="T:Sys.PropertyChangedEventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="T:Sys.Net.WebRequestCompletedCallback">
+            <summary>
+            Delegate for handling the completed event raised by the WebRequest class.
+            </summary>
+            <param name="executor">The executor instance associated with the completed request.</param>
+        </member>
+        <member name="T:Sys.UI.DomEvent">
+            <summary>
+            Provides access to client event handlers and event properties.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.DomEvent.#ctor(System.DHTML.Event)">
+            <summary>
+            Initializes a new <see cref="T:Sys.UI.DomEvent"/> object from the raw DHTML event.
+            </summary>
+            <param name="rawEvent">The raw DHTML event object.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandler(System.DHTML.DOMElement,System.String,Sys.UI.DomEventHandler)">
+            <summary>
+            Adds a DOM event handler to the element that exposes the event.
+            </summary>
+            <param name="element">The element that exposes the event.</param>
+            <param name="eventName">The name of the event. Do not include the "on" prefix. For example, specify "click" instead of "onclick".</param>
+            <param name="handler">The client function that is called when the event occurs.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandler(System.Type,System.String,Sys.UI.DomEventHandler)">
+            <summary>
+            Adds a DOM event handler to a singleton object represented by a type.
+            (Eg. Window and Document)
+            </summary>
+            <param name="type">The singleton object represented by its type.</param>
+            <param name="eventName">The name of the event. Do not include the "on" prefix. For example, specify "click" instead of "onclick".</param>
+            <param name="handler">The client function that is called when the event occurs.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandlers(System.DHTML.DOMElement,System.Dictionary)">
+            <summary>
+            Adds a list of DOM event handlers to the element that exposes the event.
+            </summary>
+            <param name="element">The element that exposes the event.</param>
+            <param name="events">A dictionary of event handlers.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandlers(System.Type,System.Dictionary)">
+            <summary>
+            Adds a list of DOM event handler to a singleton object represented by a type.
+            (Eg. Window and Document)
+            </summary>
+            <param name="type">The singleton object represented by its type.</param>
+            <param name="events">A dictionary of event handlers.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandlers(System.DHTML.DOMElement,System.Dictionary,System.Object)">
+            <summary>
+            Adds a list of DOM event handlers to the element that exposes the event.
+            </summary>
+            <param name="element">The element that exposes the event.</param>
+            <param name="events">A dictionary of event handlers.</param>
+            <param name="handleOwner">The object instance that is the context for the delegates that should be created from the handlers.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.AddHandlers(System.Type,System.Dictionary,System.Object)">
+            <summary>
+            Adds a list of DOM event handlers to a singleton object represented by a type.
+            (Eg. Window and Document)
+            </summary>
+            <param name="type">The element that exposes the event.</param>
+            <param name="events">A dictionary of event handlers.</param>
+            <param name="handleOwner">The object instance that is the context for the delegates that should be created from the handlers.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.ClearHandlers(System.DHTML.DOMElement)">
+            <summary>
+            Removes all event handlers from the specified element.
+            </summary>
+            <param name="element">The element that exposes the events.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.PreventDefault">
+            <summary>
+            Prevents the default event action from happening.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.DomEvent.RemoveHandler(System.DHTML.DOMElement,System.String,Sys.UI.DomEventHandler)">
+            <summary>
+            Removes a DOM event handler from the element that exposes the event.
+            </summary>
+            <param name="element">The element that exposes the event.</param>
+            <param name="eventName">The name of the event. Do not include the "on" prefix. For example, specify "click" instead of "onclick".</param>
+            <param name="handler">The client function that is called when the event occurs.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.RemoveHandler(System.Type,System.String,Sys.UI.DomEventHandler)">
+            <summary>
+            Removes a DOM event handler from the singleton object represented by a type.
+            (Eg. Window and Document)
+            </summary>
+            <param name="type">The element that exposes the event.</param>
+            <param name="eventName">The name of the event. Do not include the "on" prefix. For example, specify "click" instead of "onclick".</param>
+            <param name="handler">The client function that is called when the event occurs.</param>
+        </member>
+        <member name="M:Sys.UI.DomEvent.StopPropagation">
+            <summary>
+            Prevents an event from being propagated (bubbled) to parent elements.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.AltKey">
+            <summary>
+            Gets a Boolean value that indicates the state of the ALT key when the associated event occurred.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.Button">
+            <summary>
+            Gets a <see cref="T:Sys.UI.MouseButton"/> enumeration value that indicates the button
+            state of the mouse when the related event occurred.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.CharCode">
+            <summary>
+            Gets the character code of the key that raised the associated event.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.ClientX">
+            <summary>
+            Gets the x-coordinate of the mouse pointer's position relative to the client area of
+            the browser window, excluding window scroll bars.
+            </summary>
+            <value>An integer that represents the x-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.ClientY">
+            <summary>
+            Gets the y-coordinate of the mouse pointer's position relative to the client area of
+            the browser window, excluding window scroll bars.
+            </summary>
+            <value>An integer that represents the y-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.CtrlKey">
+            <summary>
+            Gets a Boolean value that indicates the state of the CTRL key when the associated event occurred.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.OffsetX">
+            <summary>
+            Gets the x-coordinate of the mouse pointer's position relative to the object that raised the event.
+            </summary>
+            <value>An integer that represents the x-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.OffsetY">
+            <summary>
+            Gets the y-coordinate of the mouse pointer's position relative to the object that raised the event.
+            </summary>
+            <value>An integer that represents the y-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.ScreenX">
+            <summary>
+            Gets the x-coordinate of the mouse pointer's position relative to the screen top left.
+            </summary>
+            <value>An integer that represents the x-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.ScreenY">
+            <summary>
+            Gets the y-coordinate of the mouse pointer's position relative to the screen top left.
+            </summary>
+            <value>An integer that represents the y-coordinate in pixels.</value>
+        </member>
+        <member name="P:Sys.UI.DomEvent.ShiftKey">
+            <summary>
+            Gets a value that indicates the state of the SHIFT key when the associated event occurred.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.Target">
+            <summary>
+            Gets the object that the event acted upon.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.DomEvent.Type">
+            <summary>
+            Gets the name of the event that was raised.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.Point">
+            <summary>
+            Creates an object that contains a set of integer coordinates representing a position.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.Point.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.UI.Point"/> class.
+            </summary>
+            <param name="x">The number of pixels between the location and the left edge of the parent frame.</param>
+            <param name="y">The number of pixels between the location and the top edge of the parent frame.</param>
+        </member>
+        <member name="P:Sys.UI.Point.X">
+            <summary>
+            Gets the x-coordinate of a <see cref="T:Sys.UI.Point"/> object in pixels.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Point.Y">
+            <summary>
+            Gets the y-coordinate of a <see cref="T:Sys.UI.Point"/> object in pixels.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.Bounds">
+            <summary>
+            Creates an object that contains a set of integer coordinates representing position, width, and height.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.Bounds.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Sys.UI.Bounds"/> class.
+            </summary>
+            <param name="x">The number of pixels between the location and the left edge of the parent frame.</param>
+            <param name="y">The number of pixels between the location and the top edge of the parent frame.</param>
+            <param name="width">The width in pixels.</param>
+            <param name="height">The height in pixels.</param>
+        </member>
+        <member name="P:Sys.UI.Bounds.X">
+            <summary>
+            Gets the x-coordinate of a <see cref="T:Sys.UI.Bounds"/> object in pixels.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Bounds.Y">
+            <summary>
+            Gets the y-coordinate of a <see cref="T:Sys.UI.Bounds"/> object in pixels.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Bounds.Width">
+            <summary>
+            Gets the width of a <see cref="T:Sys.UI.Bounds"/> object in pixels.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Bounds.Height">
+            <summary>
+            Gets the height of a <see cref="T:Sys.UI.Bounds"/> object in pixels.
+            </summary>
+        </member>
+        <member name="T:Sys.Services.AuthenticationServiceLoginCallback">
+            <summary>
+            Delegate for responding to the <see cref="M:Sys.Services.AuthenticationService.Login(System.String,System.String,System.Boolean,System.String,System.String,Sys.Services.AuthenticationServiceLoginCallback,Sys.Net.WebServiceFailureCallback,System.Object)">AuthenticationService.Login</see> events.
+            </summary>
+            <param name="validCredentials">Returns true if the user was authenticated.</param>
+            <param name="userContext">Any user-specific information. userContext can be any JavaScript primitive type, array, or object.</param>
+            <param name="methodName">The name of the Web service method that was invoked.</param>
+        </member>
+        <member name="T:Sys.Net.WebServiceFailureCallback">
+            <summary>
+            Delegate for handling the <see cref="M:Sys.Net.WebServiceProxy.Invoke(System.String,System.String,System.Boolean,System.Dictionary,Sys.Net.WebServiceSuccessCallback,Sys.Net.WebServiceFailureCallback,System.Object,System.Int32)">
+            WebServiceProxy.Invoke</see> failure callback.
+            </summary>
+            <param name="error">A <see cref="T:Sys.Net.WebServiceError"/> object that contains details of the error.</param>
+            <param name="userContext">Any user-specific information. userContext can be any JavaScript primitive type, array, or object.</param>
+            <param name="methodName">The name of the Web service method that was invoked.</param>
+        </member>
+        <member name="T:Sys.EventHandlerList">
+            <summary>
+            Creates a dictionary to hold client-script events and their associated handlers.
+            </summary>
+        </member>
+        <member name="M:Sys.EventHandlerList.AddHandler(System.String,System.Delegate)">
+            <summary>
+            Attaches a handler to a specified event in an <see cref="T:Sys.EventHandlerList"/> instance
+            and adds the specified event to the list if not already present.
+            </summary>
+            <param name="id">The string literal that will be used as the ID for the event.</param>
+            <param name="handler">The delegate to handle the event.</param>
+        </member>
+        <member name="M:Sys.EventHandlerList.GetHandler(System.String)">
+            <summary>
+            Returns a single method that can be invoked to call all handlers sequentially for the specified event.
+            </summary>
+            <param name="id">The ID for the specified event.</param>
+            <returns>A single method that can be invoked to call all handlers sequentially for the specified event.</returns>
+        </member>
+        <member name="M:Sys.EventHandlerList.RemoveHandler(System.String,System.Delegate)">
+            <summary>
+            Removes an event handler from the specified event in a <see cref="T:Sys.EventHandlerList"/> instance.
+            </summary>
+            <param name="id">The ID for the event.</param>
+            <param name="handler">The handler to remove from the event.</param>
+        </member>
+        <member name="T:Sys.Services.AuthenticationService">
+            <summary>
+            Provides the client proxy class for the authentication service.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.AuthenticationService.Login(System.String,System.String)">
+            <summary>
+            Authenticates the user's credentials.
+            </summary>
+            <param name="username">The user name to authenticate.</param>
+            <param name="password">The user's password. The default is null.</param>
+        </member>
+        <member name="M:Sys.Services.AuthenticationService.Login(System.String,System.String,System.Boolean,System.String,System.String,Sys.Services.AuthenticationServiceLoginCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            <summary>
+            Authenticates the user's credentials.
+            </summary>
+            <param name="username">The user name to authenticate.</param>
+            <param name="password">The user's password. The default is null.</param>
+            <param name="isPersistent">true if the issued authentication ticket should be persistent across browser sessions; otherwise, false. The default is false.</param>
+            <param name="customInfo">Reserved for future use. The default is null.</param>
+            <param name="redirectUrl">The URL to redirect the browser to on successful authentication. If null, no redirect occurs. The default is null.</param>
+            <param name="loginCompletedCallback">The function to call when the login has finished successfully. The default is null.</param>
+            <param name="failedCallback">The function to call if the login fails. The default is null.</param>
+            <param name="userContext">User context information that you are passing to the callback functions.</param>
+        </member>
+        <member name="M:Sys.Services.AuthenticationService.Logout">
+            <summary>
+            Logs out the currently authenticated user.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.AuthenticationService.Logout(System.String,Sys.Net.WebServiceSuccessCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            <summary>
+            Logs out the currently authenticated user.
+            </summary>
+            <param name="redirectUrl">The URL to redirect the browser to on successful logout. The default is null.</param>
+            <param name="logoutCompletedCallback">The function that is called when the logout has finished. The default is null.</param>
+            <param name="failedCallback">The function that is called if the logout has failed. The default is null.</param>
+            <param name="userContext">User context information that you are passing to the callback functions.</param>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.DefaultFailedCallback">
+            <summary>
+            Gets or sets the name of the default failure callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.DefaultLoginCompletedCallback">
+            <summary>
+            Gets or sets the name of the default login-completed callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.DefaultLogoutCompletedCallback">
+            <summary>
+            Gets or sets the name of the default logout-completed callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.IsLoggedIn">
+            <summary>
+            Gets the authentication state of the current user.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.Path">
+            <summary>
+            Gets or sets the authentication service path.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.AuthenticationService.Timeout">
+            <summary>
+            Gets or sets the authentication service time-out value in milliseconds.
+            </summary>
+        </member>
+        <member name="T:Sys.CultureInfo">
+            <summary>
+            Represents a culture definition that can be applied to other objects that accept a culture-related setting.
+            </summary>
+        </member>
+        <member name="P:Sys.CultureInfo.CurrentCulture">
+            <summary>
+            Applies the current culture when you create a <see cref="T:Sys.CultureInfo"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.CultureInfo.InvariantCulture">
+            <summary>
+            Applies the invariant (culture-independent) culture when you create a <see cref="T:Sys.CultureInfo"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.CultureInfo.DateTimeFormat">
+            <summary>
+            Gets an object that contains an array of culture-sensitive formatting strings that can be applied to Date type extensions.
+            </summary>
+        </member>
+        <member name="P:Sys.CultureInfo.Name">
+            <summary>
+            Gets the culture value (locale) that represents a language and region.
+            </summary>
+        </member>
+        <member name="P:Sys.CultureInfo.NumberFormat">
+            <summary>
+            Gets an object that contains an array of culture-sensitive formatting strings that can be applied to Number type extensions.
+            </summary>
+        </member>
+        <member name="T:Sys.Browser">
+            <summary>
+            Contains information about the browser.
+            </summary>
+        </member>
+        <member name="F:Sys.Browser.InternetExplorer">
+            <summary>
+            Represents the Internet Explorer browsers.
+            </summary>
+        </member>
+        <member name="F:Sys.Browser.Firefox">
+            <summary>
+            Represents the Firefox browsers.
+            </summary>
+        </member>
+        <member name="F:Sys.Browser.Safari">
+            <summary>
+            Represents the Safari browser.
+            </summary>
+        </member>
+        <member name="F:Sys.Browser.Opera">
+            <summary>
+            Represents the Opera browser.
+            </summary>
+        </member>
+        <member name="P:Sys.Browser.Agent">
+            <summary>
+            Gets the current <see cref="T:Sys.Browser"/> object (usage: Browser.Agent == Browser.InternetExplorer)
+            </summary>
+        </member>
+        <member name="P:Sys.Browser.HasDebuggerStatement">
+            <summary>
+            Returns a value that indicates whether the browser supports a "debugger" statement,
+            which suspends execution of the script and acts like a breakpoint.
+            </summary>
+        </member>
+        <member name="P:Sys.Browser.Name">
+            <summary>
+            Gets the name of the browser.
+            </summary>
+        </member>
+        <member name="P:Sys.Browser.Version">
+            <summary>
+            Gets the version of the browser.
+            </summary>
+        </member>
+        <member name="T:Sys.Services.ProfileService">
+            <summary>
+            Provides the client proxy class for the profile service.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.ProfileService.Load">
+            <summary>
+            Loads all profile properties enabled for read access.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.ProfileService.Load(System.String[],Sys.Services.ProfileServiceCompletedCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            <summary>
+            Loads the specified profile properties.
+            </summary>
+            <param name="propertyNames">A string array that contains the profile properties to load.</param>
+            <param name="loadCompletedCallback">The function that is called when loading has completed. The default is null.</param>
+            <param name="failedCallback">The function that is called when loading has failed. The default is null.</param>
+            <param name="userContext">User context information passed to the callback functions.</param>
+        </member>
+        <member name="M:Sys.Services.ProfileService.Save">
+            <summary>
+            Saves all profile properties.
+            </summary>
+        </member>
+        <member name="M:Sys.Services.ProfileService.Save(System.String[],Sys.Services.ProfileServiceCompletedCallback,Sys.Net.WebServiceFailureCallback,System.Object)">
+            <summary>
+            Saves the specified profile properties.
+            </summary>
+            <param name="propertyNames">A string array that contains the profile properties to save.</param>
+            <param name="saveCompletedCallback">The function that is called when the save method has finished. The default is null.</param>
+            <param name="failedCallback">The function that is called if the save method has failed. The default is null.</param>
+            <param name="userContext">User context information passed to the callback functions.</param>
+        </member>
+        <member name="P:Sys.Services.ProfileService.DefaultFailedCallback">
+            <summary>
+            Gets or sets the name of the default failure callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.ProfileService.DefaultLoadCompletedCallback">
+            <summary>
+            Gets or sets the name of the default load-completed callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.ProfileService.DefaultSaveCompletedCallback">
+            <summary>
+            Gets or sets the name of the default save-completed callback function.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.ProfileService.Path">
+            <summary>
+            Gets or sets the profile service path.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.ProfileService.Properties">
+            <summary>
+            Contains the loaded profile data.
+            </summary>
+        </member>
+        <member name="P:Sys.Services.ProfileService.Timeout">
+            <summary>
+            Gets or sets the profile service time-out value in milliseconds.
+            </summary>
+        </member>
+        <member name="T:Sys.ApplicationLoadEventArgs">
+            <summary>
+            Provides a specialized event arguments collection for the <see cref="E:Sys.Application.Load">Load</see>
+            event of the <see cref="T:Sys.Application"/> class.
+            </summary>
+        </member>
+        <member name="P:Sys.ApplicationLoadEventArgs.Components">
+            <summary>
+            Gets an array of all the components that were created since the last time the
+            <see cref="E:Sys.Application.Load">Load</see> event was raised.
+            </summary>
+        </member>
+        <member name="P:Sys.ApplicationLoadEventArgs.IsPartialLoad">
+            <summary>
+            Returns a value that indicates whether the page is engaged in a partial-page update.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.DomElement">
+            <summary>
+            Defines static methods and properties that set attributes and provide information about DOM elements.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.DomElement.AddCssClass(System.DHTML.DOMElement,System.String)">
+            <summary>
+            Adds a CSS class to an element if the element does not already have it CSS class.
+            </summary>
+            <param name="element">The <see cref="T:Sys.UI.DomElement"/> object to add the CSS class to.</param>
+            <param name="className">The name of the CSS class to add.</param>
+        </member>
+        <member name="M:Sys.UI.DomElement.ContainsCssClass(System.DHTML.DOMElement,System.String)">
+            <summary>
+            Returns a value that indicates whether the element contains the specified CSS class.
+            </summary>
+            <param name="element">The <see cref="T:Sys.UI.DomElement"/> object to test for the CSS class.</param>
+            <param name="className">The name of the CSS class to test for.</param>
+        </member>
+        <member name="M:Sys.UI.DomElement.GetBounds(System.DHTML.DOMElement)">
+            <summary>
+            Gets a set of integer coordinates that represent the position, width, and height of an element.
+            </summary>
+            <param name="element">The <see cref="T:Sys.UI.DomElement"/> instance to get the coordinates of.</param>
+            <returns>A JSON-formatted object that contains the x-coordinate and y-coordinate of the upper-left corner, the width, and the height of the element in pixels.</returns>
+        </member>
+        <member name="M:Sys.UI.DomElement.GetElementById(System.String)">
+            <summary>
+            Gets an element that has the specified id attribute.
+            </summary>
+            <param name="id">The ID of the element to find.</param>
+            <returns>The element with the specified ID.</returns>
+        </member>
+        <member name="M:Sys.UI.DomElement.GetElementById(System.String,System.DHTML.DOMElement)">
+            <summary>
+            Gets an element that has the specified id attribute.
+            </summary>
+            <param name="id">The ID of the element to find.</param>
+            <param name="element">The parent element to search in. The default is the document element.</param>
+            <returns>The element with the specified ID.</returns>
+        </member>
+        <member name="M:Sys.UI.DomElement.GetLocation(System.DHTML.DOMElement)">
+            <summary>
+            Gets the absolute position of an element relative to the upper-left corner of the browser window.
+            </summary>
+            <param name="element">The target element.</param>
+            <returns>A JSON-formatted object that contains the x-coordinate and y-coordinate of the element in pixels.</returns>
+        </member>
+        <member name="M:Sys.UI.DomElement.RemoveCssClass(System.DHTML.DOMElement,System.String)">
+            <summary>
+            Removes a CSS class from an element.
+            </summary>
+            <param name="element">The <see cref="T:Sys.UI.DomElement"/> object to remove the CSS class from.</param>
+            <param name="className">The name of the CSS class to remove.</param>
+        </member>
+        <member name="M:Sys.UI.DomElement.SetLocation(System.DHTML.DOMElement,System.Int32,System.Int32)">
+            <summary>
+            Sets the position of an element.
+            </summary>
+            <param name="element">The target element.</param>
+            <param name="x">The x-coordinate in pixels.</param>
+            <param name="y">The y-coordinate in pixels.</param>
+        </member>
+        <member name="M:Sys.UI.DomElement.ToggleCssClass(System.DHTML.DOMElement,System.String)">
+            <summary>
+            Toggles a CSS class in an element.
+            </summary>
+            <param name="element">The element to toggle.</param>
+            <param name="className">The name of the CSS class to toggle.</param>
+        </member>
+        <member name="T:Sys.UI.MouseButton">
+            <summary>
+            Describes mouse buttons.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.MouseButton.LeftButton">
+            <summary>
+            Represents the left mouse button.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.MouseButton.MiddleButton">
+            <summary>
+            Represents the wheel button (middle mouse button).
+            </summary>
+        </member>
+        <member name="F:Sys.UI.MouseButton.RightButton">
+            <summary>
+            Represents the right mouse button.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.NetworkRequestEventArgs">
+            <summary>
+            Contains information about a Web request that is ready to be sent to the current
+            <see cref="T:Sys.Net.WebRequestExecutor"/> instance.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.NetworkRequestEventArgs.WebRequest">
+            <summary>
+            Gets the Web request to be routed to the current <see cref="T:Sys.Net.WebRequestExecutor"/> instance.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.NetworkRequestEventHandler">
+            <summary>
+            Delegate for responding to the <see cref="E:Sys.Net.WebRequestManager.InvokingRequest"/> event.
+            </summary>
+            <param name="sender">The <see cref="T:Sys.Net.WebRequestManager"/> instance that raised the event.</param>
+            <param name="e">The <see cref="T:Sys.Net.NetworkRequestEventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="T:Sys.UI.Key">
+            <summary>
+            Describes common key codes.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Backspace">
+            <summary>
+            Represents the BACKSPACE key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Tab">
+            <summary>
+            Represents the TAB key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Enter">
+            <summary>
+            Represents the ENTER key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Esc">
+            <summary>
+            Represents the ESC key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Space">
+            <summary>
+            Represents the SPACEBAR key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.PageUp">
+            <summary>
+            Represents the PAGE UP key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.PageDown">
+            <summary>
+            Represents the PAGE DOWN key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.End">
+            <summary>
+            Represents the END key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Home">
+            <summary>
+            Represents the HOME key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Left">
+            <summary>
+            Represents the LEFT ARROW key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Up">
+            <summary>
+            Represents the UP ARROW key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Right">
+            <summary>
+            Represents the RIGHT ARROW key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Down">
+            <summary>
+            Represents the DOWN ARROW key.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.Key.Del">
+            <summary>
+            Represents the DELETE key.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.VisibilityMode">
+            <summary>
+            Describes the layout of a DOM element in the page when the element's
+            <see cref="P:Sys.UI.Control.Visible">Visible</see> property is set to false.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.VisibilityMode.Hide">
+            <summary>
+            The element is not visible, but it occupies space on the page.
+            </summary>
+        </member>
+        <member name="F:Sys.UI.VisibilityMode.Collapse">
+            <summary>
+            The element is not visible, and the space it occupies is collapsed.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.Control">
+            <summary>
+            Provides the base class for all Microsoft ASP.NET AJAX controls.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.Control.#ctor(System.DHTML.DOMElement)">
+            <summary>
+            Initializes a new instance of a Control.
+            </summary>
+            <param name="element">The <see cref="T:System.DHTML.DOMElement"/> object that the control will be associated with.</param>
+        </member>
+        <member name="M:Sys.UI.Control.AddCssClass(System.String)">
+            <summary>
+            Adds a CSS class to a <see cref="T:Sys.UI.Control"/> object.
+            </summary>
+            <param name="className">A string that contains the name of the CSS class to add.</param>
+        </member>
+        <member name="M:Sys.UI.Control.OnBubbleEvent(System.Object,Sys.EventArgs)">
+            <summary>
+            Handles events raised by the <see cref="M:Sys.UI.Control.RaiseBubbleEvent(System.Object,Sys.EventArgs)"/> method.
+            </summary>
+            <param name="sender">The object that triggered the event.</param>
+            <param name="e">The <see cref="T:Sys.EventArgs"/> object that contains the event data.</param>
+            <returns>true if the event was handled; false otherwise.</returns>
+        </member>
+        <member name="M:Sys.UI.Control.RaiseBubbleEvent(System.Object,Sys.EventArgs)">
+            <summary>
+            Bubbles an event to the parent control.
+            </summary>
+            <param name="sender">The object that triggered the event.</param>
+            <param name="e">The <see cref="T:Sys.EventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="M:Sys.UI.Control.RemoveCssClass(System.String)">
+            <summary>
+            Removes a CSS class from a <see cref="T:Sys.UI.Control"/> object.
+            </summary>
+            <param name="className">A string that contains the name of the CSS class to remove.</param>
+        </member>
+        <member name="M:Sys.UI.Control.ToggleCssClass(System.String)">
+            <summary>
+            Toggles a CSS class of a <see cref="T:Sys.UI.Control"/> object.
+            </summary>
+            <param name="className">A string that contains the name of the CSS class to toggle.</param>
+        </member>
+        <member name="P:Sys.UI.Control.Element">
+            <summary>
+            Gets the <see cref="T:System.DHTML.DOMElement"/> instance that the current <see cref="T:Sys.UI.Control"/>
+            object is associated with.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Control.Parent">
+            <summary>
+            Gets or sets the parent control associated with the current control.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Control.Visible">
+            <summary>
+            Gets or sets the visibility of the current <see cref="T:Sys.UI.Control"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Control.VisibilityMode">
+            <summary>
+            Gets or sets the <see cref="T:Sys.UI.VisibilityMode"/> value for the current <see cref="T:Sys.UI.Control"/> object.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.XMLHttpExecutor">
+            <summary>
+            Makes asynchronous network requests by using the browser's XMLHTTP support.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.WebRequestExecutor">
+            <summary>
+            Provides the abstract base class from which network executors derive.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebRequestExecutor.#ctor">
+            <summary>
+            Initializes a <see cref="T:Sys.Net.WebRequestExecutor"/> instance.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebRequestExecutor.Abort">
+            <summary>
+            Stops the pending network request issued by the executor.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebRequestExecutor.ExecuteRequest">
+            <summary>
+            Instructs the executor to execute a Web request.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.WebRequestExecutor.GetResponseHeader(System.String)">
+            <summary>
+            Gets the value of the specified response header.
+            </summary>
+            <returns>The specified response header.</returns>
+        </member>
+        <member name="M:Sys.Net.WebRequestExecutor.GetAllResponseHeaders">
+            <summary>
+            Gets all the response headers for the current request.
+            </summary>
+            <returns>All the response headers for the current request.</returns>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.Aborted">
+            <summary>
+            Gets a value indicating whether the request associated with the executor was aborted.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.Object">
+            <summary>
+            Gets the result object by JSON deserializing the response data.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.ResponseAvailable">
+            <summary>
+            Gets a value indicating whether the request completed successfully.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.ResponseData">
+            <summary>
+            Gets the text representation of the response body.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.Started">
+            <summary>
+            Returns a value indicating whether the executor has started processing the request.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.StatusCode">
+            <summary>
+            Gets the status code of the response associated with the request being processed.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.StatusText">
+            <summary>
+            Gets the status text of the response associated with the request being processed.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.TimedOut">
+            <summary>
+            Gets a value indicating whether the request timed out.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.WebRequest">
+            <summary>
+            Gets the associated <see cref="P:Sys.Net.WebRequestExecutor.WebRequest"/> object.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestExecutor.Xml">
+            <summary>
+            Attempts to get the response to the current request as an XMLDOM object.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.XMLHttpExecutor.Abort">
+            <summary>
+            Stops the pending network request issued by the executor.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.XMLHttpExecutor.ExecuteRequest">
+            <summary>
+            Instructs the executor to execute a Web request.
+            </summary>
+        </member>
+        <member name="M:Sys.Net.XMLHttpExecutor.GetResponseHeader(System.String)">
+            <summary>
+            Gets the value of the specified response header.
+            </summary>
+            <returns>The specified response header.</returns>
+        </member>
+        <member name="M:Sys.Net.XMLHttpExecutor.GetAllResponseHeaders">
+            <summary>
+            Gets all the response headers for the current request.
+            </summary>
+            <returns>All the response headers for the current request.</returns>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.Aborted">
+            <summary>
+            Gets a value indicating whether the request associated with the executor was aborted.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.ResponseAvailable">
+            <summary>
+            Gets a value indicating whether the request completed successfully.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.ResponseData">
+            <summary>
+            Gets the text representation of the response body.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.Started">
+            <summary>
+            Returns a value indicating whether the executor has started processing the request.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.StatusCode">
+            <summary>
+            Gets a success status code.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.StatusText">
+            <summary>
+            Gets status information about a request that completed successfully.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.TimedOut">
+            <summary>
+            Gets a value indicating whether the request timed out.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.XMLHttpExecutor.Xml">
+            <summary>
+            Attempts to get the response to the current request as an XMLDOM object.
+            </summary>
+        </member>
+        <member name="T:Sys.UI.Behavior">
+            <summary>
+            Provides a base class for all Microsoft ASP.NET AJAX behaviors.
+            </summary>
+        </member>
+        <member name="M:Sys.UI.Behavior.#ctor(System.DHTML.DOMElement)">
+            <summary>
+            Initializes a new instance of a behavior.
+            </summary>
+            <param name="element">The <see cref="T:System.DHTML.DOMElement"/> object to associate with the behavior.</param>
+        </member>
+        <member name="M:Sys.UI.Behavior.GetBehaviorByName(System.DHTML.DOMElement,System.String)">
+            <summary>
+            Gets a <see cref="T:Sys.UI.Behavior"/> instance that has the specified <see cref="P:Sys.UI.Behavior.Name"/>
+            property from the specified <see cref="T:Sys.UI.DomElement"/> object.
+            </summary>
+            <param name="element">The DOM element to search.</param>
+            <param name="name">The name property of the Behavior instance to look for.</param>
+            <returns>The specified Behavior object, if found; otherwise, null.</returns>
+        </member>
+        <member name="M:Sys.UI.Behavior.GetBehaviors(System.DHTML.DOMElement)">
+            <summary>
+            Gets a collection that contains the behaviors associated with the specified <see cref="T:Sys.UI.DomElement"/> object.
+            </summary>
+            <param name="element">The DOM element to search.</param>
+            <returns>An array of <see cref="T:Sys.UI.Behavior"/> objects.</returns>
+        </member>
+        <member name="M:Sys.UI.Behavior.GetBehaviorsByType(System.DHTML.DOMElement,System.Type)">
+            <summary>
+            Gets an array of behaviors that are of the specified <see cref="T:System.Type"/> from the
+            specified <see cref="T:System.DHTML.DOMElement"/> instance.
+            </summary>
+            <param name="element">The DOM element to search.</param>
+            <param name="type">The type of the <see cref="T:Sys.UI.Behavior"/> object to look for.</param>
+            <returns>An array of all Behavior objects of the specified type associated with the specified DOM element instance, if found; otherwise, an empty array.</returns>
+        </member>
+        <member name="P:Sys.UI.Behavior.Element">
+            <summary>
+            Gets the <see cref="T:System.DHTML.DOMElement"/> instance that the current <see cref="T:Sys.UI.Behavior"/>
+            object is associated with.
+            </summary>
+        </member>
+        <member name="P:Sys.UI.Behavior.Name">
+            <summary>
+            Gets or sets the name of the <see cref="T:Sys.UI.Behavior"/> object.
+            </summary>
+        </member>
+        <member name="T:Sys.EventHandler">
+            <summary>
+            Delegate for handling generic events.
+            </summary>
+            <param name="sender">The object that raised the event.</param>
+            <param name="e">The <see cref="T:Sys.EventArgs"/> object that contains the event data.</param>
+        </member>
+        <member name="T:Sys.Net.WebServiceError">
+            <summary>
+            Represents the object type returned to the browser when a Web service issues an error.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceError.ExceptionType">
+            <summary>
+            Gets the error exception type.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceError.Message">
+            <summary>
+            Gets the error message.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceError.StackTrace">
+            <summary>
+            Gets the error stack trace.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceError.StatusCode">
+            <summary>
+            Gets the underlying HTTP error status code for the Web request.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebServiceError.TimedOut">
+            <summary>
+            Gets a value that indicates whether the Web service failed because of a time-out.
+            </summary>
+        </member>
+        <member name="T:Sys.Serialization.JavaScriptSerializer">
+            <summary>
+            Serializes ECMAScript (JavaScript) types into JSON-formatted data and deserializes
+            JSON-formatted data into JavaScript types.
+            </summary>
+        </member>
+        <member name="M:Sys.Serialization.JavaScriptSerializer.Deserialize(System.String)">
+            <summary>
+            Converts a JSON string into an ECMAScript (JavaScript) object graph.
+            </summary>
+            <param name="s">The JSON string to deserialize.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Sys.Serialization.JavaScriptSerializer.Serialize(System.Object)">
+            <summary>
+            Converts an ECMAScript (JavaScript) object graph into a JSON string.
+            </summary>
+            <param name="o">The JavaScript object graph to serialize.</param>
+            <returns>A JSON string representation of the JavaScript object graph.</returns>
+        </member>
+        <member name="T:Sys.Debug">
+            <summary>
+            Provides debugging and tracing functionality for client code. This is a static class that
+            is invoked directly without creating an instance of the class.
+            </summary>
+        </member>
+        <member name="M:Sys.Debug.Assert(System.Boolean)">
+            <summary>
+            Checks for a condition, and if false, displays a message and prompts the user to break into the debugger.
+            </summary>
+            <param name="condition">true to continue to execute code; false to display message and break into the debugger.</param>
+        </member>
+        <member name="M:Sys.Debug.Assert(System.Boolean,System.String)">
+            <summary>
+            Checks for a condition, and if false, displays a message and prompts the user to break into the debugger.
+            </summary>
+            <param name="condition">true to continue to execute code; false to display message and break into the debugger.</param>
+            <param name="message">The message to display. The default is an empty string ("").</param>
+        </member>
+        <member name="M:Sys.Debug.Assert(System.Boolean,System.String,System.Boolean)">
+            <summary>
+            Checks for a condition, and if false, displays a message and prompts the user to break into the debugger.
+            </summary>
+            <param name="condition">true to continue to execute code; false to display message and break into the debugger.</param>
+            <param name="message">The message to display. The default is an empty string ("").</param>
+            <param name="displayCaller">true to indicate that the name of the function that is calling assert should be displayed in the message. The default is false.</param>
+        </member>
+        <member name="M:Sys.Debug.ClearTrace">
+            <summary>
+            Clears all trace messages from the debugger output console.
+            </summary>
+        </member>
+        <member name="M:Sys.Debug.Fail(System.String)">
+            <summary>
+            Displays a message in the debugger's output window and breaks into the debugger.
+            </summary>
+            <param name="message">The message to display.</param>
+        </member>
+        <member name="M:Sys.Debug.Trace(System.String)">
+            <summary>
+            Appends a text line to the debugger console and to the <c>TraceConsole&lt;textarea&gt;</c> element, if available.
+            </summary>
+            <param name="text">The text to display.</param>
+        </member>
+        <member name="M:Sys.Debug.TraceDump(System.Object)">
+            <summary>
+            Dumps an object to the debugger console and to the <c>TraceConsole&lt;textarea&gt;</c> element, if available.
+            </summary>
+            <param name="obj">The object to dump.</param>
+        </member>
+        <member name="M:Sys.Debug.TraceDump(System.Object,System.String)">
+            <summary>
+            Dumps an object to the debugger console and to the <c>TraceConsole&lt;textarea&gt;</c> element, if available.
+            </summary>
+            <param name="obj">The object to dump.</param>
+            <param name="name">The name of the object.</param>
+        </member>
+        <member name="T:Sys.Application">
+            <summary>
+            Provides members that support client-component development.
+            </summary>
+        </member>
+        <member name="M:Sys.Application.AddComponent(Sys.Component)">
+            <summary>
+            Registers a component with the application and initializes it if the component is not
+            already initialized.
+            </summary>
+            <param name="component">An instance of a type derived from the <see cref="T:Sys.Component"/> class to register with the client application.</param>
+        </member>
+        <member name="M:Sys.Application.FindComponent(System.String)">
+            <summary>
+            Returns the specified <see cref="T:Sys.Component"/> object.
+            </summary>
+            <param name="id">A string that contains the ID of the component to find.</param>
+            <returns>A Component object that contains the component requested by ID, if found; otherwise, null.</returns>
+        </member>
+        <member name="M:Sys.Application.FindComponent(System.String,Sys.IContainer)">
+            <summary>
+            Returns the specified <see cref="T:Sys.Component"/> object.
+            </summary>
+            <param name="id">A string that contains the ID of the component to find.</param>
+            <param name="parent">The component or element that contains the component to find.</param>
+            <returns>A Component object that contains the component requested by ID, if found; otherwise, null.</returns>
+        </member>
+        <member name="M:Sys.Application.GetComponents">
+            <summary>
+            Returns an array of all components that have been registered with the application by
+            using the <see cref="M:Sys.Application.AddComponent(Sys.Component)"/> method.
+            </summary>
+            <returns>An array of all components that have been registered with the application by using the AddComponent method.</returns>
+        </member>
+        <member name="M:Sys.Application.Initialize">
+            <summary>
+            Initializes the application and raises the <see cref="E:Sys.Application.Load"/> event.
+            </summary>
+        </member>
+        <member name="M:Sys.Application.NotifyScriptLoaded">
+            <summary>
+            Called by a referenced script to indicate that it has been loaded.
+            </summary>
+        </member>
+        <member name="M:Sys.Application.QueueScriptReference(System.String)">
+            <summary>
+            Sequentially queues the scripts to be loaded in the queued order.
+            </summary>
+            <param name="scriptUrl">The URL for the referenced script.</param>
+        </member>
+        <member name="M:Sys.Application.RegisterDisposableObject(Sys.IDisposable)">
+            <summary>
+            Registers with the application an object that will require disposing.
+            </summary>
+            <param name="disposableObject">The object to register.</param>
+        </member>
+        <member name="M:Sys.Application.RemoveComponent(Sys.Component)">
+            <summary>
+            Removes the object from the application and disposes the object if it is disposable.
+            </summary>
+            <param name="component">The component to remove.</param>
+        </member>
+        <member name="M:Sys.Application.UnregisterDisposableObject(Sys.IDisposable)">
+            <summary>
+            Unregisters a disposable object from the application.
+            </summary>
+            <param name="disposableObject">The object to unregister.</param>
+        </member>
+        <member name="P:Sys.Application.IsCreatingComponents">
+            <summary>
+            Gets a value that indicates whether the application is in the process of creating components.
+            </summary>
+        </member>
+        <member name="E:Sys.Application.Init">
+            <summary>
+            Raised after all scripts have been loaded but before objects are created.
+            </summary>
+        </member>
+        <member name="E:Sys.Application.Load">
+            <summary>
+            Raised after all scripts have been loaded and the objects in the application have been
+            created and initialized.
+            </summary>
+        </member>
+        <member name="E:Sys.Application.Unload">
+            <summary>
+            Raised before all objects in the client application are disposed, typically when the DOM
+            window.unload event is raised.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.WebRequestManager">
+            <summary>
+            Manages the flow of Web requests between the <see cref="T:Sys.Net.WebRequest"/> object and the
+            executor instance that makes the network requests.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestManager.DefaultExecutorType">
+            <summary>
+            Gets or sets the default network executor type that is used to make network requests.
+            </summary>
+        </member>
+        <member name="P:Sys.Net.WebRequestManager.DefaultTimeout">
+            <summary>
+            Gets or sets the time-out for the default network executor.
+            </summary>
+            <value>The time in milliseconds that the default executor should wait before timing out a Web request. This value must be 0 or a positive integer.</value>
+        </member>
+        <member name="E:Sys.Net.WebRequestManager.InvokingRequest">
+            <summary>
+            Occurs before the Web request has executed.
+            </summary>
+        </member>
+        <member name="E:Sys.Net.WebRequestManager.CompletedRequest">
+            <summary>
+            Occurs after a web request has executed.
+            </summary>
+        </member>
+        <member name="T:Sys.Net.WebServiceSuccessCallback">
+            <summary>
+            Delegate for handling the <see cref="M:Sys.Net.WebServiceProxy.Invoke(System.String,System.String,System.Boolean,System.Dictionary,Sys.Net.WebServiceSuccessCallback,Sys.Net.WebServiceFailureCallback,System.Object,System.Int32)">
+            WebServiceProxy.Invoke</see> success callback.
+            </summary>
+            <param name="result">The result of the Web service call: either JSON, XML, or text.</param>
+            <param name="userContext">Any user-specific information. userContext can be any JavaScript primitive type, array, or object.</param>
+            <param name="methodName">The name of the Web service method that was invoked.</param>
+        </member>
+    </members>
+</doc>

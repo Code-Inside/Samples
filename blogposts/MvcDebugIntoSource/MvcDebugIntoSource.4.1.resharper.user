@@ -1,0 +1,34 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/d:Controllers/f:AccountController.cs" caret="0" scrollPosition="0|0" />
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/d:Controllers/f:HomeController.cs" caret="430" scrollPosition="0|4" />
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/f:Web.config" caret="3875" scrollPosition="0|28" />
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/d:Views/f:Web.config" caret="622" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/f:Web.config" caret="3598" scrollPosition="52|27" />
+      <File id="907DCB51-995A-4FAA-970B-09B0EE8BD71E/d:Views/f:Web.config" caret="622" scrollPosition="21|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

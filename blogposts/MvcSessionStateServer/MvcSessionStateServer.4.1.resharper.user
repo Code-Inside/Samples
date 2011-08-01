@@ -1,0 +1,62 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="413" scrollPosition="0|0" />
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/d:Views/f:Web.config" caret="0" scrollPosition="0|0" />
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/d:Controllers/f:HomeController.cs" caret="556" scrollPosition="0|3" />
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/f:Web.config" caret="2680" scrollPosition="0|13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/d:Controllers/f:HomeController.cs" caret="587" scrollPosition="7|0" />
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="413" scrollPosition="0|0" />
+      <File id="8D57B2C4-1081-44C3-AB53-26998356A16C/f:Web.config" caret="2819" scrollPosition="0|13" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:MvcSessionStateServer.Controllers.HomeController">
+      <Item value="Session" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="else" priority="0" />
+      <Item value="public" priority="0" />
+      <Item value="ActionResult" priority="0" />
+      <Item value="return" priority="0" />
+      <Item value="RedirectToAction" priority="0" />
+      <Item value="this" priority="0" />
+      <Item value="DateTime" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="ActionLink" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortTimeString" priority="1" />
+      <Item value="Second" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

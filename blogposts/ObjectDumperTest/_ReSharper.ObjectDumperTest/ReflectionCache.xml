@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Assemblies Version="1073741836">
+  <Assembly Name="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821" Image="0571d353-fe74-4dc5-b304-d1b360185253" Timestamp="633771981060000000" />
+  <Assembly Name="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="71f29603-4d06-45e9-9c01-1e9d1e56c3b1" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="f24e20b0-6f62-487f-ae6e-d3f9c1ea643f" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Image="d9353596-8ac1-4912-9259-6c5ea24e1ec6" Timestamp="633529644480000000" XmlDocIndexTimestamp="633489967300000000" />
+  <Assembly Name="JetBrains.Annotations, Version=4.1.933.3, Culture=neutral, PublicKeyToken=1010a0d8d6380325" Image="37e3c6e8-7dd9-4abb-af51-3fc9490f2a10" Timestamp="633559706920000000" XmlDocIndexTimestamp="633559706920000000" />
+</Assemblies>

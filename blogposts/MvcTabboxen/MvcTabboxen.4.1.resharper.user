@@ -1,0 +1,88 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab2.ascx" caret="74" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab3.ascx" caret="81" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="577" scrollPosition="0|17" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab1.ascx" caret="81" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/f:Global.asax.cs" caret="666" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="642" scrollPosition="0|28" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="922" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab1.ascx" caret="81" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab2.ascx" caret="81" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="577" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="66" scrollPosition="18|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="1015" scrollPosition="0|9" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Tab3.ascx" caret="81" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="2377" scrollPosition="0|18" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="2346" scrollPosition="0|29" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="2204" scrollPosition="2|18" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="407" scrollPosition="0|3" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="497" scrollPosition="0|3" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="861" scrollPosition="0|8" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:Controllers/f:HomeController.cs" caret="1013" scrollPosition="0|0" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="1537" scrollPosition="0|6" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="994" scrollPosition="0|6" />
+      <File id="4F916234-5636-41EA-9711-218D0905C180/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="428" scrollPosition="0|6" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="View" priority="3" />
+      <Item value="InsertionMode" priority="1" />
+      <Item value="Url" priority="2" />
+      <Item value="public" priority="2" />
+      <Item value="ActionResult" priority="0" />
+      <Item value="string" priority="1" />
+      <Item value="return" priority="2" />
+      <Item value="new" priority="0" />
+      <Item value="AjaxOptions" priority="0" />
+      <Item value="ViewData" priority="0" />
+      <Item value="ViewResult" priority="1" />
+      <Item value="if" priority="1" />
+      <Item value="id" priority="1" />
+      <Item value="Request" priority="0" />
+      <Item value="else" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="RenderPartial" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.Ajax.InsertionMode">
+      <Item value="Replace" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.UrlHelper">
+      <Item value="Action" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="IsAjaxRequest" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

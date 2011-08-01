@@ -1,0 +1,77 @@
+﻿namespace Microsoft.Web.Mvc.Controls {
+    using System;
+    using System.Collections;
+    using System.ComponentModel;
+    using System.Web.Mvc;
+    using System.Web.UI;
+
+    [ParseChildren(true)]
+    [PersistChildren(false)]
+    public class Repeater : MvcControl {
+        private string _name;
+
+        [DefaultValue(null)]
+        [Browsable(false)]
+        [PersistenceMode(PersistenceMode.InnerProperty)]
+        [TemplateContainer(typeof(RepeaterItem))]
+        [TemplateInstance(TemplateInstance.Multiple)]
+        public ITemplate ItemTemplate {
+            get;
+            set;
+        }
+
+        [DefaultValue(null)]
+        [Browsable(false)]
+        [PersistenceMode(PersistenceMode.InnerProperty)]
+        [TemplateContainer(typeof(RepeaterItem))]
+        [TemplateInstance(TemplateInstance.Single)]
+        public ITemplate EmptyDataTemplate {
+            get;
+            set;
+        }
+
+        [DefaultValue("")]
+        public string Name {
+            get {
+                return _name ?? String.Empty;
+            }
+            set {
+                _name = value;
+            }
+        }
+
+        protected override void OnPreRender(EventArgs e) {
+            base.OnPreRender(e);
+
+            // Dummy control to which we parent all the data item controls
+            Control containerControl = new Control();
+
+            IEnumerable dataItems = ViewData.Eval(Name) as IEnumerable;
+            bool hasData = false;
+            if (dataItems != null) {
+                int index = 0;
+                foreach (object dataItem in dataItems) {
+                    hasData = true;
+                    RepeaterItem repeaterItem = new RepeaterItem(index, dataItem) {
+                        ViewData = new ViewDataDictionary(dataItem),
+                    };
+                    ItemTemplate.InstantiateIn(repeaterItem);
+                    containerControl.Controls.Add(repeaterItem);
+
+                    index++;
+                }
+            }
+
+            if (!hasData) {
+                // If there was no data, instantiate the EmptyDataTemplate
+                Control emptyDataContainer = new Control();
+                EmptyDataTemplate.InstantiateIn(emptyDataContainer);
+                containerControl.Controls.Add(emptyDataContainer);
+            }
+
+            Controls.Add(containerControl);
+
+            containerControl.DataBind();
+        }
+    }
+}

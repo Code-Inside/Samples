@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderToString\MvcRenderToString\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderToString\MvcRenderToString\bin\MvcRenderToString.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderToString\MvcRenderToString\bin\MvcRenderToString.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderToString\MvcRenderToString\obj\Debug\MvcRenderToString.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcRenderToString\MvcRenderToString\obj\Debug\MvcRenderToString.pdb

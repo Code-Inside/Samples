@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding\bin\MvcBinding.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding\bin\MvcBinding.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding\obj\Debug\MvcBinding.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcBinding\MvcBinding\obj\Debug\MvcBinding.pdb

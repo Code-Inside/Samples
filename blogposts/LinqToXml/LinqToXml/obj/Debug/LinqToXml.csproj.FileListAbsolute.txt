@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToSql\LinqToSql\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\bin\Debug\LinqToXml.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\bin\Debug\LinqToXml.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\obj\Debug\LinqToXml.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\obj\Debug\LinqToXml.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXml\LinqToXml\bin\Debug\Sample.xml

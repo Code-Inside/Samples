@@ -1,0 +1,105 @@
+﻿<s:SurfaceWindow
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" x:Class="SurfaceTwitter.SurfaceWindowApp"
+    Title="SurfaceTwitter"
+    mc:Ignorable="d"
+    >
+  <s:SurfaceWindow.Resources>
+    <ImageBrush x:Key="WindowBackground" Stretch="None" ImageSource="pack://application:,,,/Resources/WindowBackground.jpg"/>
+    <Style x:Key="Error">
+        <Setter Property="Control.Foreground" Value="Red" />
+        <Setter Property="Control.FontWeight" Value="Bold" />
+    </Style>
+    </s:SurfaceWindow.Resources>
+    <s:ScatterView Background="{StaticResource WindowBackground}">
+        <!-- Tweets -->
+        <s:ScatterViewItem CanScale="False" x:Name="TweetsList" Visibility="Hidden" Margin="0,0,0,0" Padding="20,20,20,20" Width="310" Height="500" Background="#FFFFFFFF">
+            <s:SurfaceListBox ItemsSource="{Binding}" Background="{x:Null}">
+                    <s:SurfaceListBox.ItemTemplate>
+                                 <DataTemplate>
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Height="48" Width="48" Source="{Binding Path=User.PictureUrl}" />
+                                    <TextBlock Padding="3" Width="170" TextWrapping="Wrap" Text="{Binding Path=Message}" />
+                                </StackPanel>
+                            </DataTemplate>
+                        </s:SurfaceListBox.ItemTemplate>
+            </s:SurfaceListBox>
+        </s:ScatterViewItem>
+        <!--  Login -->
+        <s:ScatterViewItem CanScale="False" x:Name="Login" VerticalAlignment="Bottom" RenderTransformOrigin="0.5,0.5" Height="136.252" Margin="-45.49,0,-117.519,-109.58">
+        	<s:ScatterViewItem.RenderTransform>
+        		<TransformGroup>
+        			<ScaleTransform ScaleX="1" ScaleY="-1"/>
+        			<SkewTransform AngleX="0" AngleY="0"/>
+        			<RotateTransform Angle="-178.88531424984586"/>
+        			<TranslateTransform X="39.254523027653761" Y="-57.571783304237542"/>
+        		</TransformGroup>
+        	</s:ScatterViewItem.RenderTransform>
+        	<s:ScatterViewItem.Background>
+        		<LinearGradientBrush EndPoint="0,0" StartPoint="0,1">
+        			<GradientStop Color="#FFFFFFFF" Offset="0"/>
+        			<GradientStop Color="#FFFFFFFF" Offset="1"/>
+        		</LinearGradientBrush>
+        	</s:ScatterViewItem.Background>
+            <StackPanel Margin="0,0,0,-2">
+            <StackPanel>
+                <Label Content="Name" HorizontalAlignment="Left" />
+                <s:SurfaceTextBox x:Name="Username" Text="" />
+            </StackPanel>
+            <StackPanel VerticalAlignment="Top">
+                <Label Content="Password" />
+                <s:SurfacePasswordBox x:Name="Password" Password="" />
+            </StackPanel>
+            <s:SurfaceButton Click="Login_Click" Content="Login" Background="#33A4B4BD"/>
+        </StackPanel>
+        </s:ScatterViewItem>
+        <!-- Drawing Pad - InkCanvas with white background and small border -->
+        <s:ScatterViewItem CanScale="False" Height="Auto" x:Name="Writer" Visibility="Hidden" Background="Transparent" Width="Auto" BorderThickness="1,1,1,1">
+            <StackPanel Height="290" Margin="0,-3,0,0">
+                <!-- Image box-->
+                <StackPanel Orientation="Horizontal" Height="200" Width="Auto">
+                    <!-- The Ink Canvas -->
+                    <Viewbox StretchDirection="Both" MaxHeight="250" MaxWidth="360" Stretch="Fill">
+                        <s:SurfaceInkCanvas x:Name="DrawingPadCanvas" StrokeCollected="OnStrokeCollected" Height="256" Width="342" Background="White"/>
+                    </Viewbox>
+                    <!-- The Buttons -->
+                    <StackPanel Width="30">
+                        <!-- Edit Mode -->
+                        <s:SurfaceButton Name="EditModeButton" Padding="5" Click="EditModeClicked">
+                            <Image Source="Resources\Draw.png" />
+                        </s:SurfaceButton>
+
+                        <!-- Undo Button -->
+                        <s:SurfaceButton Padding="5" Click="UndoClicked">
+                            <Image Source="Resources\Undo.png"/>
+                        </s:SurfaceButton>
+                        
+                        <Grid>
+                        <!-- Current Color Button -->
+                        <Ellipse Name="CurrentColor" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Fill="Black"
+                        s:Contacts.ContactTapGesture="OnCurrentColorTap"
+                        s:Contacts.PreviewContactDown="OnColorSelectionPreviewContactDown" Height="30" />
+
+                        <!-- Color Wheel -->
+                        <Image Name="ColorWheel" Source="Resources\ColorWheel.png" RenderTransformOrigin="0.5, 0.5" Visibility="Visible"
+                        s:Contacts.ContactTapGesture="OnColorWheelContactTap"
+                        s:Contacts.PreviewContactDown="OnColorSelectionPreviewContactDown" Stretch="Uniform" Height="Auto">
+                            <Image.RenderTransform>
+                                <!-- Transform it so it extends beyond the borders of the grid -->
+                                <ScaleTransform ScaleX="4" ScaleY="4"/>
+                            </Image.RenderTransform>
+                        </Image>
+                        </Grid>
+                    </StackPanel>
+                </StackPanel>
+                <!-- Writing Box-->
+                <StackPanel Background="#FFFFFFFF" Orientation="Horizontal">
+                    <s:SurfaceTextBox  x:Name="InputTweet" MaxLength="140" MaxWidth="300" TextWrapping="Wrap" Width="310" Height="60" />
+                    <s:SurfaceButton Click="Tweet_Click" Content="Tweet This!" Background="#33A4B4BD" />
+                </StackPanel>
+            </StackPanel>
+        </s:ScatterViewItem>
+    </s:ScatterView>
+</s:SurfaceWindow>

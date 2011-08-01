@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ServiceConfiguration serviceName="MoveToAzure.WebHost" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration">
+  <Role name="MoveToAzure.WebApp">
+    <Instances count="1" />
+    <ConfigurationSettings />
+  </Role>
+</ServiceConfiguration>

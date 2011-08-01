@@ -1,0 +1,14 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\bin\Debug\WPFAero.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\bin\Debug\WPFAero.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\StandardWindow.baml
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\StandardWindow.g.cs
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\App.g.cs
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero_MarkupCompile.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero.g.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero.Properties.Resources.resources
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero.csproj.GenerateResource.Cache
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\WPFAero.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\AeroWindow.baml
+C:\Users\Robert\AppData\Local\Temporary Projects\WPFAero\obj\Debug\AeroWindow.g.cs

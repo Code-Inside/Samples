@@ -1,0 +1,21 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+   <PropertyGroup>
+		<OutDir>$(MSBuildStartupDirectory)\OutDir\</OutDir>
+		<SolutionProperties>
+					OutDir=$(OutDir);
+					Platform=Any CPU;
+					Configuration=Release
+		</SolutionProperties>
+   </PropertyGroup>
+	<ItemGroup>
+		<Solution Include="..\MsBuildSample.sln">
+			<Properties>
+							$(SolutionProperties)
+			</Properties>
+		</Solution>
+	</ItemGroup>
+	<Target Name="Build">
+		<MSBuild Projects="@(Solution)"/>
+	</Target>
+</Project>
+ 

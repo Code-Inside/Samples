@@ -1,0 +1,48 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="E5E30E44-5B4C-4E09-94E4-93685BF768CB/f:MSBuild.Community.Tasks.Targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?Lib?MSBuild.Community.Tasks.Targets" caret="0" fromTop="0" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:LocalBuild.bat/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?LocalBuild.bat" caret="0" fromTop="0" />
+      <File id="643AC1FA-BBEA-4EA4-A5F9-1A99804922F0/f:FooBarTest.cs" caret="382" fromTop="19" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="1381" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="503" fromTop="21" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="360" fromTop="7" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="674" fromTop="15" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="934" fromTop="0" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="838" fromTop="0" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="1369" fromTop="10" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="216" fromTop="2" />
+      <File id="643AC1FA-BBEA-4EA4-A5F9-1A99804922F0/f:FooBarTest.cs" caret="393" fromTop="20" />
+      <File id="643AC1FA-BBEA-4EA4-A5F9-1A99804922F0/f:FooBarTest.cs" caret="367" fromTop="17" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="1294" fromTop="19" />
+      <File id="03A7BFEC-D69D-4ED4-9128-7787403800CC/f:CommonBuildSteps.targets/l:C!?Users?robert?Documents?Visual Studio 2010?Projects?Blogposts?MSBuildNUnit?Build?CommonBuildSteps.targets" caret="1013" fromTop="10" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.8\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="IsTrue`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="TestFixtureTearDown" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

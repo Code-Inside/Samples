@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.dll.config
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\obj\Debug\DllMembership.Lib.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\obj\Debug\DllMembership.Lib.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\App.config

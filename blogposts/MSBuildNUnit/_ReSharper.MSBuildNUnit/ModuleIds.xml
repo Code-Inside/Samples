@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="7DACDBBB-3215-4B47-80B9-A89D0F69111A" ModuleId="MSBuildNUnit.Business" />
+  <Module PersistentId="643AC1FA-BBEA-4EA4-A5F9-1A99804922F0" ModuleId="MSBuildNUnit.Tests" />
+</Modules>

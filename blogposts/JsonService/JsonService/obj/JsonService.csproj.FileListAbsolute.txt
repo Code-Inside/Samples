@@ -1,0 +1,5 @@
+C:\Users\Robert\Desktop\Blogpost\JsonService\JsonService\bin\JsonService.dll
+C:\Users\Robert\Desktop\Blogpost\JsonService\JsonService\bin\JsonService.pdb
+C:\Users\Robert\Desktop\Blogpost\JsonService\JsonService\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\Desktop\Blogpost\JsonService\JsonService\obj\Debug\JsonService.dll
+C:\Users\Robert\Desktop\Blogpost\JsonService\JsonService\obj\Debug\JsonService.pdb

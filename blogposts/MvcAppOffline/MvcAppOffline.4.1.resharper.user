@@ -1,0 +1,54 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:Controllers/f:HomeController.cs" caret="514" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="406" scrollPosition="7|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:xApp_Offline.htm" caret="338" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="948" scrollPosition="0|2" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:xApp_Offline.htm" caret="0" scrollPosition="48|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:xApp_Offline.htm" caret="1257" scrollPosition="5|32" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:xApp_Offline.htm" caret="364" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="496" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:Controllers/f:HomeController.cs" caret="462" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="438" scrollPosition="7|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1421" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="1415" scrollPosition="0|0" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="835" scrollPosition="0|2" />
+      <File id="FB45AB4C-B508-4010-9B89-0C609435FB4A/d:__RESHARPER__DummyWebPages_/f:Site.Master" caret="965" scrollPosition="0|2" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.Mvc.AjaxHelper">
+      <Item value="ActionLink" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="0" />
+      <Item value="AjaxOptions" priority="0" />
+      <Item value="UpdateTargetId" priority="0" />
+      <Item value="OnFailure" priority="1" />
+      <Item value="Url" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

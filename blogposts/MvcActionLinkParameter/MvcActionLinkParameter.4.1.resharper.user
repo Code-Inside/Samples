@@ -1,0 +1,42 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F78EBD52-BCF9-4FA0-AE25-92293177F19E/d:Controllers/f:AccountController.cs" caret="0" scrollPosition="0|0" />
+      <File id="F78EBD52-BCF9-4FA0-AE25-92293177F19E/d:Controllers/f:HomeController.cs" caret="612" scrollPosition="0|0" />
+      <File id="F78EBD52-BCF9-4FA0-AE25-92293177F19E/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="396" scrollPosition="6|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F78EBD52-BCF9-4FA0-AE25-92293177F19E/d:Controllers/f:HomeController.cs" caret="599" scrollPosition="0|0" />
+      <File id="F78EBD52-BCF9-4FA0-AE25-92293177F19E/d:__RESHARPER__DummyWebPages_/f:Index.aspx" caret="623" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="return" priority="0" />
+      <Item value="object" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper">
+      <Item value="ActionLink" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,56 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Views/d:Home/f:Index.aspx" caret="350" fromTop="8" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Controllers/f:HomeController.cs" caret="807" fromTop="19" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Views/f:Web.config" caret="58" fromTop="3" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/f:Web.config" caret="533" fromTop="15" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Controllers/f:HomeController.cs" caret="706" fromTop="19" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Controllers/f:HomeController.cs" caret="667" fromTop="17" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Views/d:Home/f:Index.aspx" caret="451" fromTop="9" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Controllers/f:HomeController.cs" caret="267" fromTop="4" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Controllers/f:HomeController.cs" caret="422" fromTop="11" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/d:Views/f:Web.config" caret="58" fromTop="3" />
+      <File id="FF549525-7691-495F-B494-79B1F099249A/f:Web.config" caret="533" fromTop="15" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="BeginForm`0" priority="0" />
+      <Item value="TextBox`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="Html" priority="0" />
+      <Item value="string" priority="0" />
+      <Item value="htmlInput" priority="0" />
+      <Item value="ViewData" priority="0" />
+      <Item value="AcceptVerbs" priority="0" />
+      <Item value="HttpVerbs`0" priority="0" />
+      <Item value="ValidateInput" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.HttpVerbs">
+      <Item value="Get" priority="0" />
+      <Item value="Post" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

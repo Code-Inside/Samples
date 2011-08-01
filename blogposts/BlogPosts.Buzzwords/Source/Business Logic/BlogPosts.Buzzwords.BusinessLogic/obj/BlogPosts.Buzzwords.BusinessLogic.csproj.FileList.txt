@@ -1,0 +1,12 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\BlogPosts.Buzzwords.BusinessLogic.dll
+bin\Debug\BlogPosts.Buzzwords.BusinessLogic.pdb
+bin\Debug\BlogPosts.Buzzwords.BusinessEntities.dll
+bin\Debug\BlogPosts.Buzzwords.DataAccess.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\BlogPosts.Buzzwords.DataAccess.pdb
+bin\Debug\BlogPosts.Buzzwords.BusinessEntities.pdb
+obj\Debug\BlogPosts.Buzzwords.BusinessLogic.dll
+obj\Debug\BlogPosts.Buzzwords.BusinessLogic.pdb

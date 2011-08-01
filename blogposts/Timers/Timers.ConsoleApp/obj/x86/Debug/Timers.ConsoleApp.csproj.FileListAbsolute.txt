@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Timers\Timers.ConsoleApp\bin\Debug\Timers.ConsoleApp.exe
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Timers\Timers.ConsoleApp\bin\Debug\Timers.ConsoleApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Timers\Timers.ConsoleApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Timers\Timers.ConsoleApp\obj\x86\Debug\Timers.ConsoleApp.exe
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Timers\Timers.ConsoleApp\obj\x86\Debug\Timers.ConsoleApp.pdb

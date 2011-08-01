@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXmlWriter\LinqToXmlWriter\bin\Debug\LinqToXmlWriter.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXmlWriter\LinqToXmlWriter\bin\Debug\LinqToXmlWriter.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXmlWriter\LinqToXmlWriter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXmlWriter\LinqToXmlWriter\obj\Debug\LinqToXmlWriter.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\LinqToXmlWriter\LinqToXmlWriter\obj\Debug\LinqToXmlWriter.pdb

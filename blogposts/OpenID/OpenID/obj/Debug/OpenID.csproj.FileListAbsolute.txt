@@ -1,0 +1,6 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\bin\OpenID.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\bin\OpenID.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\bin\DotNetOpenAuth.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\obj\Debug\OpenID.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\OpenID\OpenID\obj\Debug\OpenID.pdb

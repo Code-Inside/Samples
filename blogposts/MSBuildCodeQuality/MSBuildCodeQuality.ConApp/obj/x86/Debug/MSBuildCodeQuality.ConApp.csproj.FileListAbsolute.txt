@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.ConApp\bin\Debug\MSBuildCodeQuality.ConApp.exe
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.ConApp\bin\Debug\MSBuildCodeQuality.ConApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.ConApp\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.ConApp\obj\x86\Debug\MSBuildCodeQuality.ConApp.exe
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.ConApp\obj\x86\Debug\MSBuildCodeQuality.ConApp.pdb

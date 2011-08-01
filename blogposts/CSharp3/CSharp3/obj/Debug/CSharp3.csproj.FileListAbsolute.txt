@@ -1,0 +1,5 @@
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\bin\Debug\CSharp3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\bin\Debug\CSharp3.pdb
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Debug\CSharp3.exe
+C:\Users\Robert\AppData\Local\Temporary Projects\CSharp3\obj\Debug\CSharp3.pdb

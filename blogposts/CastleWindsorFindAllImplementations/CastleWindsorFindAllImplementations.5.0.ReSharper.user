@@ -1,0 +1,78 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">False</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="63F447F3-602D-4CB6-B375-91D8FA2A696F/d:Commands/f:WakeUpCommand.cs" caret="17" fromTop="1" />
+      <File id="63F447F3-602D-4CB6-B375-91D8FA2A696F/f:ApplicationRunner.cs" caret="55" fromTop="1" />
+      <File id="63F447F3-602D-4CB6-B375-91D8FA2A696F/f:Program.cs" caret="812" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="63F447F3-602D-4CB6-B375-91D8FA2A696F/f:Program.cs" caret="498" fromTop="13" />
+      <File id="63F447F3-602D-4CB6-B375-91D8FA2A696F/f:Program.cs" caret="794" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="5" />
+      <Item value="interface" priority="1" />
+      <Item value="void" priority="1" />
+      <Item value="class" priority="1" />
+      <Item value="ICommand`0" priority="2" />
+      <Item value="Console`0" priority="0" />
+      <Item value="ApplicationRunner`0" priority="2" />
+      <Item value="this" priority="0" />
+      <Item value="commands" priority="0" />
+      <Item value="foreach" priority="0" />
+      <Item value="command" priority="0" />
+      <Item value="Castle" priority="0" />
+      <Item value="MicroKernel" priority="0" />
+      <Item value="Core" priority="0" />
+      <Item value="Configuration" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="WindsorContainer" priority="0" />
+      <Item value="typeof" priority="2" />
+      <Item value="IApplicationRunner`0" priority="2" />
+      <Item value="container" priority="0" />
+      <Item value="runner" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="WriteLine`0" priority="0" />
+      <Item value="ReadLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CastleWindsorFindAllImplementations.ApplicationRunner">
+      <Item value="_commands" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CastleWindsorFindAllImplementations.Commands.ICommand">
+      <Item value="Execute`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Assembly" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.Windsor.IWindsorContainer">
+      <Item value="Register`0" priority="0" />
+      <Item value="AddComponent`2" priority="0" />
+      <Item value="Resolve`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CastleWindsorFindAllImplementations.IApplicationRunner">
+      <Item value="Run`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,34 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+<Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.Community.Tasks.Targets"/>
+   <PropertyGroup>
+		<OutDir>$(MSBuildStartupDirectory)\OutDir\</OutDir>
+		<SolutionProperties>
+					OutDir=$(OutDir);
+					Platform=Any CPU;
+					Configuration=Release
+		</SolutionProperties>
+   </PropertyGroup>
+	<ItemGroup>
+		<Solution Include="..\MsBuildSample.sln">
+			<Properties>
+							$(SolutionProperties)
+			</Properties>
+		</Solution>
+	</ItemGroup>
+	<Target Name="Build">
+		<MSBuild Projects="@(Solution)"/>
+	</Target>
+	<Target Name="RunTests">
+		<Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\MsBuildSample.WebApp.Tests.dll" /testcontainer:"$(MSBuildStartupDirectory)\OutDir\AnotherTestProject.dll"' />
+	</Target>
+	<ItemGroup>
+	  <!-- All files from build -->
+	  <ZipFiles Include="$(OutDir)_PublishedWebsites\**\*.*" />
+  </ItemGroup>
+	<Target Name="Zip">
+		<Zip Files="@(ZipFiles)"
+			 WorkingDirectory="$(OutDir)_PublishedWebsites\" 
+			 ZipFileName="$(OutDir)Package.zip"/> 
+	</Target>
+</Project>
+ 

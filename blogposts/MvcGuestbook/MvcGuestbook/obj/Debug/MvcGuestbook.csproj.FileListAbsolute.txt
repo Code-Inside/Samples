@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook\bin\MvcGuestbook.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook\bin\MvcGuestbook.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook\obj\Debug\MvcGuestbook.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook\obj\Debug\MvcGuestbook.pdb

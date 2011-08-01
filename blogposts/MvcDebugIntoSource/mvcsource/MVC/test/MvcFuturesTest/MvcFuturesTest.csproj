@@ -1,0 +1,144 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6C28DA70-60F1-4442-967F-591BF3962EC5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Microsoft.Web</RootNamespace>
+    <AssemblyName>MvcFuturesTest</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Moq, Version=2.0.2991.26580, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\tools\Moq\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceAssemblies\System.Web.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing, Version=0.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ReferenceAssemblies\System.Web.Routing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mvc\Controls\Test\DesignModeSite.cs" />
+    <Compile Include="Mvc\Controls\Test\DropDownListTest.cs" />
+    <Compile Include="Mvc\Controls\Test\MvcControlTest.cs" />
+    <Compile Include="Mvc\Controls\Test\MvcTestHelper.cs" />
+    <Compile Include="Mvc\Controls\Test\ViewDataContainer.cs" />
+    <Compile Include="Mvc\Test\AsyncActionDescriptorTest.cs" />
+    <Compile Include="Mvc\Test\AsyncActionMethodSelectorTest.cs" />
+    <Compile Include="Mvc\Test\AsyncControllerActionInvokerTest.cs" />
+    <Compile Include="Mvc\Test\AsyncControllerDescriptorCacheTest.cs" />
+    <Compile Include="Mvc\Test\AsyncControllerTest.cs" />
+    <Compile Include="Mvc\Test\AsyncManagerTest.cs" />
+    <Compile Include="Mvc\Test\AsyncResultWrapperTest.cs" />
+    <Compile Include="Mvc\Test\AsyncRouteCollectionExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\AsyncTimeoutAttributeTest.cs" />
+    <Compile Include="Mvc\Test\BinaryHtmlExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\ButtonTest.cs" />
+    <Compile Include="Mvc\Test\ByteArrayModelBinderTest.cs" />
+    <Compile Include="Mvc\Test\ContentTypeAttributeTest.cs" />
+    <Compile Include="Mvc\Test\ContinuationListenerTest.cs" />
+    <Compile Include="Mvc\Test\ControllerFilterHelpers.cs" />
+    <Compile Include="Mvc\Test\CookieTempDataProviderTest.cs" />
+    <Compile Include="Mvc\Test\AcceptAjaxAttributeTest.cs" />
+    <Compile Include="Mvc\Test\AjaxExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\RequireSslAttributeTest.cs" />
+    <Compile Include="Mvc\Test\DescriptorUtilTest.cs" />
+    <Compile Include="Mvc\Test\ExpressionHelperTest.cs" />
+    <Compile Include="Mvc\Test\LinqBinaryModelBinderTest.cs" />
+    <Compile Include="Mvc\Test\MailToExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\ManualAsyncResultTest.cs" />
+    <Compile Include="Mvc\Test\MethodDispatcherCacheTest.cs" />
+    <Compile Include="Mvc\Test\MethodDispatcherTest.cs" />
+    <Compile Include="Mvc\Test\MockAsyncResult.cs" />
+    <Compile Include="Mvc\Test\MvcAsyncHandlerTest.cs" />
+    <Compile Include="Mvc\Test\MvcAsyncRouteHandlerTest.cs" />
+    <Compile Include="Mvc\Test\NoAsyncTimeoutAttributeTest.cs" />
+    <Compile Include="Mvc\Test\ObjectAsyncResultTest.cs" />
+    <Compile Include="Mvc\Test\OutstandingAsyncOperationsTest.cs" />
+    <Compile Include="Mvc\Test\ReaderWriterCacheTest.cs" />
+    <Compile Include="Mvc\Test\ReflectedAsyncControllerDescriptorTest.cs" />
+    <Compile Include="Mvc\Test\ReflectedAsyncPatternActionDescriptorTest.cs" />
+    <Compile Include="Mvc\Test\ReflectedDelegatePatternActionDescriptorTest.cs" />
+    <Compile Include="Mvc\Test\ReflectedEventPatternActionDescriptorTest.cs" />
+    <Compile Include="Mvc\Test\RenderActionTest.cs" />
+    <Compile Include="Mvc\Test\SignalContainer.cs" />
+    <Compile Include="Mvc\Test\SingleFireEventTest.cs" />
+    <Compile Include="Mvc\Test\ExpressionInputExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\SkipBindingAttributeTest.cs" />
+    <Compile Include="Mvc\Test\FileCollectionModelBinderTest.cs" />
+    <Compile Include="Mvc\Test\FormExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\RadioExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\SubmitImageExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\ImageExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\SubmitButtonExtensionsTest.cs" />
+    <Compile Include="Mvc\Test\SynchronizationContextHelperTest.cs" />
+    <Compile Include="Mvc\Test\TypeHelpersTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MvcFutures\MvcFutures.csproj">
+      <Project>{D3CF7430-6DA4-42B0-BD90-CA39D16687B2}</Project>
+      <Name>MvcFutures</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\src\SystemWebMvc\System.Web.Mvc.csproj">
+      <Project>{3D3FFD8A-624D-4E9B-954B-E1C105507975}</Project>
+      <Name>System.Web.Mvc</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SystemWebMvcTest\System.Web.Mvc.Test.csproj">
+      <Project>{8AC2A2E4-2F11-4D40-A887-62E2583A65E6}</Project>
+      <Name>System.Web.Mvc.Test</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UnitTestUtil\UnitTestUtil.csproj">
+      <Project>{57FFC134-7F9D-4B97-8692-8D2C16714663}</Project>
+      <Name>UnitTestUtil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

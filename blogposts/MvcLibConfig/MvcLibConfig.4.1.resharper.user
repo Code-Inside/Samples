@@ -1,0 +1,43 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="83490ABA-D915-4A1B-9F35-D8CFDE029223/f:Web.config" caret="11234" scrollPosition="0|14" />
+      <File id="83490ABA-D915-4A1B-9F35-D8CFDE029223/d:Controllers/f:HomeController.cs" caret="340" scrollPosition="0|0" />
+      <File id="200F0A39-8FBA-4BAF-B16A-6ED55439806C/f:ReadFromConfig.cs" caret="269" scrollPosition="0|0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="200F0A39-8FBA-4BAF-B16A-6ED55439806C/f:ReadFromConfig.cs" caret="298" scrollPosition="0|0" />
+      <File id="200F0A39-8FBA-4BAF-B16A-6ED55439806C/f:ReadFromConfig.cs" caret="269" scrollPosition="0|0" />
+      <File id="83490ABA-D915-4A1B-9F35-D8CFDE029223/f:Web.config" caret="11234" scrollPosition="0|14" />
+      <File id="83490ABA-D915-4A1B-9F35-D8CFDE029223/d:Controllers/f:HomeController.cs" caret="339" scrollPosition="0|0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Lib.ReadFromConfig">
+      <Item value="Get" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

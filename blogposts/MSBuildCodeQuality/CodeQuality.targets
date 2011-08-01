@@ -1,0 +1,30 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Measure">
+  <!--<Import Project="$(MSBuildStartupDirectory)\Lib\MSBuild.ExtensionPack.tasks"/>-->
+  <UsingTask AssemblyFile="$(MSBuildStartupDirectory)\Lib\MSBuild.ExtensionPack.StyleCop.dll" TaskName="MSBuild.ExtensionPack.CodeQuality.StyleCop"/>
+  <PropertyGroup>
+    <OutDir>$(MSBuildStartupDirectory)</OutDir>
+  </PropertyGroup>
+  <Target Name="Measure">
+    <Message Text="Measure called." />
+
+    <CreateItem Include="$(MSBuildStartupDirectory)\**\*.cs">
+      <Output TaskParameter="Include" ItemName="StyleCopFiles"/>
+    </CreateItem>
+    
+    <MSBuild.ExtensionPack.CodeQuality.StyleCop
+          TaskAction="Scan"
+          ShowOutput="true"
+          ForceFullAnalysis="true"
+          CacheResults="false"
+          SourceFiles="@(StyleCopFiles)"
+          logFile="$(OutDir)\StyleCopLog.txt"
+          SettingsFile="$(MSBuildStartupDirectory)\Settings.StyleCop"
+          ContinueOnError="false">
+          <Output TaskParameter="Succeeded" PropertyName="AllPassed"/>
+          <Output TaskParameter="ViolationCount" PropertyName="Violations"/>
+          <Output TaskParameter="FailedFiles" ItemName="Failures"/>
+    </MSBuild.ExtensionPack.CodeQuality.StyleCop>
+    <Message Text="Succeeded: $(AllPassed), Violations: $(Violations)" />
+  </Target>
+
+</Project>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRunConfiguration name="Local Test Run" id="384c4837-43a2-4875-9b3b-90648f58aa89" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <Description>This is a default test run configuration for a local test run.</Description>
+  <CodeCoverage enabled="true">
+    <Regular>
+      <CodeCoverageItem binaryFile="ThreeTier.Data\bin\Debug\ThreeTier.Data.dll" pdbFile="ThreeTier.Data\bin\Debug\ThreeTier.Data.pdb" instrumentInPlace="true" />
+      <CodeCoverageItem binaryFile="ThreeTier.ConsoleApp\bin\Debug\ThreeTier.ConsoleApp.exe" pdbFile="ThreeTier.ConsoleApp\bin\Debug\ThreeTier.ConsoleApp.pdb" instrumentInPlace="true" />
+      <CodeCoverageItem binaryFile="ThreeTier.Service\bin\Debug\ThreeTier.Service.dll" pdbFile="ThreeTier.Service\bin\Debug\ThreeTier.Service.pdb" instrumentInPlace="true" />
+    </Regular>
+  </CodeCoverage>
+  <TestTypeSpecific />
+</TestRunConfiguration>

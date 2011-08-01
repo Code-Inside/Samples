@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcSessionless\MvcSessionless\bin\MvcSessionless.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcSessionless\MvcSessionless\bin\MvcSessionless.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcSessionless\MvcSessionless\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcSessionless\MvcSessionless\obj\Debug\MvcSessionless.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcSessionless\MvcSessionless\obj\Debug\MvcSessionless.pdb

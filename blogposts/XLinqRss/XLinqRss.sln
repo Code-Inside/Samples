@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLinqRss", "XLinqRss\XLinqRss.csproj", "{A298B8F1-9129-40B9-99E7-BA4737C66102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A298B8F1-9129-40B9-99E7-BA4737C66102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A298B8F1-9129-40B9-99E7-BA4737C66102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A298B8F1-9129-40B9-99E7-BA4737C66102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A298B8F1-9129-40B9-99E7-BA4737C66102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

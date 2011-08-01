@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AscxToAspx\AscxToAspx\bin\AscxToAspx.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AscxToAspx\AscxToAspx\bin\AscxToAspx.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AscxToAspx\AscxToAspx\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AscxToAspx\AscxToAspx\obj\Debug\AscxToAspx.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AscxToAspx\AscxToAspx\obj\Debug\AscxToAspx.pdb

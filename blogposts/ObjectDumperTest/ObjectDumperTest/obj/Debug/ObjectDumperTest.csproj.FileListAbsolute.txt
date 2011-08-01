@@ -1,0 +1,12 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.exe.config
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\obj\Debug\ObjectDumperTest.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\[NonTFS]\ObjectDumperTest\ObjectDumperTest\obj\Debug\ObjectDumperTest.pdb
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.exe.config
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\obj\Debug\ObjectDumperTest.exe
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\obj\Debug\ObjectDumperTest.pdb
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.exe
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\bin\Debug\ObjectDumperTest.pdb
+C:\Users\rmu\Desktop\object\ObjectDumperTest\ObjectDumperTest\obj\Debug\ResolveAssemblyReference.cache

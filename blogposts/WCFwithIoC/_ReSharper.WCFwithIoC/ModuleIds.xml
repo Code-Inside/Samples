@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="F5432B9E-1B0B-45E4-AA38-6EDB520CE3E8" ModuleId="Client" />
+  <Module PersistentId="0ABA738B-6C8C-4F50-8266-5927B91042D7" ModuleId="ClassLibrary1" />
+  <Module PersistentId="F53E9402-7EB7-401C-85DA-9FC4D10FD3F3" ModuleId="Contracts" />
+  <Module PersistentId="985F4AB0-C9EB-4695-BFA2-082CD7CF0166" ModuleId="Host" />
+</Modules>

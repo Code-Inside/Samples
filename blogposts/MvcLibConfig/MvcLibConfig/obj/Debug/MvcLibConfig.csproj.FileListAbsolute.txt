@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\bin\MvcLibConfig.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\bin\MvcLibConfig.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\bin\Lib.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\bin\Lib.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\obj\Debug\MvcLibConfig.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLibConfig\MvcLibConfig\obj\Debug\MvcLibConfig.pdb

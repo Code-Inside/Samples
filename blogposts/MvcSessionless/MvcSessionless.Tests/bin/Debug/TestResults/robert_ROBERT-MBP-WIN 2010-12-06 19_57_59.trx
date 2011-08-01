@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9cf4d182-8706-4c4f-9d39-20e05eaa0083" name="robert@ROBERT-MBP-WIN 2010-12-06 19:57:59" runUser="Robert-MBP-Win\robert" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5967d207-a91c-4af1-9929-2be73cf006a5">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="robert_ROBERT-MBP-WIN 2010-12-06 19_57_59" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-06T19:57:59.3567724+01:00" queuing="2010-12-06T19:57:59.8269980+01:00" start="2010-12-06T19:58:00.0713980+01:00" finish="2010-12-06T19:58:00.3597900+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SessionLess" storage="c:\users\robert\documents\visual studio 2010\projects\blogposts\mvcsessionless\mvcsessionless.tests\bin\debug\mvcsessionless.tests.dll" id="22d824e9-7772-d6cc-7e64-03acfec3ffce">
+      <Execution timeOut="1800000" id="160a5493-02de-48ce-bd8d-f3b73823ef61" />
+      <TestMethod codeBase="C:/Users/robert/Documents/Visual Studio 2010/Projects/Blogposts/MvcSessionless/MvcSessionless.Tests/bin/Debug/MvcSessionless.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcSessionless.Tests.Performance, MvcSessionless.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SessionLess" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="22d824e9-7772-d6cc-7e64-03acfec3ffce" executionId="160a5493-02de-48ce-bd8d-f3b73823ef61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="160a5493-02de-48ce-bd8d-f3b73823ef61" testId="22d824e9-7772-d6cc-7e64-03acfec3ffce" testName="SessionLess" computerName="ROBERT-MBP-WIN" duration="00:00:00.0579218" startTime="2010-12-06T19:58:00.1300540+01:00" endTime="2010-12-06T19:58:00.2698508+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="160a5493-02de-48ce-bd8d-f3b73823ef61">
+      <Output>
+        <DebugTrace>Time Elapsed Ticks: 3470
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

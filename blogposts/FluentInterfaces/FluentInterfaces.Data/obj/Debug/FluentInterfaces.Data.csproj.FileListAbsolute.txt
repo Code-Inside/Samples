@@ -1,0 +1,5 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Data\bin\Debug\FluentInterfaces.Data.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Data\bin\Debug\FluentInterfaces.Data.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Data\obj\Debug\FluentInterfaces.Data.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Data\obj\Debug\FluentInterfaces.Data.pdb

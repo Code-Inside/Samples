@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\bin\Debug\AsyncIntroTests.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\bin\Debug\AsyncIntroTests.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\bin\Debug\AsyncIntro.exe
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\bin\Debug\AsyncIntro.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\obj\Debug\AsyncIntroTests.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\AsyncIntro\AsyncIntroTests\obj\Debug\AsyncIntroTests.pdb

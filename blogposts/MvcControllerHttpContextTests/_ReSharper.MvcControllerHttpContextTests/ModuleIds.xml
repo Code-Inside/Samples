@@ -1,0 +1,5 @@
+<Modules>
+  <Module PersistentId="F2E83A88-7677-4C2E-9162-B2994EB9BD2C" ModuleId="MvcControllerHttpContextTests" />
+  <Module PersistentId="16D4F37A-A20D-41F3-9C05-B0E30A63D4FC" ModuleId="TestProject" />
+  <Module PersistentId="F4F972BB-ED25-4BD8-906E-94AD3DA7F9AA" ModuleId="MvcControllerHttpContextTests.Tests" />
+</Modules>

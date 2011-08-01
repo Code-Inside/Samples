@@ -1,0 +1,7 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\bin\MoveToAzure.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\bin\MoveToAzure.WebApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\obj\Release\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\obj\Release\MoveToAzure.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\obj\Release\MoveToAzure.WebApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\bin\System.Web.Mvc.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MoveToAzure\MoveToAzure.WebApp\bin\System.Web.Mvc.xml

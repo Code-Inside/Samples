@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a2c17054-0f05-49b4-bd1e-3245f8be3c57" name="rmu@WUM144031 2008-06-23 21:13:14" runUser="MMSDOM\rmu" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="0b73bf9f-50b7-4440-b355-e176a0e58cfe">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\TestResults\rmu_WUM144031 2008-06-23 21_13_14">
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Web\bin\DllMembership.Web.dll" />
+      <DeploymentItem filename="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Lib\bin\Debug\DllMembership.Lib.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2008-06-23T21:13:14.1526000+02:00" queuing="2008-06-23T21:13:14.8066000+02:00" start="2008-06-23T21:13:14.8716000+02:00" finish="2008-06-23T21:13:16.1486000+02:00" />
+  <TestDefinitions>
+    <UnitTest name="MembershipService_Retrieve_MembershipUsers_Works" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\dllmembership\dllmembership.test\bin\debug\dllmembership.test.dll" id="942fa7a4-37cc-b8d5-89cf-ff90a466664c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c35f9db0-2ae7-48d4-8109-1bda5e7e62ec" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\bin\Debug\DllMembership.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DllMembership.Test.MembershipServiceTest, DllMembership.Test" name="MembershipService_Retrieve_MembershipUsers_Works" />
+    </UnitTest>
+    <UnitTest name="MembershipService_Get_One_User" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\dllmembership\dllmembership.test\bin\debug\dllmembership.test.dll" id="26fceb08-2ac5-8ab0-ae88-dbfc7e04af01">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7730f752-f1d3-4e2d-a392-93b1d3bf0aba" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\bin\Debug\DllMembership.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DllMembership.Test.MembershipServiceTest, DllMembership.Test" name="MembershipService_Get_One_User" />
+    </UnitTest>
+    <UnitTest name="MembershipService_Users_Can_Login" storage="c:\users\rmu\documents\visual studio 2008\projects\blogposts\dllmembership\dllmembership.test\bin\debug\dllmembership.test.dll" id="73bac417-f46c-90b9-20ae-581ea90b2e73">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a93036d1-4921-4672-b254-f36361b4651e" />
+      <TestMethod codeBase="C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\DllMembership\DllMembership.Test\bin\Debug\DllMembership.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DllMembership.Test.MembershipServiceTest, DllMembership.Test" name="MembershipService_Users_Can_Login" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="26fceb08-2ac5-8ab0-ae88-dbfc7e04af01" executionId="7730f752-f1d3-4e2d-a392-93b1d3bf0aba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73bac417-f46c-90b9-20ae-581ea90b2e73" executionId="a93036d1-4921-4672-b254-f36361b4651e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" executionId="c35f9db0-2ae7-48d4-8109-1bda5e7e62ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7730f752-f1d3-4e2d-a392-93b1d3bf0aba" testId="26fceb08-2ac5-8ab0-ae88-dbfc7e04af01" testName="MembershipService_Get_One_User" computerName="WUM144031" duration="00:00:00.9587131" startTime="2008-06-23T21:13:14.9336000+02:00" endTime="2008-06-23T21:13:16.0596000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a93036d1-4921-4672-b254-f36361b4651e" testId="73bac417-f46c-90b9-20ae-581ea90b2e73" testName="MembershipService_Users_Can_Login" computerName="WUM144031" duration="00:00:00.0273431" startTime="2008-06-23T21:13:16.0616000+02:00" endTime="2008-06-23T21:13:16.0976000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c35f9db0-2ae7-48d4-8109-1bda5e7e62ec" testId="942fa7a4-37cc-b8d5-89cf-ff90a466664c" testName="MembershipService_Retrieve_MembershipUsers_Works" computerName="WUM144031" duration="00:00:00.0199597" startTime="2008-06-23T21:13:16.0976000+02:00" endTime="2008-06-23T21:13:16.1386000+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

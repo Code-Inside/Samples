@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="C:\Users\Robert\Desktop\virtualearth\">
+    <file relUrl="App_Themes/Default/Stylesheet.css" publishTime="09.10.2007 20:57:08" />
+    <file relUrl="Default.aspx" publishTime="10.10.2007 23:33:04" />
+    <file relUrl="bin/VirtualEarthDemo.pdb" publishTime="10.10.2007 23:33:05" />
+    <file relUrl="bin/VirtualEarthDemo.dll" publishTime="10.10.2007 23:33:05" />
+    <file relUrl="Web.config" publishTime="10.10.2007 23:37:01" />
+  </publishTarget>
+</publishData>

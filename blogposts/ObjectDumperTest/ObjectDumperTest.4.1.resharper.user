@@ -1,0 +1,39 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer>
+      <setting name="UsedSolutionBuilderID">0</setting>
+    </integer>
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@ObjectDumperTest.ObjectDumper">
+      <Item value="DumpObject" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="14802" scrollPosition="0|39" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Person.cs" caret="0" scrollPosition="0|0" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="507" scrollPosition="0|10" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:ObjectDumper.cs" caret="0" scrollPosition="0|0" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="709" scrollPosition="0|10" />
+      <File id="834C7D81-6336-4A6E-8E16-A66CC78C2D5C/f:Program.cs" caret="505" scrollPosition="0|10" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <CustomStartDirectory>
+    </CustomStartDirectory>
+    <UseShadowCopy>True</UseShadowCopy>
+    <UseCustomFolder>False</UseCustomFolder>
+    <EnableUnitTesting>True</EnableUnitTesting>
+    <Providers />
+  </UnitTestRunner>
+</Configuration>

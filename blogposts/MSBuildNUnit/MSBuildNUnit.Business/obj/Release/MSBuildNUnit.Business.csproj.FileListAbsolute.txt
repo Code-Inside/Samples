@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\Build\OutDir\MSBuildNUnit.Business.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\Build\OutDir\MSBuildNUnit.Business.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Release\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Release\MSBuildNUnit.Business.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Release\MSBuildNUnit.Business.pdb

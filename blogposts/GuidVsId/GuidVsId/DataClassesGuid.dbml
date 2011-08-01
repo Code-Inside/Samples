@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="TestData" Class="DataClassesGuidDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\TestData.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="GuidVsId.Properties.Settings" SettingsPropertyName="TestDataConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.guid_Products" Member="GuidProducts">
+    <Type Name="GuidProduct">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Single" DbType="Real NOT NULL" CanBeNull="false" />
+      <Association Name="GuidProduct_GuidReleatedProduct" Member="GuidReleatedProductsFirst" Storage="_guid_ReleatedProducts" OtherKey="ProductIdFirst" Type="GuidReleatedProduct" />
+      <Association Name="GuidProduct_GuidReleatedProduct1" Member="GuidReleatedProductsSecond" Storage="_GuidReleatedProducts" OtherKey="ProductIdSecond" Type="GuidReleatedProduct" />
+    </Type>
+  </Table>
+  <Table Name="dbo.guid_ReleatedProducts" Member="GuidReleatedProducts">
+    <Type Name="GuidReleatedProduct">
+      <Column Name="Id" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ProductIdFirst" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="ProductIdSecond" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Association Name="GuidProduct_GuidReleatedProduct" Member="guid_Product" ThisKey="ProductIdFirst" Type="GuidProduct" IsForeignKey="true" />
+      <Association Name="GuidProduct_GuidReleatedProduct1" Member="GuidProduct" ThisKey="ProductIdSecond" Type="GuidProduct" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

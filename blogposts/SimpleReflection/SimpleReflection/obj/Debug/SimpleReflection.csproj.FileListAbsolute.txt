@@ -1,0 +1,10 @@
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\bin\Debug\SimpleReflection.exe
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\bin\Debug\SimpleReflection.pdb
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\Window1.baml
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\Window1.g.cs
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\App.g.cs
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\SimpleReflection_MarkupCompile.cache
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\SimpleReflection.g.resources
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\SimpleReflection.exe
+C:\Users\rmu\Documents\Expression\Expression Blend Projects\Blogposts\SimpleReflection\SimpleReflection\obj\Debug\SimpleReflection.pdb

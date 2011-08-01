@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNot.Fear.UnitTests.Data", "DoNot.Fear.UnitTests.Data\DoNot.Fear.UnitTests.Data.csproj", "{04AC59E0-BCA6-435F-8D79-47040F586830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoNot.Fear.UnitTests.Test", "DoNot.Fear.UnitTests.Test\DoNot.Fear.UnitTests.Test.csproj", "{4CB0AD87-781F-4645-88C6-C627B1346D73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C5D324EC-6F8A-4360-A8B9-858E4DB5E56B}"
+	ProjectSection(SolutionItems) = preProject
+		DoNot.Fear.UnitTests.vsmdi = DoNot.Fear.UnitTests.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DoNot.Fear.UnitTests.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AC59E0-BCA6-435F-8D79-47040F586830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AC59E0-BCA6-435F-8D79-47040F586830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AC59E0-BCA6-435F-8D79-47040F586830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AC59E0-BCA6-435F-8D79-47040F586830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB0AD87-781F-4645-88C6-C627B1346D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB0AD87-781F-4645-88C6-C627B1346D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB0AD87-781F-4645-88C6-C627B1346D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB0AD87-781F-4645-88C6-C627B1346D73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

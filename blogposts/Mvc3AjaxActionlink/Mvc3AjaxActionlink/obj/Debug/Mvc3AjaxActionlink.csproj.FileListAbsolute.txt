@@ -1,0 +1,5 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Mvc3AjaxActionlink\Mvc3AjaxActionlink\bin\Mvc3AjaxActionlink.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Mvc3AjaxActionlink\Mvc3AjaxActionlink\bin\Mvc3AjaxActionlink.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Mvc3AjaxActionlink\Mvc3AjaxActionlink\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Mvc3AjaxActionlink\Mvc3AjaxActionlink\obj\Debug\Mvc3AjaxActionlink.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\Mvc3AjaxActionlink\Mvc3AjaxActionlink\obj\Debug\Mvc3AjaxActionlink.pdb

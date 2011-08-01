@@ -1,0 +1,7 @@
+D:\_CP\WebHistory\WebHistory.Data\obj\Debug\ResolveAssemblyReference.cache
+D:\_CP\WebHistory\WebHistory.Data\bin\Debug\WebHistory.Data.dll
+D:\_CP\WebHistory\WebHistory.Data\bin\Debug\WebHistory.Data.pdb
+D:\_CP\WebHistory\WebHistory.Data\bin\Debug\WebHistory.Model.dll
+D:\_CP\WebHistory\WebHistory.Data\bin\Debug\WebHistory.Model.pdb
+D:\_CP\WebHistory\WebHistory.Data\obj\Debug\WebHistory.Data.dll
+D:\_CP\WebHistory\WebHistory.Data\obj\Debug\WebHistory.Data.pdb

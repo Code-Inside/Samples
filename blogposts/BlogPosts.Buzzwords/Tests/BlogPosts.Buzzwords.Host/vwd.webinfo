@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><VisualWebDeveloper>
+
+    <!-- 
+	Visual Studio global web project settings.
+    -->
+
+
+	<Globals>
+		<UserProperties IsWCFHostProject="True" IsHostProject="True"/></Globals></VisualWebDeveloper>

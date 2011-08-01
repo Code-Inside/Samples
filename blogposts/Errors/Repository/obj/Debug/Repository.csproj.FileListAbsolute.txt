@@ -1,0 +1,7 @@
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\bin\Debug\Repository.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\bin\Debug\Repository.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\bin\Debug\Model.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\bin\Debug\Model.pdb
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\obj\Debug\Repository.dll
+C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Repository\obj\Debug\Repository.pdb

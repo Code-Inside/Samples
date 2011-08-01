@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sample>
+  <SimpleItems>
+    <Item>
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>10</Number>
+    </Item>
+    <Item>
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>50</Number>
+    </Item>
+    <Item>
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>60</Number>
+    </Item>
+    <Item>
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>70</Number>
+    </Item>
+  </SimpleItems>
+  <ComplexItems>
+    <Item marketplace="de">
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>123</Number>
+      <Content>
+        <Description language="de">
+          <Header value="Foobar Headline" />
+          <Text value="Foobar Text" />
+          <Footer value="Foobar Footer" />
+        </Description>
+      </Content>
+    </Item>
+    <Item marketplace="de">
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>123</Number>
+      <Content>
+        <Description language="de">
+          <Header value="Foobar Headline" />
+          <Text value="Foobar Text" />
+          <Footer value="Foobar Footer" />
+        </Description>
+      </Content>
+    </Item>
+    <Item marketplace="fr">
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>10</Number>
+      <Content>
+        <Description language="de">
+          <Header value="Foobar Headline" />
+          <Text value="Foobar Text" />
+          <Footer value="Foobar Footer" />
+        </Description>
+      </Content>
+    </Item>
+    <Item marketplace="fr">
+      <Title>Foo</Title>
+      <Subtitle>Bar</Subtitle>
+      <Number>50</Number>
+      <Content>
+        <Description language="de">
+          <Header value="Foobar Headline" />
+          <Text value="Foobar Text" />
+          <Footer value="Foobar Footer" />
+        </Description>
+      </Content>
+    </Item>
+  </ComplexItems>
+</Sample>

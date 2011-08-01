@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildSample.WebApp", "MsBuildSample.WebApp\MsBuildSample.WebApp.csproj", "{4763A370-0F5E-4DC4-9B33-0C25C533C078}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MsBuildSample.WebApp.Tests", "MsBuildSample.WebApp.Tests\MsBuildSample.WebApp.Tests.csproj", "{96E00307-3E7E-4660-BD01-9E14E0BE3BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99E09168-853E-4112-9509-158024F068A8}"
+	ProjectSection(SolutionItems) = preProject
+		Build\BuildSolution.bat = Build\BuildSolution.bat
+		Build\BuildSolution.targets = Build\BuildSolution.targets
+		Local.testsettings = Local.testsettings
+		MsBuildSample.vsmdi = MsBuildSample.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherTestProject", "AnotherTestProject\AnotherTestProject.csproj", "{2FAE0AF5-A257-42CC-9BDF-179E0194CBB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{523282AE-0450-4678-B236-5F3643AC851A}"
+	ProjectSection(SolutionItems) = preProject
+		Build\Lib\ICSharpCode.SharpZipLib.dll = Build\Lib\ICSharpCode.SharpZipLib.dll
+		Build\Lib\MSBuild.Community.Tasks.dll = Build\Lib\MSBuild.Community.Tasks.dll
+		Build\Lib\MSBuild.Community.Tasks.Targets = Build\Lib\MSBuild.Community.Tasks.Targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MsBuildSample.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4763A370-0F5E-4DC4-9B33-0C25C533C078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4763A370-0F5E-4DC4-9B33-0C25C533C078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4763A370-0F5E-4DC4-9B33-0C25C533C078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4763A370-0F5E-4DC4-9B33-0C25C533C078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96E00307-3E7E-4660-BD01-9E14E0BE3BCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96E00307-3E7E-4660-BD01-9E14E0BE3BCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96E00307-3E7E-4660-BD01-9E14E0BE3BCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96E00307-3E7E-4660-BD01-9E14E0BE3BCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAE0AF5-A257-42CC-9BDF-179E0194CBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAE0AF5-A257-42CC-9BDF-179E0194CBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAE0AF5-A257-42CC-9BDF-179E0194CBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAE0AF5-A257-42CC-9BDF-179E0194CBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{523282AE-0450-4678-B236-5F3643AC851A} = {99E09168-853E-4112-9509-158024F068A8}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+X-Sender: from@test.de
+X-Receiver: to@test.de
+MIME-Version: 1.0
+From: from@test.de
+To: to@test.de
+Date: 16 Mar 2009 20:52:50 +0100
+Subject: Test-Subject
+Content-Type: text/plain; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+Test-Body

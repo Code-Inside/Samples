@@ -1,0 +1,5 @@
+bin\VirtualEarthDemo.dll
+bin\VirtualEarthDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\VirtualEarthDemo.dll
+obj\Debug\VirtualEarthDemo.pdb
