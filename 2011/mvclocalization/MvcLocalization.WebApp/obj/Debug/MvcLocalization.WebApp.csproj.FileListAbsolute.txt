@@ -1,0 +1,13 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\bin\MvcLocalization.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\bin\MvcLocalization.WebApp.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\bin\de\MvcLocalization.WebApp.resources.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\bin\EntityFramework.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\bin\EntityFramework.xml
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\MvcLocalization.WebApp.Resources.TestResource.resources
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\MvcLocalization.WebApp.Resources.TestResource.de.resources
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\de\MvcLocalization.WebApp.resources.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\MvcLocalization.WebApp.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcLocalization\MvcLocalization.WebApp\obj\Debug\MvcLocalization.WebApp.pdb
