@@ -1,0 +1,7 @@
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\bin\jQueryDataDash.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\bin\jQueryDataDash.pdb
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\bin\EntityFramework.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\bin\EntityFramework.xml
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\obj\Debug\jQueryDataDash.dll
+C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\jQueryDataDash\jQueryDataDash\obj\Debug\jQueryDataDash.pdb
