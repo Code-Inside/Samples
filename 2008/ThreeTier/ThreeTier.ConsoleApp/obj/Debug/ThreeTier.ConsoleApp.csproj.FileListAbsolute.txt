@@ -1,9 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.ConsoleApp.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.ConsoleApp.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.Data.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.Data.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\bin\Debug\ThreeTier.Service.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\obj\Debug\ThreeTier.ConsoleApp.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.ConsoleApp\obj\Debug\ThreeTier.ConsoleApp.pdb

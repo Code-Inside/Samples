@@ -1,7 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\bin\Debug\FluentInterfaces.Services.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\bin\Debug\FluentInterfaces.Services.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\bin\Debug\FluentInterfaces.Data.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\bin\Debug\FluentInterfaces.Data.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\obj\Debug\FluentInterfaces.Services.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\FluentInterfaces\FluentInterfaces.Services\obj\Debug\FluentInterfaces.Services.pdb

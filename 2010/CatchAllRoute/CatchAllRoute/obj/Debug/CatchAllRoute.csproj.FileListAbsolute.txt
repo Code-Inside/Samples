@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\CatchAllRoute\CatchAllRoute\bin\CatchAllRoute.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\CatchAllRoute\CatchAllRoute\bin\CatchAllRoute.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\CatchAllRoute\CatchAllRoute\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\CatchAllRoute\CatchAllRoute\obj\Debug\CatchAllRoute.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\CatchAllRoute\CatchAllRoute\obj\Debug\CatchAllRoute.pdb

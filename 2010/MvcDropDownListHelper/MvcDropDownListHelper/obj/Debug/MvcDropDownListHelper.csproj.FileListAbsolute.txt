@@ -1,5 +1,0 @@
-c:\users\robert\documents\visual studio 2010\Projects\MvcDropDownListHelper\MvcDropDownListHelper\bin\MvcDropDownListHelper.dll
-c:\users\robert\documents\visual studio 2010\Projects\MvcDropDownListHelper\MvcDropDownListHelper\bin\MvcDropDownListHelper.pdb
-c:\users\robert\documents\visual studio 2010\Projects\MvcDropDownListHelper\MvcDropDownListHelper\obj\Debug\ResolveAssemblyReference.cache
-c:\users\robert\documents\visual studio 2010\Projects\MvcDropDownListHelper\MvcDropDownListHelper\obj\Debug\MvcDropDownListHelper.dll
-c:\users\robert\documents\visual studio 2010\Projects\MvcDropDownListHelper\MvcDropDownListHelper\obj\Debug\MvcDropDownListHelper.pdb

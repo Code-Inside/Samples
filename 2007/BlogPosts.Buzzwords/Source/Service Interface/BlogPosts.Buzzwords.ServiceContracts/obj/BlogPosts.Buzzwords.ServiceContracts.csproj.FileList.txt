@@ -1,9 +1,0 @@
-bin\Debug\BlogPosts.Buzzwords.ServiceContracts.dll
-bin\Debug\BlogPosts.Buzzwords.ServiceContracts.pdb
-bin\Debug\BlogPosts.Buzzwords.DataContracts.dll
-bin\Debug\BlogPosts.Buzzwords.FaultContracts.dll
-bin\Debug\BlogPosts.Buzzwords.FaultContracts.pdb
-bin\Debug\BlogPosts.Buzzwords.DataContracts.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\BlogPosts.Buzzwords.ServiceContracts.dll
-obj\Debug\BlogPosts.Buzzwords.ServiceContracts.pdb

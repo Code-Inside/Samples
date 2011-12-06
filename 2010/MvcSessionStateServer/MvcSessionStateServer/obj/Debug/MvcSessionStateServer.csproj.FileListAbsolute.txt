@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcSessionStateServer\MvcSessionStateServer\bin\MvcSessionStateServer.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcSessionStateServer\MvcSessionStateServer\bin\MvcSessionStateServer.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcSessionStateServer\MvcSessionStateServer\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcSessionStateServer\MvcSessionStateServer\obj\Debug\MvcSessionStateServer.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcSessionStateServer\MvcSessionStateServer\obj\Debug\MvcSessionStateServer.pdb

@@ -1,6 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\MsBuildSample.WebApp.Tests.dll.config
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\MsBuildSample.WebApp.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\MsBuildSample.WebApp.Tests.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Release\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Release\MsBuildSample.WebApp.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Release\MsBuildSample.WebApp.Tests.pdb

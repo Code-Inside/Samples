@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\GenericExtensions\GenericExtensions\bin\Debug\GenericExtensions.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\GenericExtensions\GenericExtensions\bin\Debug\GenericExtensions.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\GenericExtensions\GenericExtensions\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\GenericExtensions\GenericExtensions\obj\Debug\GenericExtensions.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\GenericExtensions\GenericExtensions\obj\Debug\GenericExtensions.pdb

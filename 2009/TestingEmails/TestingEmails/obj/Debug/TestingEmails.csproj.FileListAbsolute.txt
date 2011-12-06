@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\TestingEmails\TestingEmails\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\TestingEmails\TestingEmails\bin\TestingEmails.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\TestingEmails\TestingEmails\bin\TestingEmails.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\TestingEmails\TestingEmails\obj\Debug\TestingEmails.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\TestingEmails\TestingEmails\obj\Debug\TestingEmails.pdb

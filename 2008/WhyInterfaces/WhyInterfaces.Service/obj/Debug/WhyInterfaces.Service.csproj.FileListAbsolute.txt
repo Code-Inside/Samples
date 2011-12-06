@@ -1,7 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\bin\Debug\WhyInterfaces.Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\bin\Debug\WhyInterfaces.Service.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\bin\Debug\WhyInterfaces.Data.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\bin\Debug\WhyInterfaces.Data.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\obj\Debug\WhyInterfaces.Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\WhyInterfaces\WhyInterfaces.Service\obj\Debug\WhyInterfaces.Service.pdb

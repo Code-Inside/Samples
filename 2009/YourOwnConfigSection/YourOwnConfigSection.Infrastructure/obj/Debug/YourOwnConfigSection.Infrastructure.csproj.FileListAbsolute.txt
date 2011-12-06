@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Infrastructure\bin\Debug\YourOwnConfigSection.Infrastructure.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Infrastructure\bin\Debug\YourOwnConfigSection.Infrastructure.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Infrastructure\obj\Debug\YourOwnConfigSection.Infrastructure.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Infrastructure\obj\Debug\YourOwnConfigSection.Infrastructure.pdb

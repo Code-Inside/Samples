@@ -1,8 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\bin\Debug\MsBuildSample.WebApp.Tests.dll.config
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\bin\Debug\MsBuildSample.WebApp.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\bin\Debug\MsBuildSample.WebApp.Tests.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\bin\Debug\MsBuildSample.WebApp.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\bin\Debug\MsBuildSample.WebApp.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Debug\MsBuildSample.WebApp.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp.Tests\obj\Debug\MsBuildSample.WebApp.Tests.pdb

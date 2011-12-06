@@ -1,5 +1,0 @@
-C:\Users\rmu.MMSDOM\Desktop\mvclocal\Lib\Lib\bin\Debug\Lib.dll
-C:\Users\rmu.MMSDOM\Desktop\mvclocal\Lib\Lib\bin\Debug\Lib.pdb
-C:\Users\rmu.MMSDOM\Desktop\mvclocal\Lib\Lib\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu.MMSDOM\Desktop\mvclocal\Lib\Lib\obj\Debug\Lib.dll
-C:\Users\rmu.MMSDOM\Desktop\mvclocal\Lib\Lib\obj\Debug\Lib.pdb

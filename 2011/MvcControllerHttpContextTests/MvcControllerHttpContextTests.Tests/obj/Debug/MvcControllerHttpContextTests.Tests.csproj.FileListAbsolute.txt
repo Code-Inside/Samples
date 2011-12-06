@@ -1,9 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\MvcControllerHttpContextTests.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\MvcControllerHttpContextTests.Tests.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\Moq.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\nunit.framework.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\obj\Debug\MvcControllerHttpContextTests.Tests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\obj\Debug\MvcControllerHttpContextTests.Tests.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\MvcControllerHttpContextTests.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcControllerHttpContextTests\MvcControllerHttpContextTests.Tests\bin\Debug\MvcControllerHttpContextTests.pdb

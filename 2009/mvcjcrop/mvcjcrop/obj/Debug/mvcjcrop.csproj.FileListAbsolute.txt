@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\mvcjcrop\mvcjcrop\bin\mvcjcrop.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\mvcjcrop\mvcjcrop\bin\mvcjcrop.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\mvcjcrop\mvcjcrop\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\mvcjcrop\mvcjcrop\obj\Debug\mvcjcrop.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\mvcjcrop\mvcjcrop\obj\Debug\mvcjcrop.pdb

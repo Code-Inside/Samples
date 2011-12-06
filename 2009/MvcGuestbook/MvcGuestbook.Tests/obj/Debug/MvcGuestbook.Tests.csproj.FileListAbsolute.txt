@@ -1,8 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\bin\Debug\MvcGuestbook.Tests.dll.config
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\bin\Debug\MvcGuestbook.Tests.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\bin\Debug\MvcGuestbook.Tests.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\bin\Debug\MvcGuestbook.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\bin\Debug\MvcGuestbook.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\obj\Debug\MvcGuestbook.Tests.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcGuestbook\MvcGuestbook.Tests\obj\Debug\MvcGuestbook.Tests.pdb

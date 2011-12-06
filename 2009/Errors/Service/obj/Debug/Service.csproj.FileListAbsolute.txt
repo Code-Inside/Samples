@@ -1,9 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Service.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Model.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Repository.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Model.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\bin\Debug\Repository.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\obj\Debug\Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Errors\Errors\Service\obj\Debug\Service.pdb

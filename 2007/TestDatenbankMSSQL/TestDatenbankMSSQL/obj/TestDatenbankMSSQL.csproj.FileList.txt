@@ -1,5 +1,0 @@
-obj\Debug\ResolveAssemblyReference.cache
-bin\Debug\TestDatenbankMSSQL.exe
-bin\Debug\TestDatenbankMSSQL.pdb
-obj\Debug\TestDatenbankMSSQL.exe
-obj\Debug\TestDatenbankMSSQL.pdb

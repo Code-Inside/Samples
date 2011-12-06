@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcConfig\MvcConfig\bin\MvcConfig.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcConfig\MvcConfig\bin\MvcConfig.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcConfig\MvcConfig\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcConfig\MvcConfig\obj\Debug\MvcConfig.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcConfig\MvcConfig\obj\Debug\MvcConfig.pdb

@@ -1,9 +1,0 @@
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Service.dll
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Service.pdb
-D:\_CP\WebHistory\WebHistory.Service\obj\Debug\ResolveAssemblyReference.cache
-D:\_CP\WebHistory\WebHistory.Service\obj\Debug\WebHistory.Service.dll
-D:\_CP\WebHistory\WebHistory.Service\obj\Debug\WebHistory.Service.pdb
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Data.dll
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Model.dll
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Model.pdb
-D:\_CP\WebHistory\WebHistory.Service\bin\Debug\WebHistory.Data.pdb

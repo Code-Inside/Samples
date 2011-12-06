@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSMQ\MSMQ\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSMQ\MSMQ\bin\Debug\MSMQ.exe
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSMQ\MSMQ\bin\Debug\MSMQ.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSMQ\MSMQ\obj\x86\Debug\MSMQ.exe
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSMQ\MSMQ\obj\x86\Debug\MSMQ.pdb

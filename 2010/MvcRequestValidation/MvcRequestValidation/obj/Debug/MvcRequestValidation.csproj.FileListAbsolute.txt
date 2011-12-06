@@ -1,5 +1,0 @@
-c:\users\robert\documents\visual studio 2010\Projects\MvcRequestValidation\MvcRequestValidation\bin\MvcRequestValidation.dll
-c:\users\robert\documents\visual studio 2010\Projects\MvcRequestValidation\MvcRequestValidation\bin\MvcRequestValidation.pdb
-c:\users\robert\documents\visual studio 2010\Projects\MvcRequestValidation\MvcRequestValidation\obj\Debug\ResolveAssemblyReference.cache
-c:\users\robert\documents\visual studio 2010\Projects\MvcRequestValidation\MvcRequestValidation\obj\Debug\MvcRequestValidation.dll
-c:\users\robert\documents\visual studio 2010\Projects\MvcRequestValidation\MvcRequestValidation\obj\Debug\MvcRequestValidation.pdb

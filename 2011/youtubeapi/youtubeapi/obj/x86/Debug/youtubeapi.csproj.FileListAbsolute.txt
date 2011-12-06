@@ -1,9 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\youtubeapi.exe.config
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\youtubeapi.exe
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\youtubeapi.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\Google.GData.Client.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\Google.GData.YouTube.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\bin\Debug\Google.GData.Extensions.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\obj\x86\Debug\youtubeapi.exe
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\youtubeapi\youtubeapi\obj\x86\Debug\youtubeapi.pdb

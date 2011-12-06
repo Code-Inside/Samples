@@ -1,5 +1,0 @@
-bin\Debug\TestDatenbankMySQL.exe
-bin\Debug\TestDatenbankMySQL.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\TestDatenbankMySQL.exe
-obj\Debug\TestDatenbankMySQL.pdb

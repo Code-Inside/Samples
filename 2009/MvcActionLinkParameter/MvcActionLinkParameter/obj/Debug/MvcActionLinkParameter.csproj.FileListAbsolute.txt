@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcActionLinkParameter\MvcActionLinkParameter\bin\MvcActionLinkParameter.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcActionLinkParameter\MvcActionLinkParameter\bin\MvcActionLinkParameter.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcActionLinkParameter\MvcActionLinkParameter\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcActionLinkParameter\MvcActionLinkParameter\obj\Debug\MvcActionLinkParameter.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcActionLinkParameter\MvcActionLinkParameter\obj\Debug\MvcActionLinkParameter.pdb

@@ -1,7 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\bin\Debug\Log4NetIntro.exe.config
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\bin\Debug\Log4NetIntro.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\bin\Debug\Log4NetIntro.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\bin\Debug\log4net.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\obj\Debug\Log4NetIntro.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\Log4NetIntro\Log4NetIntro\obj\Debug\Log4NetIntro.pdb

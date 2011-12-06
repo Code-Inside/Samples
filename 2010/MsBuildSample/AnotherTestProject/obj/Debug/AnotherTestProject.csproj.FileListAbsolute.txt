@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\bin\Debug\AnotherTestProject.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\bin\Debug\AnotherTestProject.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Debug\AnotherTestProject.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Debug\AnotherTestProject.pdb

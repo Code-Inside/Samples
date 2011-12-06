@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\bin\Debug\MSBuildNUnit.Business.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\bin\Debug\MSBuildNUnit.Business.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Debug\MSBuildNUnit.Business.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildNUnit\MSBuildNUnit.Business\obj\Debug\MSBuildNUnit.Business.pdb

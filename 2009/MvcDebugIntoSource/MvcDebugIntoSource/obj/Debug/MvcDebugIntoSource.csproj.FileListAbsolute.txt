@@ -1,7 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\bin\MvcDebugIntoSource.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\bin\MvcDebugIntoSource.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\bin\System.Web.Mvc.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\bin\System.Web.Mvc.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\obj\Debug\MvcDebugIntoSource.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcDebugIntoSource\MvcDebugIntoSource\obj\Debug\MvcDebugIntoSource.pdb

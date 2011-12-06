@@ -1,5 +1,0 @@
-D:\_CP\WebHistory\WebHistory.Model\bin\Debug\WebHistory.Model.dll
-D:\_CP\WebHistory\WebHistory.Model\bin\Debug\WebHistory.Model.pdb
-D:\_CP\WebHistory\WebHistory.Model\obj\Debug\ResolveAssemblyReference.cache
-D:\_CP\WebHistory\WebHistory.Model\obj\Debug\WebHistory.Model.dll
-D:\_CP\WebHistory\WebHistory.Model\obj\Debug\WebHistory.Model.pdb

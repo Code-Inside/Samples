@@ -1,4 +1,0 @@
-bin\MultiHost.dll
-bin\MultiHost.pdb
-obj\Debug\MultiHost.dll
-obj\Debug\MultiHost.pdb

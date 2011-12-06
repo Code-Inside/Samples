@@ -1,9 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\HelloMEF.German.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\HelloMEF.German.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\HelloMEF.App.exe
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\System.ComponentModel.Composition.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\System.Reflection.StructuredValues.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\bin\Debug\HelloMEF.App.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\obj\Debug\HelloMEF.German.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\HelloMEF\HelloMEF.German\obj\Debug\HelloMEF.German.pdb

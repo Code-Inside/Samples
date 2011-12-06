@@ -1,5 +1,0 @@
-bin\Debug\BlogPosts.Buzzwords.DataContracts.dll
-bin\Debug\BlogPosts.Buzzwords.DataContracts.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\BlogPosts.Buzzwords.DataContracts.dll
-obj\Debug\BlogPosts.Buzzwords.DataContracts.pdb

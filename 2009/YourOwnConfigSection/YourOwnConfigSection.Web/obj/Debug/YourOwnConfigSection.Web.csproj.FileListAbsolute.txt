@@ -1,8 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\bin\YourOwnConfigSection.Web.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\bin\YourOwnConfigSection.Web.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\bin\YourOwnConfigSection.Infrastructure.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\bin\YourOwnConfigSection.Infrastructure.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\obj\Debug\YourOwnConfigSection.Web.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\obj\Debug\YourOwnConfigSection.Web.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\YourOwnConfigSection\YourOwnConfigSection.Web\bin\CodeInside.config

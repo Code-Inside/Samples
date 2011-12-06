@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.Business\bin\Debug\MSBuildCodeQuality.Business.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.Business\bin\Debug\MSBuildCodeQuality.Business.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.Business\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.Business\obj\Debug\MSBuildCodeQuality.Business.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MSBuildCodeQuality\MSBuildCodeQuality.Business\obj\Debug\MSBuildCodeQuality.Business.pdb

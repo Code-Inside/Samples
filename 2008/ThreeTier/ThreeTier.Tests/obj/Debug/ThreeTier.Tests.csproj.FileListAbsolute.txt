@@ -1,9 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Tests.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Tests.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Data.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Service.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Data.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\bin\Debug\ThreeTier.Service.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\obj\Debug\ThreeTier.Tests.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\ThreeTier\ThreeTier.Tests\obj\Debug\ThreeTier.Tests.pdb

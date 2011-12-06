@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\bin\MsBuildSample.WebApp.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\bin\MsBuildSample.WebApp.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Debug\MsBuildSample.WebApp.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\MsBuildSample.WebApp\obj\Debug\MsBuildSample.WebApp.pdb

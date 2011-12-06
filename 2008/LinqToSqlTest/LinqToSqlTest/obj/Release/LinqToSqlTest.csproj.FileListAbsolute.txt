@@ -1,5 +1,0 @@
-C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\bin\Release\LinqToSqlTest.exe
-C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\bin\Release\LinqToSqlTest.pdb
-C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Release\ResolveAssemblyReference.cache
-C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Release\LinqToSqlTest.exe
-C:\Users\Robert\Desktop\Blogpost\LinqToSqlTest\LinqToSqlTest\obj\Release\LinqToSqlTest.pdb

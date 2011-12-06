@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcValidation\MvcValidation\bin\MvcValidation.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcValidation\MvcValidation\bin\MvcValidation.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcValidation\MvcValidation\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcValidation\MvcValidation\obj\Debug\MvcValidation.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcValidation\MvcValidation\obj\Debug\MvcValidation.pdb

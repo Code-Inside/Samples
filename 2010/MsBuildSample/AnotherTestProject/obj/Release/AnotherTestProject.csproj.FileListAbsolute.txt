@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\AnotherTestProject.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\Build\OutDir\AnotherTestProject.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Release\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Release\AnotherTestProject.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MsBuildSample\AnotherTestProject\obj\Release\AnotherTestProject.pdb

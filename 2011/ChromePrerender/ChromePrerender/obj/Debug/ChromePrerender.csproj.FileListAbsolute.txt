@@ -1,7 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\bin\ChromePrerender.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\bin\ChromePrerender.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\bin\EntityFramework.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\bin\EntityFramework.xml
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\obj\Debug\ChromePrerender.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\ChromePrerender\ChromePrerender\obj\Debug\ChromePrerender.pdb

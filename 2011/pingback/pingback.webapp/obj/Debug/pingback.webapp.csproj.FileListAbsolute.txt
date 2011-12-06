@@ -1,7 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\bin\pingback.webapp.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\bin\pingback.webapp.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\bin\EntityFramework.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\bin\EntityFramework.xml
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\obj\Debug\pingback.webapp.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\pingback\pingback.webapp\obj\Debug\pingback.webapp.pdb

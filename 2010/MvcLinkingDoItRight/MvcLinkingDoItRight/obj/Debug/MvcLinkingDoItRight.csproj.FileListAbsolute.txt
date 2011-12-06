@@ -1,5 +1,0 @@
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLinkingDoItRight\MvcLinkingDoItRight\bin\MvcLinkingDoItRight.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLinkingDoItRight\MvcLinkingDoItRight\bin\MvcLinkingDoItRight.pdb
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLinkingDoItRight\MvcLinkingDoItRight\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLinkingDoItRight\MvcLinkingDoItRight\obj\Debug\MvcLinkingDoItRight.dll
-C:\Users\rmu\Documents\Visual Studio 2008\Projects\Blogposts\MvcLinkingDoItRight\MvcLinkingDoItRight\obj\Debug\MvcLinkingDoItRight.pdb

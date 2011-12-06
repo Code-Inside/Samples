@@ -1,5 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\AssemblyInfoKeepItDry\AssemblyInfoKeepItDry.Bla\bin\Debug\AssemblyInfoKeepItDry.Bla.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\AssemblyInfoKeepItDry\AssemblyInfoKeepItDry.Bla\bin\Debug\AssemblyInfoKeepItDry.Bla.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\AssemblyInfoKeepItDry\AssemblyInfoKeepItDry.Bla\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\AssemblyInfoKeepItDry\AssemblyInfoKeepItDry.Bla\obj\Debug\AssemblyInfoKeepItDry.Bla.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\AssemblyInfoKeepItDry\AssemblyInfoKeepItDry.Bla\obj\Debug\AssemblyInfoKeepItDry.Bla.pdb

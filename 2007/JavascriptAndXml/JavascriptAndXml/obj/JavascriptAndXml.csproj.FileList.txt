@@ -1,5 +1,0 @@
-bin\JavascriptAndXml.dll
-bin\JavascriptAndXml.pdb
-obj\Debug\ResolveAssemblyReference.cache
-obj\Debug\JavascriptAndXml.dll
-obj\Debug\JavascriptAndXml.pdb

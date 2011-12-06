@@ -1,7 +1,0 @@
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\bin\MvcEFCodeFirst.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\bin\MvcEFCodeFirst.pdb
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\bin\EntityFramework.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\bin\EntityFramework.xml
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\obj\Debug\MvcEFCodeFirst.dll
-C:\Users\robert\Documents\Visual Studio 2010\Projects\Blogposts\MvcEFCodeFirst\MvcEFCodeFirst\obj\Debug\MvcEFCodeFirst.pdb
