@@ -1,0 +1,17 @@
+# Visual Studio Files and security files
+######################
+*.suo
+*.user
+*.cache
+*.Publish.xml
+_ReSharper.*
+
+# Build Outputs
+######################
+*/bin
+*/obj
+
+
+# OS generated files #
+######################
+Thumbs.db
