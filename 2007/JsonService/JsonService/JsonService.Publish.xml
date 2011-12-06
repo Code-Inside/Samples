@@ -1,9 +1,0 @@
-<publishData>
-  <publishTarget publishUrl="C:\Users\Robert\Desktop\Blogpost\pub\">
-    <file relUrl="bin/JsonService.pdb" publishTime="29.11.2007 21:13:35" />
-    <file relUrl="Default.aspx" publishTime="29.11.2007 20:51:35" />
-    <file relUrl="bin/JsonService.dll" publishTime="29.11.2007 21:13:35" />
-    <file relUrl="ContactJsonService.ashx" publishTime="29.11.2007 20:06:29" />
-    <file relUrl="Web.config" publishTime="29.11.2007 19:07:25" />
-  </publishTarget>
-</publishData>
