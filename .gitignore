@@ -8,8 +8,8 @@ _ReSharper.*
 
 # Build Outputs
 ######################
-*/bin/*
-*/obj/*
+**/bin/*
+**/obj/*
 
 
 # OS generated files #
