@@ -1,0 +1,59 @@
+﻿@using Html5Data.Controllers
+@model ShoppingCart
+
+@{
+    ViewBag.Title = "Demo";
+}
+
+<h2>Einkaufswagen</h2>
+
+<span id="shoppingCartSum" data-price="@Model.Sum">Gesamtpreis der Waren im Einkaufswagen: @Model.Sum €</span>
+
+<button onclick="sendShoppingCart()">Bestellung abschicken.</button>
+
+@*@Html.TextBox("Test", "Mvc Helper", new { data_Test = "Yeah"})*@
+
+<h2>Verfügbare Produkte</h2>
+<table id="products">
+    <thead>
+        <td>Kaufen?</td>
+        <td>Name</td>
+        <td>Price</td>
+    </thead>
+    <tbody></tbody>
+</table>
+@section Scripts
+{
+    <script type="text/javascript">
+        $(function () {
+            $.getJSON('@Url.Action("Products", "Home")', null, function (result) {
+                for (var productItemKey in result) {
+                    $("<tr><td><button onclick='addToCart(this)' data-price='" + result[productItemKey].Price + "'>In den Warenkorb</button></td><td>" + result[productItemKey].Name + "</td><td>" + result[productItemKey].Price + " €</td></tr>").prependTo("#products > tbody");
+                }
+
+            });
+        });
+
+        function addToCart(source) {
+
+            var sum = $("#shoppingCartSum").data("price");
+            var addToCart = $(source).data("price");
+            var newSum = sum + addToCart;
+
+            $("#shoppingCartSum").data("price", newSum);
+            $("#shoppingCartSum").html("Gesamtpreis der Waren im Einkaufswagen: " + newSum + " €");
+        }
+        
+        function sendShoppingCart() {
+            $.ajax({
+                    url: '@Url.Action("Update")',
+                    data: 'price=' + $("#shoppingCartSum").data("price"),
+                    type: 'POST',
+                    success: function(result) {
+                        alert("Eingekauft im Wert von " + result);
+                    }
+                   });
+        }
+        
+    </script>
+}
