@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<table>
+    <tr>
+        <td>
+            UrlToAnotherMvcWebsiteController
+        </td>
+        <td>
+            @ViewBag.UrlToAnotherMvcWebsiteController
+        </td>
+    </tr>
+    <tr>
+        <td>
+            AbsoluteUrlToAnotherMvcWebsiteController
+        </td>
+        <td>
+            @ViewBag.AbsoluteUrlToAnotherMvcWebsiteController
+        </td>
+    </tr>
+    <tr>
+        <td>
+            WebApiController
+        </td>
+        <td>
+            @ViewBag.WebApiController
+        </td>
+    </tr>
+    <tr>
+        <td>
+            AbsoluteUrlToWebApiController
+        </td>
+        <td>
+            @ViewBag.AbsoluteUrlToWebApiController
+        </td>
+    </tr>
+    <tr>
+        <td>
+            From View to MVC Controller
+        </td>
+        <td>
+            @Url.Action("Foobar", "AnotherMvcWebsite", null, "http")
+        </td>
+    </tr>
+    <tr>
+        <td>
+            From View to WebApi Controller
+        </td>
+        <td>
+            @Url.RouteUrl("DefaultApi", new { httproute = "", controller = "Foobar" })
+        </td>
+    </tr>
+</table>
