@@ -24,8 +24,11 @@
             <TextBlock Text="Cam Sample" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
         </StackPanel>
 
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <Image x:Name="Result" />
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Canvas x:Name="VideoCanvas">
+                <Image x:Name="Result" />
+            </Canvas>
+            
         </Grid>
     </Grid>
 

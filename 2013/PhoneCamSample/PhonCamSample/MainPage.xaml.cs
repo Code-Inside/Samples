@@ -40,6 +40,7 @@ namespace PhonCamSample
                 BitmapImage image = new BitmapImage();
                 image.SetSource(e.ChosenPhoto);
                 Result.Source = image;
+                MessageBox.Show("Foobar");
             }
         }
 
