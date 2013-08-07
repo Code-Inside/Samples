@@ -106,10 +106,6 @@ namespace Wp8AndJson
             {
                 JsonSerializer serializer = new JsonSerializer();
                 var result = serializer.Deserialize<List<Data>>(jr);
-                jr.Close();
-                sr.Dispose();
-                stream.Dispose();
-
                 return result;
             }
         }
