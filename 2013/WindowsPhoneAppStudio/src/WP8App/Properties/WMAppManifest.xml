@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en-US" />
+  <App xmlns="" ProductID="{ac2d4de4-fb44-4f54-9847-2adca862706b}" Title="My trip" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="" Description="Whether you just got back from scaling Mt. Everest, a weekend at the beach, or just a walk down to the farmer’s market, share your favorite moments in an app!  Use this template to tell everyone the who, what, when details, then add your pictures to show " Publisher="" PublisherID="{e7d94c95-4681-45a0-a8b4-5df4e482fb9e}">
+    <IconPath IsRelative="true" IsResource="false">Images\Logo-fee674dd-17e3-4874-ad8f-9b2146854d85.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_NETWORKING"/>
+      <Capability Name="ID_CAP_MEDIALIB_AUDIO"/>
+      <Capability Name="ID_CAP_MEDIALIB_PLAYBACK"/>
+      <Capability Name="ID_CAP_SENSORS"/>
+      <Capability Name="ID_CAP_WEBBROWSERCOMPONENT"/>
+	  <Capability Name="ID_CAP_SPEECH_RECOGNITION" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="View/ThePlace_Info.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="MyDoWapp" TaskName="_default">
+		<TemplateCycle>
+          <SmallImageURI IsRelative="true" IsResource="false">Images/TileSmallBackground-e2e992b2-9684-439c-a1e4-5e53d002e2fb.png</SmallImageURI>
+		  <Title>My trip</Title>
+          <Photo01ImageURI IsRelative="true" IsResource="false">Images/Item-119d1d00-c72c-4107-8325-44561c9cc95a.jpg</Photo01ImageURI>
+          <Photo02ImageURI IsRelative="true" IsResource="false">Images/Item-1b4db986-ff2a-4d7f-98bf-fb40dc1cd4d0.jpg</Photo02ImageURI>
+          <Photo03ImageURI IsRelative="true" IsResource="false">Images/Item-1b08b4d4-184f-4ab3-bd60-db13fc237bdd.jpg</Photo03ImageURI>
+          <Photo04ImageURI IsRelative="true" IsResource="false">Images/Item-c19eb103-d447-4397-a4f3-4ffeeb3dcac7.jpg</Photo04ImageURI>
+          <Photo05ImageURI IsRelative="true" IsResource="false">Images/Item-d5ab4269-6d70-4192-8e10-94e618496cd9.jpg</Photo05ImageURI>
+          <Photo06ImageURI IsRelative="true" IsResource="false">Images/Item-7f186179-e373-4df3-aa44-d7c5fb4e453f.jpg</Photo06ImageURI>
+          <Photo07ImageURI IsRelative="true" IsResource="false">Images/Item-f7a41ce4-0e30-46dd-8c6a-36ad592e642c.jpg</Photo07ImageURI>
+          <Photo08ImageURI IsRelative="true" IsResource="false">Images/Item-fed90989-b2cd-4c37-9cae-3377c128e4c1.jpg</Photo08ImageURI>
+          <Photo09ImageURI IsRelative="true" IsResource="false">Images/Item-d1fbd823-69ab-4459-a12b-de9347b21d7c.jpg</Photo09ImageURI>
+          <Count>0</Count>
+          <HasLarge>True</HasLarge>
+		  <DeviceLockImageURI IsRelative="true" IsResource="false"></DeviceLockImageURI>
+        </TemplateCycle>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Notification_IconCount" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Notification_TextField" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>
