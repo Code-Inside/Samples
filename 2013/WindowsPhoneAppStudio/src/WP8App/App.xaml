@@ -1,0 +1,44 @@
+<Application 
+    x:Class="WPAppStudio.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib"
+    xmlns:services="clr-namespace:WPAppStudio.Services"
+    xmlns:converter="clr-namespace:WPAppStudio.Converters"
+	xmlns:mytoolkitconverters="clr-namespace:MyToolkit.Converters;assembly=MyToolkit">
+
+    <Application.Resources>
+        
+        <sys:String x:Key="AppName">My trip</sys:String>
+
+		<!-- ViewModel locator -->
+        <services:ViewModelLocatorService x:Key="ViewModelLocator"/>
+		
+		<local:LocalizedStrings xmlns:local="clr-namespace:WPAppStudio.Localization" x:Key="LocalizedStrings"/>
+
+		<!-- Converters -->
+		<converter:ShortDateConverter x:Key="ShortDateConverter"/>
+		<converter:StringToImageResourcesConverter x:Key="StringToImageResources"/>
+		<converter:ExpressionToBindingAndSanitizeConverter x:Key="ExpressionToBindingAndSanitize"/>
+		<converter:ExpressionToBindingConverter x:Key="ExpressionToBinding"/>
+        <converter:SanitizeStringConverter x:Key="SanitizeString"/>
+		<mytoolkitconverters:VisibilityConverter x:Key="VisibilityConverter"/>
+        <mytoolkitconverters:NotConverter x:Key="NotConverter"></mytoolkitconverters:NotConverter>
+						
+		<!-- Resources -->
+        <SolidColorBrush x:Key="CustomTitleApplicationTextBrush" Color="#f2f2f2" />
+		<SolidColorBrush x:Key="CustomApplicationTextBrush" Color="#ffffff" />
+		<SolidColorBrush x:Key="CustomApplicationBackgroundBrush" Color="#000000" />
+        <Color x:Key="CustomApplicationAppBarBackgroundBrush">#212021</Color>        
+		<ImageBrush x:Key="CustomApplicationBackgroundImage" ImageSource="{Binding Path=LocalizedResources.BackgroundImagePngUrl, Source={StaticResource LocalizedStrings}, Converter={StaticResource StringToImageResources}}" Stretch="UniformToFill"/>		
+		<BitmapImage x:Key="DefaultNoImageValue" UriSource='/Images/NoImage.png' />
+    </Application.Resources>
+
+    <Application.ApplicationLifetimeObjects>
+        <shell:PhoneApplicationService 
+            Launching="Application_Launching" Closing="Application_Closing" 
+            Activated="Application_Activated" Deactivated="Application_Deactivated"/>
+    </Application.ApplicationLifetimeObjects>
+
+</Application>
