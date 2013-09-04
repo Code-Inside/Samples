@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebBrowserNotify", "WebBrowserNotify\WebBrowserNotify.csproj", "{889B2708-3DAE-495F-B285-D0081B8D710F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleWeb", "SampleWeb\SampleWeb.csproj", "{33325F07-ACAF-4C49-A338-3AE63BBF1A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{889B2708-3DAE-495F-B285-D0081B8D710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889B2708-3DAE-495F-B285-D0081B8D710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889B2708-3DAE-495F-B285-D0081B8D710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889B2708-3DAE-495F-B285-D0081B8D710F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33325F07-ACAF-4C49-A338-3AE63BBF1A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33325F07-ACAF-4C49-A338-3AE63BBF1A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33325F07-ACAF-4C49-A338-3AE63BBF1A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33325F07-ACAF-4C49-A338-3AE63BBF1A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
