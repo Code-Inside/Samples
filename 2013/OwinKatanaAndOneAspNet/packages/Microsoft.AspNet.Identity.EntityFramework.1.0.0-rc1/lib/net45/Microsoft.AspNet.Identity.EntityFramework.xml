@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>Microsoft.AspNet.Identity.EntityFramework</name>
+  </assembly>
+  <members>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.DbContextFactory`1">
+      <summary> Concrete generic dbcontext factory which will call the default constructor of a db context </summary>
+      <typeparam name="TDbContext"></typeparam>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.DbContextFactory`1.#ctor">
+      <summary>Initializes a new instance of the <see cref="T:Microsoft.AspNet.Identity.EntityFramework.DbContextFactory`1" /> class.</summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.DbContextFactory`1.Create">
+      <summary> Creates a db context </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2">
+      <summary> Base class for RoleStores using EF where TRole is the entity type of the role, and TUserInRole is the entity type of the user/role membership </summary>
+      <typeparam name="TRole"></typeparam>
+      <typeparam name="TUserInRole"></typeparam>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.#ctor(Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory)">
+      <summary> Constructor that takes a db context creator </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.AddUserToRole(System.String,System.String)">
+      <summary> Returns true if the user is successfully added to the role </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.CreateRole(Microsoft.AspNet.Identity.IRole)">
+      <summary> Creates a role, returns true if successful </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.DbContextCreator">
+      <summary> Used to create the DbContext for each method </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.DeleteRole(System.String,System.Boolean)">
+      <summary>  Delete a role, returns true if successful </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.GetRolesForUser(System.String)">
+      <summary> Returns the roles for the user </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.IsUserInRole(System.String,System.String)">
+      <summary> Returns true if the user is in the specified role </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.RemoveUserFromRole(System.String,System.String)">
+      <summary> Returns true if the user was removed from the role </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFRoleStore`2.RoleExists(System.String)">
+      <summary> Returns true if the role exists </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1">
+      <summary> Base class for IUserLoginStores using EF where TUserLogin is the entity type of the user account </summary>
+      <typeparam name="TUserLogin"></typeparam>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.#ctor(Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory)">
+      <summary> Constructor that takes a db context creator </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.Add(Microsoft.AspNet.Identity.IUserLogin)">
+      <summary> Adds the given user account </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.DbContextCreator">
+      <summary> Used to create the DbContext for each method </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.GetLogins(System.String)">
+      <summary> Returns the linked accounts for this user </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.GetProviderKey(System.String,System.String)">
+      <summary> Returns the linked account key for the userId at the specified loginProvider, null if not linked </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.GetUserId(System.String,System.String)">
+      <summary> Returns the local userid for the specified loginProvider/providerKey combination, null if not found </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserLoginStore`1.Remove(System.String,System.String,System.String)">
+      <summary> Removes the UserLogin with the specified userId/loginProvider/providerKey combination if it exists, returns true if found and removed </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1">
+      <summary> Base class for UserSecretStores using EF where TUserSecret is the entity type of the user login information </summary>
+      <typeparam name="TUserSecret"></typeparam>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.#ctor(Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory)">
+      <summary> Constructor that takes a db context creator </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.Create(Microsoft.AspNet.Identity.IUserSecret)">
+      <summary> Create a login </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.DbContextCreator">
+      <summary> Used to create the DbContext for each method </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.Delete(System.String)">
+      <summary> Delete a user's login </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.Find(System.String)">
+      <summary> Return the userSecret info for the given userName, null if not found </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.UpdateSecret(System.String,System.String)">
+      <summary> Update the secret for userName </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserSecretStore`1.Validate(System.String,System.String)">
+      <summary> Returns true if the secret is correct for userName </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1">
+      <summary> Base class for UserStores using EF where TUser is the entity type of the user </summary>
+      <typeparam name="TUser"></typeparam>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1.#ctor(Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory)">
+      <summary> Constructor that takes a db context creator </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1.Create(Microsoft.AspNet.Identity.IUser)">
+      <summary> Creates the specified user  </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1.DbContextCreator">
+      <summary> Used to create the DbContext for each method </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1.Delete(System.String)">
+      <summary> Deletes the specified user </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.EFUserStore`1.Find(System.String)">
+      <summary> Finds a user by its key </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory">
+      <summary> Interface used to create db contexts </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.IDbContextFactory.Create">
+      <summary> Creates a db context </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.IUserRole">
+      <summary> Represents a user being in a role </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.IUserRole.RoleId">
+      <summary> id of the role </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.IUserRole.UserId">
+      <summary> id of the user </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync">
+      <summary> Synchronous wrapper for an IRoleStore </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.#ctor(Microsoft.AspNet.Identity.IRoleStore)">
+      <summary> Constructor that takes the async store which will be called synchronously </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.AddUserToRole(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.CreateRole(Microsoft.AspNet.Identity.IRole)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.DeleteRole(System.String,System.Boolean)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.GetRolesForUser(System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.IsUserInRole(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.RemoveUserFromRole(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.RoleExists(System.String)"></member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.RoleStoreSync.Store">
+      <summary> Async store which is being wrapped </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync">
+      <summary> Synchronous wrapper for an IUserLoginStore </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.#ctor(Microsoft.AspNet.Identity.IUserLoginStore)">
+      <summary> Constructor that takes the async store which will be called synchronously </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.Add(Microsoft.AspNet.Identity.IUserLogin)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.GetLogins(System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.GetProviderKey(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.GetUserId(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.Remove(System.String,System.String,System.String)"></member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.UserLoginStoreSync.Store">
+      <summary> Async store which is being wrapped </summary>
+    </member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync">
+      <summary> Synchronous wrapper for an IUserSecretStore </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.#ctor(Microsoft.AspNet.Identity.IUserSecretStore)">
+      <summary> Constructor that takes the async store which will be called synchronously </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.Create(Microsoft.AspNet.Identity.IUserSecret)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.Delete(System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.Find(System.String)"></member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.Store">
+      <summary> Async store which is being wrapped </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.UpdateSecret(System.String,System.String)"></member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserSecretStoreSync.Validate(System.String,System.String)"></member>
+    <member name="T:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync">
+      <summary> Synchronous wrapper for an IUserStore </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync.#ctor(Microsoft.AspNet.Identity.IUserStore)">
+      <summary> Constructor that takes the async store which will be called synchronously </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync.Create(Microsoft.AspNet.Identity.IUser)">
+      <summary> Sync wrapper for IUserStore.Create </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync.Delete(System.String)">
+      <summary> Sync wrapper for IUserStore.Delete </summary>
+    </member>
+    <member name="M:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync.Find(System.String)">
+      <summary> Sync wrapper for IUserStore.Find </summary>
+    </member>
+    <member name="P:Microsoft.AspNet.Identity.EntityFramework.UserStoreSync.Store">
+      <summary> Async store which is being wrapped </summary>
+    </member>
+  </members>
+</doc>

@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.AspNet.Identity.Owin</name>
+    </assembly>
+    <members>
+        <member name="T:Owin.AppBuilderExtensions">
+            <summary>
+            Extensions off of IAppBuilder to make it easier to configure the SignInCookies
+            </summary>
+        </member>
+        <member name="M:Owin.AppBuilderExtensions.UseSignInCookies(Owin.IAppBuilder)">
+            <summary>
+            Use application and external sign in cookies for the app
+            </summary>
+            <param name="app"></param>
+        </member>
+        <member name="T:Microsoft.Owin.Security.AuthenticationManagerExtensions">
+            <summary>
+            Extensions methods on IAuthenticationManager that add methods for using the default Application and External authentication type constants
+            </summary>
+        </member>
+        <member name="M:Microsoft.Owin.Security.AuthenticationManagerExtensions.SignIn(Microsoft.Owin.Security.IAuthenticationManager,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String,System.String,System.Boolean)">
+            <summary>
+            Sign in a ClaimsPrincipal with the default ApplicationAuthenticationType and created with the given claims
+            </summary>
+            <param name="manager"></param>
+            <param name="claims"></param>
+            <param name="nameClaimType"></param>
+            <param name="roleClaimType"></param>
+            <param name="isPersistent"></param>
+        </member>
+        <member name="M:Microsoft.Owin.Security.AuthenticationManagerExtensions.GetExternalAuthenticationTypes(Microsoft.Owin.Security.IAuthenticationManager)">
+            <summary>
+            Return the authentication types which are considered external because they have captions
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.Owin.Security.AuthenticationManagerExtensions.SignOutExternalIdentity(Microsoft.Owin.Security.IAuthenticationManager)">
+            <summary>
+            SignOut the External identity
+            </summary>
+            <param name="manager"></param>
+        </member>
+        <member name="M:Microsoft.Owin.Security.AuthenticationManagerExtensions.GetExternalIdentityAsync(Microsoft.Owin.Security.IAuthenticationManager)">
+            <summary>
+            Return the identity associated with the default external authentication type
+            </summary>
+            <param name="manager"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions">
+            <summary>
+            Synchronous wrappers for the IdentityAuthentication and StoreManagers
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.SignIn(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase,System.String,System.Boolean)">
+            <summary>
+            Signs in the active principal with a identity that contains claims set to the result of GetuserIdentityClaims
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <param name="userId"></param>
+            <param name="isPersistent"></param>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.SignIn(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Boolean)">
+            <summary>
+            Signs in the active principal with a identity that contains claims set to the result of GetuserIdentityClaims and the specified claims
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <param name="userId"></param>
+            <param name="claims"></param>
+            <param name="isPersistent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.GetExternalIdentity(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase)">
+            <summary>
+            <see cref="!:Microsoft.AspNet.Identity.EntityFramework.IdentityAuthenticationManager.GetExternalIdentityAsync"/>
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.CheckPasswordAndSignIn(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase,System.String,System.String,System.Boolean)">
+            <summary>
+            Validates that the password matches and then signs the token in
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <param name="isPersistent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.CreateAndSignInExternalUser(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase,Microsoft.AspNet.Identity.IUser)">
+            <summary>
+            CreateAsync an external token and sign them in
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.SignInExternalIdentity(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Web.HttpContextBase,System.Security.Claims.ClaimsIdentity)">
+            <summary>
+            <see cref="!:Microsoft.AspNet.Identity.EntityFramework.IdentityAuthenticationManager.SignInExternalIdentityAsync"/>
+            </summary>
+            <param name="manager"></param>
+            <param name="context"></param>
+            <param name="id"></param>
+            <returns>true if the token is signed in, or a login was linked</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManagerExtensions.LinkExternalIdentity(Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager,System.Security.Claims.ClaimsIdentity,System.String)">
+            <summary>
+            <see cref="!:Microsoft.AspNet.Identity.EntityFramework.IdentityAuthenticationManager.LinkExternalIdentityAsync"/>
+            </summary>
+            <param name="manager"></param>
+            <param name="id"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager">
+            <summary>
+            Manages SignInAsync using OWIN middleware and the IdentityStoreManager to generate the appropriate token claims
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.#ctor">
+            <summary>
+            Default constructor that creates a new instance of the IdentityStoreManager
+            </summary>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.#ctor(Microsoft.AspNet.Identity.EntityFramework.IdentityStoreManager)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="storeManager"></param>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.GetUserIdentityClaims(System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})">
+            <summary>
+            Overload that uses the default cancellation token
+            </summary>
+            <param name="userId"></param>
+            <param name="claims"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.GetUserIdentityClaims(System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Threading.CancellationToken)">
+            <summary>
+            Return the claims for a token, which will contain the UserIdClaimType, UserNameClaimType, a claim representing each Role
+            and any claims specified in the UserClaims
+            </summary>
+            <param name="userId"></param>
+            <param name="claims"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.SignInAsync(System.Web.HttpContextBase,System.String,System.Boolean)">
+            <summary>
+            Signs in the active principal with a identity that contains claims set to the result of GetuserIdentityClaims
+            </summary>
+            <param name="context"></param>
+            <param name="userId"></param>
+            <param name="isPersistent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.SignInAsync(System.Web.HttpContextBase,System.String,System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Signs in the active principal with a identity that contains claims set to the result of GetuserIdentityClaims
+            </summary>
+            <param name="context"></param>
+            <param name="userId"></param>
+            <param name="isPersistent"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.SignInAsync(System.Web.HttpContextBase,System.String,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.Boolean,System.Threading.CancellationToken)">
+            <summary>
+            Signs in the active principal with a identity that contains claims set to the result of GetuserIdentityClaims and the specified claims
+            </summary>
+            <param name="context"></param>
+            <param name="userId"></param>
+            <param name="claims"></param>
+            <param name="isPersistent"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.SignOut(System.Web.HttpContextBase)">
+            <summary>
+            Signs out the active principal
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.GetExternalAuthenticationTypes(System.Web.HttpContextBase)">
+            <summary>
+            Return the authentication types which are considered external because they have captions
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.GetExternalIdentityAsync(System.Web.HttpContextBase)">
+            <summary>
+            Return the identity associated with the default external authentication type
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.Challenge(System.Web.HttpContextBase,System.String,System.String)">
+            <summary>
+            <see cref="M:Microsoft.Owin.Security.IAuthenticationManager.Challenge(Microsoft.Owin.Security.AuthenticationExtra,System.String[])"/>
+            </summary>
+            <param name="context"></param>
+            <param name="authenticationType"></param>
+            <param name="redirectUrl"></param>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.CreateAndSignInExternalUserAsync(System.Web.HttpContextBase,Microsoft.AspNet.Identity.IUser)">
+            <summary>
+            CreateAsync an external token and sign them in
+            </summary>
+            <param name="context"></param>
+            <param name="loginProvider"></param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.SignInExternalIdentityAsync(System.Web.HttpContextBase,System.Security.Claims.ClaimsIdentity)">
+            <summary>
+            Signs the identity in if the external identity is already linked
+            </summary>
+            <param name="context"></param>
+            <param name="id"></param>
+            <param name="loginProvider"></param>
+            <returns>true if the token is signed in</returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.LinkExternalIdentityAsync(System.Security.Claims.ClaimsIdentity,System.String)">
+            <summary>
+            Try to link the given identity to the specified token
+            </summary>
+            <param name="id"></param>
+            <param name="userId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.VerifyExternalIdentity(System.Security.Claims.ClaimsIdentity)">
+            <summary>
+            Ensures that the external identity has the name identifier claim
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.CheckPasswordAndSignInAsync(System.Web.HttpContextBase,System.String,System.String,System.Boolean)">
+            <summary>
+            Validates that the password matches and then signs the token in
+            </summary>
+            <param name="context"></param>
+            <param name="userName"></param>
+            <param name="password"></param>
+            <param name="isPersistent"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.StoreManager">
+            <summary>
+            Identity Store manager
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.RoleClaimType">
+            <summary>
+            Claim type used for role claims
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.UserNameClaimType">
+            <summary>
+            Claim type used for the token name
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.UserIdClaimType">
+            <summary>
+            Claim type used for the token id
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.IdentityAuthenticationManager.ClaimsIssuer">
+            <summary>
+            Issuer used for the claims generated
+            </summary>
+        </member>
+        <member name="T:Microsoft.AspNet.Identity.Owin.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.Resources.PasswordMismatch">
+            <summary>
+              Looks up a localized string similar to Incorrect password..
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNet.Identity.Owin.Resources.VerifyExternalIdentityFailed">
+            <summary>
+              Looks up a localized string similar to The ClaimTypes.NameIdentifier claim was not found in the external ClaimsIdentity..
+            </summary>
+        </member>
+    </members>
+</doc>
