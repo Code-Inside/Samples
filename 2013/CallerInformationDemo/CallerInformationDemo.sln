@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallerInformationDemo", "CallerInformationDemo\CallerInformationDemo.csproj", "{5495E0FB-D9C5-45C5-9ED3-727DFDD4594B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5495E0FB-D9C5-45C5-9ED3-727DFDD4594B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5495E0FB-D9C5-45C5-9ED3-727DFDD4594B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5495E0FB-D9C5-45C5-9ED3-727DFDD4594B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5495E0FB-D9C5-45C5-9ED3-727DFDD4594B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
