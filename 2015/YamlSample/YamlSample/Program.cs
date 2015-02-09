@@ -78,7 +78,6 @@ namespace YamlSample
         public int Foo { get; set; }
         public string SimpleItem { get; set; }
         public List<string> SimpleList { get; set; }
-
         public List<DemoConfigSettingElement> ComplexList { get; set; }
     }
 
@@ -86,7 +85,6 @@ namespace YamlSample
     {
         public string Name { get; set; }
         public List<string> Attributes { get; set; }
-
         public string Test { get; set; }
     }
 
