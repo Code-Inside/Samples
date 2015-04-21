@@ -13,7 +13,7 @@ namespace WebApiBasicAuth.Filters
         {
             cancellationToken.ThrowIfCancellationRequested(); 
 
-            if (userName != "testuser" && password != "Pass1word")
+            if (userName != "testuser" || password != "Pass1word")
             {
                 // No user with userName/password exists.
                 return null;
