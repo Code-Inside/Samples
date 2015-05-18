@@ -187,3 +187,7 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# Client Side JS and CSS Stuff
+node_modules
+bower_components
