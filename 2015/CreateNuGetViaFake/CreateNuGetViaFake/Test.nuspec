@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Test.Foobar</id>
+    <version>2.0.0</version>
+    <title>Test Foobar</title>
+    <authors>Code Inside Team</authors>
+    <owners>Code Inside Team</owners>
+    <licenseUrl>http://blog.codeinside.eu</licenseUrl>
+    <projectUrl>http://blog.codeinside.eu</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Hello World</description>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags></tags>
+  </metadata>
+  <files>
+    <file src="CreateNuGetViaFake.dll" target="lib\net45" />
+  </files>
+</package>
