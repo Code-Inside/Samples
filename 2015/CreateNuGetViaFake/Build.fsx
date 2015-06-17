@@ -1,6 +1,8 @@
 // include Fake lib
 #r "packages/FAKE/tools/FakeLib.dll"
+#r "System.Xml.Linq"
 open Fake
+open System.Xml.Linq
 
 RestorePackages()
 
@@ -23,8 +25,13 @@ Target "BuildApp" (fun _ ->
 
 Target "BuildNuGet" (fun _ ->
    
-    NuGetPack (fun p -> 
+    // workaround for https://github.com/fsharp/FAKE/issues/830
+    let doc = System.Xml.Linq.XDocument.Load("./CreateNuGetViaFake/Test.nuspec")
+    let vers = doc.Descendants(XName.Get("version", doc.Root.Name.NamespaceName)) 
+
+    NuGet (fun p -> 
     {p with
+        Version = (Seq.head vers).Value
         OutputPath = artifactsDir
         WorkingDir = "./CreateNuGetViaFake/bin/Debug/"
         })  "./CreateNuGetViaFake/Test.nuspec"
