@@ -7,13 +7,14 @@ open System.Xml.Linq
 RestorePackages()
 
 // Properties
-let artifactsDir = @".\artifacts\"
+let artifactsNuGetDir = @"./artifacts/nuget/"
 let artifactsBuildDir = "./artifacts/build/"
 
 // Targets
 Target "Clean" (fun _ ->
     trace "Cleanup..."
-    CleanDirs [artifactsDir]
+    CleanDir artifactsNuGetDir
+    CleanDir artifactsBuildDir
 )
 
 Target "BuildApp" (fun _ ->
@@ -25,15 +26,14 @@ Target "BuildApp" (fun _ ->
 
 Target "BuildNuGet" (fun _ ->
    
-    // workaround for https://github.com/fsharp/FAKE/issues/830
     let doc = System.Xml.Linq.XDocument.Load("./CreateNuGetViaFake/Test.nuspec")
     let vers = doc.Descendants(XName.Get("version", doc.Root.Name.NamespaceName)) 
 
     NuGet (fun p -> 
     {p with
         Version = (Seq.head vers).Value
-        OutputPath = artifactsDir
-        WorkingDir = "./CreateNuGetViaFake/bin/Debug/"
+        OutputPath = artifactsNuGetDir
+        WorkingDir = artifactsBuildDir
         })  "./CreateNuGetViaFake/Test.nuspec"
 )
 
