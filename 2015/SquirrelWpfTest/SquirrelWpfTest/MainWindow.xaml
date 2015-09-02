@@ -1,0 +1,15 @@
+﻿<Window x:Class="SquirrelWpfTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SquirrelWpfTest"
+        mc:Ignorable="d"
+        Title="MainWindow 6" Height="350" Width="525">
+    <StackPanel>
+        <Button Click="ButtonUpdateQuestion_OnClick" Height="30">Update?</Button>
+        <TextBlock x:Name="UpdateQuestionResult"></TextBlock>
+        <Button Click="ButtonUpdateDo_OnClick" Height="30">Update!</Button>
+        <TextBlock x:Name="UpdateDoResult"></TextBlock>
+    </StackPanel>
+</Window>
