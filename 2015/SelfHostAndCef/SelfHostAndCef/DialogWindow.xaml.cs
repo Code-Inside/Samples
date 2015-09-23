@@ -14,22 +14,22 @@ using System.Windows.Shapes;
 
 namespace SelfHostAndCef
 {
-    public class OneOffixxWebViewHostEventArgs : EventArgs
+    public class SampleWebViewHostEventArgs : EventArgs
     {
         public string Json { get; set; }
     }
-    public class OneOffixxWebViewHost
+    public class SampleWebViewHost
     {
-        public delegate void OneOffixxWebViewHostEventHandler(object sender, OneOffixxWebViewHostEventArgs e);
+        public delegate void SampleWebViewHostEventHandler(object sender, SampleWebViewHostEventArgs e);
 
-        public event OneOffixxWebViewHostEventHandler OneOffixxWebViewHostInvoked;
+        public event SampleWebViewHostEventHandler SampleWebViewHostInvoked;
         public void done(string json)
         {
-            if (OneOffixxWebViewHostInvoked != null)
+            if (SampleWebViewHostInvoked != null)
             {
-                OneOffixxWebViewHostEventArgs args = new OneOffixxWebViewHostEventArgs();
+                SampleWebViewHostEventArgs args = new SampleWebViewHostEventArgs();
                 args.Json = json;
-                OneOffixxWebViewHostInvoked(this, args);
+                SampleWebViewHostInvoked(this, args);
             }
         }
     }
@@ -46,13 +46,13 @@ namespace SelfHostAndCef
             InitializeComponent();
             this.Browser.Address = "http://localhost:9000/api/v1/Demo";
 
-            var hostElement = new OneOffixxWebViewHost();
-            this.Browser.RegisterJsObject("oneoffixxWebViewHost", hostElement);
+            var hostElement = new SampleWebViewHost();
+            this.Browser.RegisterJsObject("sampleWebViewHost", hostElement);
 
-            hostElement.OneOffixxWebViewHostInvoked += HostElement_OneOffixxWebViewHostInvoked;
+            hostElement.SampleWebViewHostInvoked += HostElementSampleWebViewHostInvoked;
         }
 
-        private void HostElement_OneOffixxWebViewHostInvoked(object sender, OneOffixxWebViewHostEventArgs e)
+        private void HostElementSampleWebViewHostInvoked(object sender, SampleWebViewHostEventArgs e)
         {
             Dispatcher.Invoke(() =>
             {
