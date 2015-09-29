@@ -56,6 +56,8 @@ namespace SelfHostAndCef
         {
             Dispatcher.Invoke(() =>
             {
+                MessageBox.Show("From Browser: " + e.Json);
+                
                 this.DialogResult = true;
                 this.Close();
             });

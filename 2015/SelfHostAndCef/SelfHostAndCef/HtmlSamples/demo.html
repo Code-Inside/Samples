@@ -19,8 +19,8 @@
 
             var result = JSON.stringify($("form").serializeArray());
 
-            if (webViewHost != null) {
-                webViewHost.done(result);
+            if (sampleWebViewHost != null) {
+                sampleWebViewHost.done(result);
             }
 
             return false;
