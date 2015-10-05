@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<View>
+  <Row>
+    <Label>Betreff</Label>
+    <TextBox ColumnSpan="3" />
+  </Row>
+  <Row>
+    <Label>Betreff 123132</Label>
+    <TextBox ColumnSpan="3" />
+    <Button Label="Hello World" />
+  </Row>
+</View>
