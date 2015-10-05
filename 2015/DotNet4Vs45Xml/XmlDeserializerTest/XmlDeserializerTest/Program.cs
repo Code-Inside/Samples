@@ -9,6 +9,35 @@ using System.Xml.Serialization;
 
 namespace XmlDeserializerTest
 {
+    /// <summary>
+    /// App = Compiled for .NET 4.0 and is running OK on .NET 4.5, but breaks on 4.0.
+    /// 
+    /// Kinda similar:
+    /// http://stackoverflow.com/questions/14689305/serialization-breaks-in-net-4-5
+    /// 
+    /// .NET 4.5 == OK
+    /// 
+    /// .NET 4.0 == Exception
+    /// 
+    /// System.InvalidOperationException: XmlDeserializerTest.StaticContainerClass kann
+    /// nicht serialisiert werden.Statische Typen können nicht als Parameter oder Rückg
+    /// abewerte verwendet werden.
+    /// bei System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo sour
+    /// ce, Boolean directReference, Boolean throwOnError)
+    /// bei System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo sour
+    /// ce, Boolean directReference)
+    /// bei System.Xml.Serialization.TypeScope.ImportTypeDesc(Type type, MemberInfo m
+    /// emberInfo, Boolean directReference)
+    /// bei System.Xml.Serialization.TypeScope.GetTypeDesc(Type type, MemberInfo sour
+    /// ce, Boolean directReference, Boolean throwOnError)
+    /// bei System.Xml.Serialization.ModelScope.GetTypeModel(Type type, Boolean direc
+    /// tReference)
+    /// bei System.Xml.Serialization.XmlReflectionImporter.ImportTypeMapping(Type typ
+    /// e, XmlRootAttribute root, String defaultNamespace)
+    /// bei System.Xml.Serialization.XmlSerializer..ctor(Type type, String defaultNam
+    /// espace)
+    /// bei XmlDeserializerTest.Program.Main(String[] args)
+    /// </summary>
     class Program
     {
         static void Main(string[] args)
