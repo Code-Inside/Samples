@@ -2,7 +2,7 @@
 
 namespace XmlBaseTest.Elements
 {
-    public class BaseElement
+    public abstract class BaseElement
     {
         [XmlAttribute(AttributeName = "Id")]
         public string Id { get; set; }
