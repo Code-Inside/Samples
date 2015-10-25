@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<View>
-  <Row>
-    <Label>Betreff</Label>
-    <TextBox ColumnSpan="3" />
-  </Row>
-  <Row>
-    <Label>Betreff 123132</Label>
-    <TextBox ColumnSpan="3" />
-    <Button Label="Hello World" />
-  </Row>
-</View>
+<Root>
+  <Node>
+    <Label Id="Label1">Betreff</Label>
+    <TextBox Id="TextBox1" MultiLines="3" />
+  </Node>
+  <Node>
+    <Label Id="Label2">Betreff 123132</Label>
+    <TextBox Id="TextBox2" />
+    <Button Id="Button1" Label="Hello World" Action="Foobar" />
+  </Node>
+</Root>
