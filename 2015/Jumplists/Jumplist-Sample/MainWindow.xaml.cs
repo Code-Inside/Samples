@@ -30,17 +30,29 @@ namespace Jumplist_Sample
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            var di = new DirectoryInfo("C://");
             var jt = new JumpTask
             {
                 ApplicationPath = "C:\\Windows\\notepad.exe",
-                Arguments = "C://",
-                Description = "Run at " + "C://",
-                Title = di.Name,
-                CustomCategory = "Hello World"
+                Arguments = "readme.txt",
+                Title = "Recent Entry for Notepad",
+                CustomCategory = "Dummy"
             };
 
             JumpList.AddToRecentCategory(jt);
+
+
+
+            var jt2 = new JumpTask
+            {
+                ApplicationPath = "C:\\Windows\\notepad.exe",
+                Arguments = "readme.txt",
+                Title = "Code Entry for Notepad",
+                CustomCategory = "Dummy"
+            };
+
+            var currentJumplist = JumpList.GetJumpList(App.Current);
+            currentJumplist.JumpItems.Add(jt2);
+            currentJumplist.Apply();
         }
     }
 }

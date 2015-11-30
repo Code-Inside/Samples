@@ -15,12 +15,10 @@ namespace Jumplist_Sample
     {
         private void JumpList_JumpItemsRejected(object sender, JumpItemsRejectedEventArgs e)
         {
-            throw new NotImplementedException();
         }
 
         private void JumpList_JumpItemsRemovedByUser(object sender, JumpItemsRemovedEventArgs e)
         {
-            throw new NotImplementedException();
         }
     }
 }
