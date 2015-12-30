@@ -13,7 +13,7 @@ namespace SelfHostWithBetterRouting.Controller
 {
     public class PageController : ApiController
     {
-        private const string ResourcePath = "OneOffixx.Connect.WebApi.Pages{0}";
+        private const string ResourcePath = "SelfHostWithBetterRouting.Pages{0}";
 
         public static Stream GetStream(string folderAndFileInProjectPath)
         {
@@ -42,10 +42,15 @@ namespace SelfHostWithBetterRouting.Controller
 
             var fileStream = GetStream(filename);
 
-            var response = new HttpResponseMessage();
-            response.Content = new StreamContent(fileStream);
-            response.Content.Headers.ContentType = new MediaTypeHeaderValue(mimeType);
-            return response;
+            if (fileStream != null)
+            {
+                var response = new HttpResponseMessage();
+                response.Content = new StreamContent(fileStream);
+                response.Content.Headers.ContentType = new MediaTypeHeaderValue(mimeType);
+                return response;
+            }
+
+            return new HttpResponseMessage(System.Net.HttpStatusCode.NotFound);
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using Owin;
+﻿using Microsoft.Owin.Hosting;
+using Owin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,13 @@ namespace SelfHostWithBetterRouting
     {
         static void Main(string[] args)
         {
+            string baseAddress = "http://localhost:9000/";
+            using (WebApp.Start<Startup>(url: baseAddress))
+            {
+                Console.WriteLine("Server started... press enter key to exit.");
+                Console.ReadLine();
+            }
+
         }
     }
 
