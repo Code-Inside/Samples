@@ -26,7 +26,100 @@ namespace XmlIntelliSense.App
             InitializeComponent();
 
             textEditor.TextChanged += IntelliSense;
+            textEditor.TextArea.TextEntered += TextArea_TextEntered;
             textEditor.TextArea.Caret.PositionChanged += IntelliSense;
+        }
+
+        private void TextArea_TextEntered(object sender, TextCompositionEventArgs e)
+        {
+            try
+            {
+                switch (e.Text)
+                {
+                    case ">":
+                    {
+                        //auto-insert closing element
+                        int offset = textEditor.CaretOffset;
+                        var test =  XmlParser.GetActiveElementStartPath(textEditor.Text, offset - 1);
+                        var s = test.Elements.GetLast().Name;
+                        if (!string.IsNullOrWhiteSpace(s) && "!--" != s)
+                        {
+                            //if (!XParser.IsClosingElement(_editor.Text, offset - 1, s))
+                            //{
+                                string endElement = "</" + s + ">";
+                                var rightOfCursor =
+                                    textEditor.Text.Substring(offset,
+                                        Math.Max(0, Math.Min(endElement.Length + 50, textEditor.Text.Length) - offset - 1))
+                                        .TrimStart();
+                                if (!rightOfCursor.StartsWith(endElement))
+                                {
+                                    textEditor.TextArea.Document.Insert(offset, endElement);
+                                    textEditor.CaretOffset = offset;
+                                }
+                            //}
+                        }
+                        break;
+                    }
+                    case "/":
+                        {
+                            //insert name of closing element
+                            int offset = textEditor.CaretOffset;
+                            if (offset > 1 && textEditor.Text[offset - 2] == '<')
+                            {
+                                //expand to closing tag
+                                string s = XmlParser.GetActiveElementStartPath(textEditor.Text, offset - 1).Elements.GetLast().Name;
+                                //if (!string.IsNullOrEmpty(s))
+                                //{
+                                //    showCompletion(new List<ICompletionData>
+                                //    {
+                                //        new MyCompletionData(s + ">")
+                                //    });
+                                //    return true;
+                                //}
+                            }
+                            if (textEditor.Text.Length > offset + 2 && textEditor.Text[offset] == '>')
+                            {
+                                //remove closing tag if exist
+                                string s = XmlParser.GetActiveElementStartPath(textEditor.Text, offset - 1).Elements.GetLast().Name;
+                                if (!string.IsNullOrWhiteSpace(s))
+                                {
+                                    //search closing end tag. Element must be empty (whitespace allowed)  
+                                    //"<hallo>  </hallo>" --> enter '/' --> "<hallo/>  "
+                                    string expectedEndTag = "</" + s + ">";
+                                    for (int i = offset + 1; i < textEditor.Text.Length - expectedEndTag.Length + 1; i++)
+                                    {
+                                        if (!char.IsWhiteSpace(textEditor.Text[i]))
+                                        {
+                                            if (textEditor.Text.Substring(i, expectedEndTag.Length) == expectedEndTag)
+                                            {
+                                                //remove already existing endTag
+                                                textEditor.Document.Remove(i, expectedEndTag.Length);
+                                            }
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                            break;
+                        }
+                }
+            }
+            catch (Exception exc)
+            {
+                
+            }
+
+            if (e.Text.Length > 0)
+            {
+                char c = e.Text[0];
+                if (!(char.IsLetterOrDigit(c) || char.IsPunctuation(c)))
+                {
+                    // Whenever a non-letter is typed while the completion window is open,
+                    // insert the currently selected element.
+                    //_completionWindow.CompletionList.RequestInsertion(e);
+                    e.Handled = true;
+                }
+            }
         }
 
         private void IntelliSense(object sender, EventArgs eventArgs)
