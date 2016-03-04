@@ -65,6 +65,7 @@
     <Compile Include="SharpDevelopXmlEditor\XmlNamespace.cs" />
     <Compile Include="SharpDevelopXmlEditor\XmlNamespaceCollection.cs" />
     <Compile Include="SharpDevelopXmlEditor\XmlParser.cs" />
+    <Compile Include="XSemmel\XParser.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
