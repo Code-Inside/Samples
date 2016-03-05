@@ -18,8 +18,6 @@ using System.Xml.Linq;
 using System.Xml.Schema;
 using System.Xml.XPath;
 using ICSharpCode.AvalonEdit.CodeCompletion;
-using ICSharpCode.AvalonEdit.Document;
-using ICSharpCode.AvalonEdit.Editing;
 using XmlIntelliSense.App.SharpDevelopXmlEditor;
 using XmlIntelliSense.App.XSemmel;
 
@@ -34,6 +32,10 @@ namespace XmlIntelliSense.App
         public MainWindow()
         {
             InitializeComponent();
+
+            textEditor.Text = File.ReadAllText("Sample.xml");
+            XSD.Text = File.ReadAllText("Schema.xsd");
+
 
             textEditor.TextChanged += IntelliSense;
             textEditor.TextArea.TextEntered += TextArea_TextEntered;
@@ -129,7 +131,7 @@ namespace XmlIntelliSense.App
                         IList<ICompletionData> data = completionWindow.CompletionList.CompletionData;
                         foreach (var autocompleteelement in autocompletelist)
                         {
-                            data.Add(new MyCompletionData(autocompleteelement));
+                            data.Add(new XmlElementCompletionData(autocompleteelement.Item1, autocompleteelement.Item2));
                         }
                         completionWindow.Show();
                         completionWindow.Closed += delegate
@@ -159,13 +161,14 @@ namespace XmlIntelliSense.App
             }
         }
 
-        public List<string> ProvidePossibleElementsAutocomplete(XmlElementPath path)
+        public List<Tuple<string, string>> ProvidePossibleElementsAutocomplete(XmlElementPath path)
         {
-            List<string> result = new List<string>();
+            List<Tuple<string, string>> result = new List<Tuple<string, string>>();
             XmlSchemaSet schemas = new XmlSchemaSet();
             schemas.Add("", XmlReader.Create(new StringReader(this.XSD.Text)));
             LastValidXDocument.Validate(schemas, (o, e) =>
             {
+                this.CurrentPath.Text = e.Message.ToString();
             }, true);
 
             StringBuilder xpath = new StringBuilder();
@@ -191,9 +194,19 @@ namespace XmlIntelliSense.App
                 foreach (XmlSchemaObject childElement in sequence.Items)
                 {
                     var asElement = (XmlSchemaElement)childElement;
-                    result.Add(asElement.Name + " (" + asElement.ElementSchemaType.Name + ")");
 
-                    //result.Add(asElement.Name + " (" + asElement.ElementSchemaType.Name + ")");
+                    string description;
+
+                    if (asElement.ElementSchemaType.Datatype == null)
+                    {
+                        description = asElement.ElementSchemaType.TypeCode.ToString();
+                    }
+                    else
+                    {
+                        description = asElement.ElementSchemaType.TypeCode.ToString();
+                    }
+
+                    result.Add(new Tuple<string,string>(asElement.Name, description));
                 }
 
             }
@@ -216,40 +229,6 @@ namespace XmlIntelliSense.App
             //builder.AppendLine("GetParentElementPath: " + GetParentElementPath.ToString());
 
             //this.CurrentPath.Text = builder.ToString();
-        }
-    }
-
-    public class MyCompletionData : ICompletionData
-    {
-        public MyCompletionData(string text)
-        {
-            this.Text = text;
-        }
-
-        public System.Windows.Media.ImageSource Image
-        {
-            get { return null; }
-        }
-
-        public string Text { get; private set; }
-
-        // Use this property if you want to show a fancy UIElement in the list.
-        public object Content
-        {
-            get { return this.Text; }
-        }
-
-        public object Description
-        {
-            get { return "Description for " + this.Text; }
-        }
-
-        public double Priority { get; }
-
-        public void Complete(TextArea textArea, ISegment completionSegment,
-            EventArgs insertionRequestEventArgs)
-        {
-            textArea.Document.Replace(completionSegment, this.Text);
         }
     }
 }
