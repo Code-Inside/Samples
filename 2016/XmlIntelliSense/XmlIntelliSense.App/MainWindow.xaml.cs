@@ -19,6 +19,7 @@ using System.Xml.Schema;
 using System.Xml.XPath;
 using ICSharpCode.AvalonEdit.CodeCompletion;
 using XmlIntelliSense.App.SharpDevelopXmlEditor;
+using XmlIntelliSense.App.XHelper;
 using XmlIntelliSense.App.XSemmel;
 
 namespace XmlIntelliSense.App
@@ -28,7 +29,6 @@ namespace XmlIntelliSense.App
     /// </summary>
     public partial class MainWindow : Window
     {
-        public XDocument LastValidXDocument { get; set; }
         public MainWindow()
         {
             InitializeComponent();
@@ -36,25 +36,22 @@ namespace XmlIntelliSense.App
             textEditor.Text = File.ReadAllText("Sample.xml");
             XSD.Text = File.ReadAllText("Schema.xsd");
 
+            XmlSchemaSet schemas = new XmlSchemaSet();
+            schemas.Add("", XmlReader.Create(new StringReader(File.ReadAllText("Schema.xsd"))));
+            schemas.Compile();
+            XsdInformation = XHelper.XsdParser.AnalyseSchema(schemas);
+
 
             textEditor.TextChanged += IntelliSense;
             textEditor.TextArea.TextEntered += TextArea_TextEntered;
             textEditor.TextArea.Caret.PositionChanged += IntelliSense;
         }
 
+        public List<XsdInformationElement> XsdInformation { get; set; }
+
         private void TextArea_TextEntered(object sender, TextCompositionEventArgs e)
         {
             var _editor = textEditor;
-
-            try
-            {
-                var lastXDoc = XDocument.Parse(_editor.Text);
-                LastValidXDocument = lastXDoc;
-            }
-            catch (Exception exc)
-            {
-                // can happen...
-            }
 
             try
             {
@@ -124,22 +121,19 @@ namespace XmlIntelliSense.App
                             break;
                         }
                     case "<":
-                        var test = XmlParser.GetParentElementPath(_editor.Text);
-                        var autocompletelist = ProvidePossibleElementsAutocomplete(test);
+                        var parentElement = XmlParser.GetParentElementPath(_editor.Text);
+                        var elementAutocompleteList = ProvidePossibleElementsAutocomplete(parentElement);
 
-                        var completionWindow = new CompletionWindow(textEditor.TextArea);
-                        IList<ICompletionData> data = completionWindow.CompletionList.CompletionData;
-                        foreach (var autocompleteelement in autocompletelist)
-                        {
-                            data.Add(new XmlElementCompletionData(autocompleteelement.Item1, autocompleteelement.Item2));
-                        }
-                        completionWindow.Show();
-                        completionWindow.Closed += delegate
-                        {
-                            completionWindow = null;
-                        };
+                        InvokeCompletionWindow(elementAutocompleteList);
 
                         break;
+                    case " ":
+                        {
+                            var currentElement = XmlParser.GetActiveElementStartPath(_editor.Text, _editor.CaretOffset);
+                            var attributeautocompletelist = ProvidePossibleAttributesAutocomplete(currentElement);
+                            InvokeCompletionWindow(attributeautocompletelist);
+                            break;
+                        }
 
                 }
             }
@@ -161,55 +155,95 @@ namespace XmlIntelliSense.App
             }
         }
 
+        private void InvokeCompletionWindow(List<Tuple<string, string>> elementAutocompleteList)
+        {
+            var completionWindow = new CompletionWindow(textEditor.TextArea);
+            IList<ICompletionData> data = completionWindow.CompletionList.CompletionData;
+            if (elementAutocompleteList.Any())
+            {
+                foreach (var autocompleteelement in elementAutocompleteList)
+                {
+                    data.Add(new XmlCompletionData(autocompleteelement.Item1, autocompleteelement.Item2));
+                }
+                completionWindow.Show();
+                completionWindow.Closed += delegate { completionWindow = null; };
+            }
+        }
+
         public List<Tuple<string, string>> ProvidePossibleElementsAutocomplete(XmlElementPath path)
         {
             List<Tuple<string, string>> result = new List<Tuple<string, string>>();
-            XmlSchemaSet schemas = new XmlSchemaSet();
-            schemas.Add("", XmlReader.Create(new StringReader(this.XSD.Text)));
-            LastValidXDocument.Validate(schemas, (o, e) =>
+
+            if (path.IsEmpty)
             {
-                this.CurrentPath.Text = e.Message.ToString();
-            }, true);
+                var xsdResultForGivenElementPath = XsdInformation.FirstOrDefault(x => x.IsRoot);
 
-            StringBuilder xpath = new StringBuilder();
-            foreach (var element in path.Elements)
-            {
-                xpath.Append("//" + element.Name);
-            }
-
-            var parentElement = LastValidXDocument.XPathSelectElement(xpath.ToString());
-
-            if (parentElement != null)
-            {
-                var element = parentElement.GetSchemaInfo();
-
-                // Get the complex type of the Customer element.
-                XmlSchemaComplexType complexType = element.SchemaType as XmlSchemaComplexType;
-
-                // Get the sequence particle of the complex type.
-                XmlSchemaSequence sequence = complexType.ContentTypeParticle as XmlSchemaSequence;
-
-
-                // Iterate over each XmlSchemaElement in the Items collection.
-                foreach (XmlSchemaObject childElement in sequence.Items)
+                if (xsdResultForGivenElementPath != null)
                 {
-                    var asElement = (XmlSchemaElement)childElement;
-
-                    string description;
-
-                    if (asElement.ElementSchemaType.Datatype == null)
-                    {
-                        description = asElement.ElementSchemaType.TypeCode.ToString();
-                    }
-                    else
-                    {
-                        description = asElement.ElementSchemaType.TypeCode.ToString();
-                    }
-
-                    result.Add(new Tuple<string,string>(asElement.Name, description));
+                    result.Add(new Tuple<string, string>(xsdResultForGivenElementPath.Name, xsdResultForGivenElementPath.DataType));
+                }
+            }
+            else
+            {
+                StringBuilder xpath = new StringBuilder();
+                xpath.Append("/");
+                foreach (var element in path.Elements)
+                {
+                    xpath.Append("/" + element.Name);
                 }
 
+                var xsdResultForGivenElementPath = XsdInformation.FirstOrDefault(x => x.XPathLikeKey.ToLowerInvariant() == xpath.ToString().ToLowerInvariant());
+
+                if (xsdResultForGivenElementPath != null)
+                {
+                    foreach (var xsdInformationElement in xsdResultForGivenElementPath.Elements)
+                    {
+                        result.Add(new Tuple<string, string>(xsdInformationElement.Name, xsdInformationElement.DataType));
+                    }
+                }
             }
+          
+
+            return result;
+        }
+
+        public List<Tuple<string, string>> ProvidePossibleAttributesAutocomplete(XmlElementPath path)
+        {
+            List<Tuple<string, string>> result = new List<Tuple<string, string>>();
+
+            if (path.IsEmpty)
+            {
+                var xsdResultForGivenElementPath = XsdInformation.FirstOrDefault(x => x.IsRoot);
+
+                if (xsdResultForGivenElementPath != null)
+                {
+                    foreach (var xsdInformationAttribute in xsdResultForGivenElementPath.Attributes)
+                    {
+                        result.Add(new Tuple<string, string>(xsdInformationAttribute.Name, xsdInformationAttribute.DataType));
+                    }
+                }
+            }
+            else
+            {
+                StringBuilder xpath = new StringBuilder();
+                xpath.Append("/");
+                foreach (var element in path.Elements)
+                {
+                    xpath.Append("/" + element.Name);
+                }
+
+                var xsdResultForGivenElementPath = XsdInformation.FirstOrDefault(x => x.XPathLikeKey.ToLowerInvariant() == xpath.ToString().ToLowerInvariant());
+
+                if (xsdResultForGivenElementPath != null)
+                {
+                    foreach (var xsdInformationAttribute in xsdResultForGivenElementPath.Attributes)
+                    {
+                        result.Add(new Tuple<string, string>(xsdInformationAttribute.Name, xsdInformationAttribute.DataType));
+                    }
+                }
+            }
+
+
             return result;
         }
 

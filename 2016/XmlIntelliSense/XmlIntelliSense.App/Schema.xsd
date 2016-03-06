@@ -29,14 +29,14 @@
     </xs:keyref>
   </xs:element>
   <xs:complexType name='CustomerType'>
-    <xs:choice maxOccurs="unbounded">
+    <xs:sequence>
       <xs:element name='CompanyName' type='xs:string'/>
       <xs:element name='ContactName' type='xs:string'/>
       <xs:element name='ContactTitle' type='xs:string'/>
       <xs:element name='Phone' type='xs:string'/>
       <xs:element name='Fax' minOccurs='0' type='xs:string'/>
       <xs:element name='FullAddress' type='AddressType'/>
-      </xs:choice>
+    </xs:sequence>
     <xs:attribute name='CustomerID' type='xs:token'/>
   </xs:complexType>
   <xs:complexType name='AddressType'>

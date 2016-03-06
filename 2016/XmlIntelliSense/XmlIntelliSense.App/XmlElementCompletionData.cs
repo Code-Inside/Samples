@@ -5,9 +5,9 @@ using ICSharpCode.AvalonEdit.Editing;
 
 namespace XmlIntelliSense.App
 {
-    public class XmlElementCompletionData : ICompletionData
+    public class XmlCompletionData : ICompletionData
     {
-        public XmlElementCompletionData(string text, string description)
+        public XmlCompletionData(string text, string description)
         {
             this.Text = text;
             this.Description = description;

@@ -59,6 +59,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="XHelper\XsdParser.cs" />
     <Compile Include="XmlElementCompletionData.cs" />
     <Compile Include="SharpDevelopXmlEditor\QualifiedName.cs" />
     <Compile Include="SharpDevelopXmlEditor\QualifiedNameCollection.cs" />
