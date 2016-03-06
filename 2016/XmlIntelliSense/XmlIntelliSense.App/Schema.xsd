@@ -41,7 +41,11 @@
   </xs:complexType>
   <xs:complexType name='AddressType'>
     <xs:sequence>
-      <xs:element name='Address' type='xs:string'/>
+      <xs:element name='Address' type='xs:string'>
+        <xs:annotation id='AdressAnotation'>
+          <xs:documentation>asdkajshd kjash kjashd kjahsd</xs:documentation>
+        </xs:annotation>
+      </xs:element>
       <xs:element name='City' type='xs:string'/>
       <xs:element name='Region' type='xs:string'/>
       <xs:element name='PostalCode' type='xs:string' />

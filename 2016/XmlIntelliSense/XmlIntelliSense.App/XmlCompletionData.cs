@@ -7,8 +7,11 @@ namespace XmlIntelliSense.App
 {
     public class XmlCompletionData : ICompletionData
     {
-        public XmlCompletionData(string text, string description)
+        private readonly bool _isAttribute;
+
+        public XmlCompletionData(string text, string description, bool isAttribute)
         {
+            _isAttribute = isAttribute;
             this.Text = text;
             this.Description = description;
         }
@@ -32,7 +35,16 @@ namespace XmlIntelliSense.App
         public void Complete(TextArea textArea, ISegment completionSegment,
             EventArgs insertionRequestEventArgs)
         {
-            textArea.Document.Replace(completionSegment, this.Text);
+            if (_isAttribute)
+            {
+                textArea.Document.Replace(completionSegment, this.Text + "=\"\"");
+            }
+            else
+            {
+                textArea.Document.Replace(completionSegment, this.Text);
+            }
+
+
         }
     }
 }
