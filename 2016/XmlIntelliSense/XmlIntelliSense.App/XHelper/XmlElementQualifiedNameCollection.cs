@@ -2,20 +2,23 @@ using System;
 using System.Collections.ObjectModel;
 using System.Text;
 
-namespace XmlIntelliSense.App.SharpDevelopXmlEditor
+namespace XmlIntelliSense.App.XHelper
 {
-    public class QualifiedNameCollection : Collection<QualifiedName>
+    /// <summary>
+    /// Source: Sharpdevelop
+    /// </summary>
+    public class XmlElementQualifiedNameCollection : Collection<XmlElementQualifiedName>
     {
-        public QualifiedNameCollection()
+        public XmlElementQualifiedNameCollection()
         {
         }
 
-        public QualifiedNameCollection(QualifiedNameCollection names)
+        public XmlElementQualifiedNameCollection(XmlElementQualifiedNameCollection names)
         {
             AddRange(names);
         }
 
-        public QualifiedNameCollection(QualifiedName[] names)
+        public XmlElementQualifiedNameCollection(XmlElementQualifiedName[] names)
         {
             AddRange(names);
         }
@@ -44,7 +47,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             return text.ToString();
         }
 
-        public void AddRange(QualifiedName[] names)
+        public void AddRange(XmlElementQualifiedName[] names)
         {
             for (int i = 0; i < names.Length; i++)
             {
@@ -52,7 +55,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             }
         }
 
-        public void AddRange(QualifiedNameCollection names)
+        public void AddRange(XmlElementQualifiedNameCollection names)
         {
             for (int i = 0; i < names.Count; i++)
             {
@@ -94,7 +97,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         {
             if (HasItems)
             {
-                QualifiedName name = this[Count - 1];
+                XmlElementQualifiedName name = this[Count - 1];
                 return name.Prefix;
             }
             return String.Empty;
@@ -102,7 +105,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
 
         public string GetNamespaceForPrefix(string prefix)
         {
-            foreach (QualifiedName name in this)
+            foreach (XmlElementQualifiedName name in this)
             {
                 if (name.Prefix == prefix)
                 {
@@ -112,7 +115,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             return String.Empty;
         }
 
-        public QualifiedName GetLast()
+        public XmlElementQualifiedName GetLast()
         {
             if (HasItems)
             {
@@ -128,15 +131,15 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
 
         public override bool Equals(object obj)
         {
-            QualifiedNameCollection rhs = obj as QualifiedNameCollection;
+            XmlElementQualifiedNameCollection rhs = obj as XmlElementQualifiedNameCollection;
             if (rhs != null)
             {
                 if (Count == rhs.Count)
                 {
                     for (int i = 0; i < Count; ++i)
                     {
-                        QualifiedName lhsName = this[i];
-                        QualifiedName rhsName = rhs[i];
+                        XmlElementQualifiedName lhsName = this[i];
+                        XmlElementQualifiedName rhsName = rhs[i];
                         if (!lhsName.Equals(rhsName))
                         {
                             return false;

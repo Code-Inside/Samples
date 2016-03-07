@@ -1,11 +1,14 @@
-namespace XmlIntelliSense.App.SharpDevelopXmlEditor
+namespace XmlIntelliSense.App.XHelper
 {
-    public class XmlElementPath
+    /// <summary>
+    /// Source: Sharpdevelop
+    /// </summary>
+    public class XmlElementInformation
     {
-        QualifiedNameCollection elements = new QualifiedNameCollection();
+        XmlElementQualifiedNameCollection elements = new XmlElementQualifiedNameCollection();
         XmlNamespaceCollection namespacesInScope = new XmlNamespaceCollection();
 
-        public XmlElementPath()
+        public XmlElementInformation()
         {
         }
 
@@ -13,12 +16,12 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         /// Gets the elements specifying the path.
         /// </summary>
         /// <remarks>The order of the elements determines the path.</remarks>
-        public QualifiedNameCollection Elements
+        public XmlElementQualifiedNameCollection Elements
         {
             get { return elements; }
         }
 
-        public void AddElement(QualifiedName elementName)
+        public void AddElement(XmlElementQualifiedName elementName)
         {
             elements.Add(elementName);
         }
@@ -39,7 +42,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         {
             if (elements.HasItems)
             {
-                QualifiedName lastName = Elements.GetLast();
+                XmlElementQualifiedName lastName = Elements.GetLast();
                 int index = LastIndexNotMatchingNamespace(lastName.Namespace);
                 if (index != -1)
                 {
@@ -64,7 +67,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         /// </summary>
         public override bool Equals(object obj)
         {
-            XmlElementPath rhsPath = obj as XmlElementPath;
+            XmlElementInformation rhsPath = obj as XmlElementInformation;
             if (rhsPath == null)
             {
                 return false;
@@ -93,7 +96,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         /// </summary>
         public void SetNamespaceForUnqualifiedNames(string namespaceUri)
         {
-            foreach (QualifiedName name in elements)
+            foreach (XmlElementQualifiedName name in elements)
             {
                 if (!name.HasNamespace)
                 {
@@ -109,7 +112,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
                 // Start the check from the last but one item.
                 for (int i = elements.Count - 2; i >= 0; --i)
                 {
-                    QualifiedName name = elements[i];
+                    XmlElementQualifiedName name = elements[i];
                     if (name.Namespace != namespaceUri)
                     {
                         return i;

@@ -1,34 +1,37 @@
 using System;
 using System.Xml;
 
-namespace XmlIntelliSense.App.SharpDevelopXmlEditor
+namespace XmlIntelliSense.App.XHelper
 {
-    public class QualifiedName
+    /// <summary>
+    /// Source: Sharpdevelop
+    /// </summary>
+    public class XmlElementQualifiedName
     {
-        XmlQualifiedName xmlQualifiedName = XmlQualifiedName.Empty;
+        System.Xml.XmlQualifiedName xmlQualifiedName = System.Xml.XmlQualifiedName.Empty;
         string prefix = String.Empty;
 
-        public QualifiedName()
+        public XmlElementQualifiedName()
         {
         }
 
-        public QualifiedName(string name, string namespaceUri)
+        public XmlElementQualifiedName(string name, string namespaceUri)
             : this(name, namespaceUri, String.Empty)
         {
         }
 
-        public QualifiedName(string name, XmlNamespace ns)
+        public XmlElementQualifiedName(string name, XmlNamespace ns)
             : this(name, ns.Name, ns.Prefix)
         {
         }
 
-        public QualifiedName(string name, string namespaceUri, string prefix)
+        public XmlElementQualifiedName(string name, string namespaceUri, string prefix)
         {
-            xmlQualifiedName = new XmlQualifiedName(name, namespaceUri);
+            xmlQualifiedName = new System.Xml.XmlQualifiedName(name, namespaceUri);
             this.prefix = prefix;
         }
 
-        public static bool operator ==(QualifiedName lhs, QualifiedName rhs)
+        public static bool operator ==(XmlElementQualifiedName lhs, XmlElementQualifiedName rhs)
         {
             object lhsObject = (object)lhs;
             object rhsObject = (object)rhs;
@@ -43,7 +46,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             return false;
         }
 
-        public static bool operator !=(QualifiedName lhs, QualifiedName rhs)
+        public static bool operator !=(XmlElementQualifiedName lhs, XmlElementQualifiedName rhs)
         {
             return !(lhs == rhs);
         }
@@ -54,16 +57,16 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         /// </summary>
         public override bool Equals(object obj)
         {
-            QualifiedName qualifiedName = obj as QualifiedName;
-            if (qualifiedName != null)
+            XmlElementQualifiedName xmlElementQualifiedName = obj as XmlElementQualifiedName;
+            if (xmlElementQualifiedName != null)
             {
-                return xmlQualifiedName.Equals(qualifiedName.xmlQualifiedName);
+                return this.xmlQualifiedName.Equals(xmlElementQualifiedName.xmlQualifiedName);
             }
             else {
-                XmlQualifiedName name = obj as XmlQualifiedName;
+                System.Xml.XmlQualifiedName name = obj as System.Xml.XmlQualifiedName;
                 if (name != null)
                 {
-                    return xmlQualifiedName.Equals(name);
+                    return this.xmlQualifiedName.Equals(name);
                 }
             }
             return false;
@@ -85,7 +88,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         public string Namespace
         {
             get { return xmlQualifiedName.Namespace; }
-            set { xmlQualifiedName = new XmlQualifiedName(xmlQualifiedName.Name, value); }
+            set { xmlQualifiedName = new System.Xml.XmlQualifiedName(xmlQualifiedName.Name, value); }
         }
 
         public bool HasNamespace
@@ -99,7 +102,7 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
         public string Name
         {
             get { return xmlQualifiedName.Name; }
-            set { xmlQualifiedName = new XmlQualifiedName(value, xmlQualifiedName.Namespace); }
+            set { xmlQualifiedName = new System.Xml.XmlQualifiedName(value, xmlQualifiedName.Namespace); }
         }
 
         /// <summary>
@@ -135,11 +138,11 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             return prefix + ":" + xmlQualifiedName.Name;
         }
 
-        public static QualifiedName FromString(string name)
+        public static XmlElementQualifiedName FromString(string name)
         {
             if (name == null)
             {
-                return new QualifiedName();
+                return new XmlElementQualifiedName();
             }
 
             int index = name.IndexOf(':');
@@ -147,14 +150,14 @@ namespace XmlIntelliSense.App.SharpDevelopXmlEditor
             {
                 return CreateFromNameWithPrefix(name, index);
             }
-            return new QualifiedName(name, String.Empty);
+            return new XmlElementQualifiedName(name, String.Empty);
         }
 
-        static QualifiedName CreateFromNameWithPrefix(string name, int index)
+        static XmlElementQualifiedName CreateFromNameWithPrefix(string name, int index)
         {
             string prefix = name.Substring(0, index);
             name = name.Substring(index + 1);
-            return new QualifiedName(name, String.Empty, prefix);
+            return new XmlElementQualifiedName(name, String.Empty, prefix);
         }
     }
 }

@@ -59,18 +59,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="XHelper\XmlElementInformation.cs" />
     <Compile Include="XHelper\XmlParser.cs" />
-    <Compile Include="XHelper\XsdInformationAttribute.cs" />
-    <Compile Include="XHelper\XsdInformationElement.cs" />
+    <Compile Include="XHelper\XsdAttributeInformation.cs" />
+    <Compile Include="XHelper\XsdElementInformation.cs" />
     <Compile Include="XHelper\XsdParser.cs" />
     <Compile Include="XmlCompletionData.cs" />
-    <Compile Include="SharpDevelopXmlEditor\QualifiedName.cs" />
-    <Compile Include="SharpDevelopXmlEditor\QualifiedNameCollection.cs" />
-    <Compile Include="SharpDevelopXmlEditor\XmlElementPath.cs" />
-    <Compile Include="SharpDevelopXmlEditor\XmlNamespace.cs" />
-    <Compile Include="SharpDevelopXmlEditor\XmlNamespaceCollection.cs" />
-    <Compile Include="SharpDevelopXmlEditor\XmlParser.cs" />
-    <Compile Include="XSemmel\XParser.cs" />
+    <Compile Include="XHelper\XmlElementQualifiedName.cs" />
+    <Compile Include="XHelper\XmlElementQualifiedNameCollection.cs" />
+    <Compile Include="XHelper\XmlNamespace.cs" />
+    <Compile Include="XHelper\XmlNamespaceCollection.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

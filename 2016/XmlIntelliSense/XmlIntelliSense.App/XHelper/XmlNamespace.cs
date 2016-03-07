@@ -1,6 +1,6 @@
 using System;
 
-namespace XmlIntelliSense.App.SharpDevelopXmlEditor
+namespace XmlIntelliSense.App.XHelper
 {
     public class XmlNamespace
     {

@@ -10,9 +10,9 @@ namespace XmlIntelliSense.App.XHelper
 {
     public class XsdParser
     {
-        public static List<XsdInformationElement> AnalyseSchema(XmlSchemaSet set)
+        public static List<XsdElementInformation> AnalyseSchema(XmlSchemaSet set)
         {
-            List<XsdInformationElement> flatList = new List<XsdInformationElement>();
+            List<XsdElementInformation> flatList = new List<XsdElementInformation>();
             // Retrieve the compiled XmlSchema object from the XmlSchemaSet
             // by iterating over the Schemas property.
             XmlSchema customerSchema = null;
@@ -30,21 +30,21 @@ namespace XmlIntelliSense.App.XHelper
             return flatList;
         }
 
-        public static XsdInformationElement RecursiveElementAnalyser(string prefix, XmlSchemaElement element, List<XsdInformationElement> flatList)
+        public static XsdElementInformation RecursiveElementAnalyser(string prefix, XmlSchemaElement element, List<XsdElementInformation> flatList)
         {
-            XsdInformationElement xsdInformationElement = new XsdInformationElement();
+            XsdElementInformation xsdElementInformation = new XsdElementInformation();
 
             if (prefix == "//")
             {
-                xsdInformationElement.IsRoot = true;
+                xsdElementInformation.IsRoot = true;
             }
 
             string elementName = prefix + element.Name;
 
             string dataType = element.ElementSchemaType.TypeCode.ToString();
-            xsdInformationElement.Name = element.Name;
-            xsdInformationElement.DataType = dataType;
-            xsdInformationElement.XPathLikeKey = elementName;
+            xsdElementInformation.Name = element.Name;
+            xsdElementInformation.DataType = dataType;
+            xsdElementInformation.XPathLikeKey = elementName;
 
             // Get the complex type of the Customer element.
             XmlSchemaComplexType complexType = element.ElementSchemaType as XmlSchemaComplexType;
@@ -65,7 +65,7 @@ namespace XmlIntelliSense.App.XHelper
 
                         string attrDataType = attribute.AttributeSchemaType.TypeCode.ToString();
 
-                        xsdInformationElement.Attributes.Add(new XsdInformationAttribute() { Name = attribute.Name, DataType = attrDataType});
+                        xsdElementInformation.Attributes.Add(new XsdAttributeInformation() { Name = attribute.Name, DataType = attrDataType});
                     }
                 }
 
@@ -75,14 +75,14 @@ namespace XmlIntelliSense.App.XHelper
                 // Iterate over each XmlSchemaElement in the Items collection.
                 foreach (XmlSchemaElement childElement in sequence.Items)
                 {
-                    var result = RecursiveElementAnalyser(xsdInformationElement.XPathLikeKey + "/", childElement, flatList);
-                    xsdInformationElement.Elements.Add(result);
+                    var result = RecursiveElementAnalyser(xsdElementInformation.XPathLikeKey + "/", childElement, flatList);
+                    xsdElementInformation.Elements.Add(result);
                 }
             }
 
-            flatList.Add(xsdInformationElement);
+            flatList.Add(xsdElementInformation);
 
-            return xsdInformationElement;
+            return xsdElementInformation;
         }
     }
 }

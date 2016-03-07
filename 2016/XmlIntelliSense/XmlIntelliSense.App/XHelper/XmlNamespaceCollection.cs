@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace XmlIntelliSense.App.SharpDevelopXmlEditor
+namespace XmlIntelliSense.App.XHelper
 {
     public class XmlNamespaceCollection : Collection<XmlNamespace>
     {

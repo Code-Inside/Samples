@@ -3,24 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Xml;
-using System.Xml.Linq;
 using System.Xml.Schema;
-using System.Xml.XPath;
 using ICSharpCode.AvalonEdit.CodeCompletion;
-using XmlIntelliSense.App.SharpDevelopXmlEditor;
 using XmlIntelliSense.App.XHelper;
-using XmlIntelliSense.App.XSemmel;
 
 namespace XmlIntelliSense.App
 {
@@ -47,7 +35,7 @@ namespace XmlIntelliSense.App
             textEditor.TextArea.Caret.PositionChanged += IntelliSense;
         }
 
-        public List<XsdInformationElement> XsdInformation { get; set; }
+        public List<XsdElementInformation> XsdInformation { get; set; }
 
         private void TextArea_TextEntered(object sender, TextCompositionEventArgs e)
         {
@@ -80,21 +68,7 @@ namespace XmlIntelliSense.App
                         }
                     case "/":
                         {
-                            //insert name of closing element
                             int offset = _editor.CaretOffset;
-                            if (offset > 1 && _editor.Text[offset - 2] == '<')
-                            {
-                                //expand to closing tag
-                                string s = XParser.GetParentElementAtCursor(_editor.Text, offset - 1);
-                                if (!string.IsNullOrEmpty(s))
-                                {
-                                    //   showCompletion(new List<ICompletionData>
-                                    //   {
-                                    //       new MyCompletionData(s + ">")
-                                    //});
-                                    //  return true;
-                                }
-                            }
                             if (_editor.Text.Length > offset + 2 && _editor.Text[offset] == '>')
                             {
                                 //remove closing tag if exist
@@ -129,7 +103,7 @@ namespace XmlIntelliSense.App
                         break;
                     case " ":
                         {
-                            var currentElement = SharpDevelopXmlEditor.XmlParser.GetActiveElementStartPath(_editor.Text, _editor.CaretOffset);
+                            var currentElement = XHelper.XmlParser.GetActiveElementStartPath(_editor.Text, _editor.CaretOffset);
                             var attributeautocompletelist = ProvidePossibleAttributesAutocomplete(currentElement);
                             InvokeCompletionWindow(attributeautocompletelist, true);
                             break;
@@ -147,9 +121,6 @@ namespace XmlIntelliSense.App
                 char c = e.Text[0];
                 if (!(char.IsLetterOrDigit(c) || char.IsPunctuation(c)))
                 {
-                    // Whenever a non-letter is typed while the completion window is open,
-                    // insert the currently selected element.
-                    //_completionWindow.CompletionList.RequestInsertion(e);
                     e.Handled = true;
                 }
             }
@@ -170,7 +141,7 @@ namespace XmlIntelliSense.App
             }
         }
 
-        public List<Tuple<string, string>> ProvidePossibleElementsAutocomplete(XmlElementPath path)
+        public List<Tuple<string, string>> ProvidePossibleElementsAutocomplete(XmlElementInformation path)
         {
             List<Tuple<string, string>> result = new List<Tuple<string, string>>();
 
@@ -207,7 +178,7 @@ namespace XmlIntelliSense.App
             return result;
         }
 
-        public List<Tuple<string, string>> ProvidePossibleAttributesAutocomplete(XmlElementPath path)
+        public List<Tuple<string, string>> ProvidePossibleAttributesAutocomplete(XmlElementInformation path)
         {
             List<Tuple<string, string>> result = new List<Tuple<string, string>>();
 
@@ -250,23 +221,20 @@ namespace XmlIntelliSense.App
         private void IntelliSense(object sender, EventArgs eventArgs)
         {
             //var GetActiveElementStartPath = XmlParser.GetActiveElementStartPath(textEditor.Text, textEditor.TextArea.Caret.Offset);
-            //var GetActiveElementStartPathAtIndex = XmlParser.GetActiveElementStartPathAtIndex(textEditor.Text, textEditor.TextArea.Caret.Offset);
-            //var GetAttributeName = XmlParser.GetAttributeName(textEditor.Text, textEditor.TextArea.Caret.Offset);
-            //var GetAttributeNameAtIndex = XmlParser.GetAttributeNameAtIndex(textEditor.Text, textEditor.TextArea.Caret.Offset);
             //var GetParentElementPath = XmlParser.GetParentElementPath(textEditor.Text);
+
+            //var xsemmel = XmlParser.GetElementAtCursor(textEditor.Text, textEditor.TextArea.Caret.Offset);
 
             //StringBuilder builder = new StringBuilder();
             //builder.AppendLine("GetActiveElementStartPath: " + GetActiveElementStartPath.ToString());
-            //builder.AppendLine("GetActiveElementStartPathAtIndex: " + GetActiveElementStartPathAtIndex.ToString());
-            //builder.AppendLine("GetAttributeName: " + GetAttributeName.ToString());
-            //builder.AppendLine("GetAttributeNameAtIndex: " + GetAttributeNameAtIndex.ToString());
             //builder.AppendLine("GetParentElementPath: " + GetParentElementPath.ToString());
+            //builder.AppendLine("xsemmel: " + xsemmel.ToString());
 
-            //StringBuilder builder = new StringBuilder();
-            //string s = XParser.GetParentElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
-            //string x = XParser.GetElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
-            //builder.AppendLine(s);
-            //builder.AppendLine(x);
+            ////StringBuilder builder = new StringBuilder();
+            ////string s = XParser.GetParentElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
+            ////string x = XParser.GetElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
+            ////builder.AppendLine(s);
+            ////builder.AppendLine(x);
             //this.CurrentPath.Text = builder.ToString();
         }
     }

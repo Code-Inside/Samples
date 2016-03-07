@@ -38,10 +38,14 @@ namespace XmlIntelliSense.App
             if (_isAttribute)
             {
                 textArea.Document.Replace(completionSegment, this.Text + "=\"\"");
+                textArea.Caret.Offset = textArea.Caret.Offset - 1;
             }
             else
             {
-                textArea.Document.Replace(completionSegment, this.Text);
+                string element = this.Text + "></" + this.Text + ">";
+                textArea.Document.Replace(completionSegment, element);
+                textArea.Caret.Offset = textArea.Caret.Offset - (1 + this.Text.Length + 2);
+
             }
 
 
