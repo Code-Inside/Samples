@@ -70,10 +70,33 @@ namespace XsdParser
                 // Get the sequence particle of the complex type.
                 XmlSchemaSequence sequence = complexType.ContentTypeParticle as XmlSchemaSequence;
 
-                // Iterate over each XmlSchemaElement in the Items collection.
-                foreach (XmlSchemaElement childElement in sequence.Items)
+                if (sequence != null)
                 {
-                    RecursiveElementAnalyser(prefix + " ", childElement);
+                    // Iterate over each XmlSchemaElement in the Items collection.
+                    foreach (var childElement in sequence.Items)
+                    {
+                        var xmlSchemaElement = childElement as XmlSchemaElement;
+                        if (xmlSchemaElement != null)
+                        {
+                            RecursiveElementAnalyser(" " + prefix, xmlSchemaElement);
+                        }
+                        else
+                        {
+                            // support for XmlSchemaChoise element list
+                            var choice = childElement as XmlSchemaChoice;
+                            if (choice != null)
+                            {
+                                foreach (var choiceElement in choice.Items)
+                                {
+                                    var xmlChoiceSchemaElement = choiceElement as XmlSchemaElement;
+                                    if (xmlChoiceSchemaElement != null)
+                                    {
+                                        RecursiveElementAnalyser(" " + prefix, xmlChoiceSchemaElement);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

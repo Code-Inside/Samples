@@ -65,19 +65,47 @@ namespace XmlIntelliSense.App.XHelper
 
                         string attrDataType = attribute.AttributeSchemaType.TypeCode.ToString();
 
-                        xsdElementInformation.Attributes.Add(new XsdAttributeInformation() { Name = attribute.Name, DataType = attrDataType});
+                        xsdElementInformation.Attributes.Add(new XsdAttributeInformation() { Name = attribute.Name, DataType = attrDataType });
                     }
                 }
 
                 // Get the sequence particle of the complex type.
                 XmlSchemaSequence sequence = complexType.ContentTypeParticle as XmlSchemaSequence;
 
-                // Iterate over each XmlSchemaElement in the Items collection.
-                foreach (XmlSchemaElement childElement in sequence.Items)
+                if (sequence != null)
                 {
-                    var result = RecursiveElementAnalyser(xsdElementInformation.XPathLikeKey + "/", childElement, flatList);
-                    xsdElementInformation.Elements.Add(result);
+                    // Iterate over each XmlSchemaElement in the Items collection.
+                    foreach (var childElement in sequence.Items)
+                    {
+                        var xmlSchemaElement = childElement as XmlSchemaElement;
+                        if (xmlSchemaElement != null)
+                        {
+                            var result = RecursiveElementAnalyser(xsdElementInformation.XPathLikeKey + "/",
+                                xmlSchemaElement, flatList);
+                            xsdElementInformation.Elements.Add(result);
+                        }
+                        else
+                        {
+                            // support for XmlSchemaChoise element list
+                            var choice = childElement as XmlSchemaChoice;
+                            if (choice != null)
+                            {
+                                foreach (var choiceElement in choice.Items)
+                                {
+                                    var xmlChoiceSchemaElement = choiceElement as XmlSchemaElement;
+                                    if (xmlChoiceSchemaElement != null)
+                                    {
+                                        var result = RecursiveElementAnalyser(xsdElementInformation.XPathLikeKey + "/",
+                                            xmlChoiceSchemaElement, flatList);
+                                        xsdElementInformation.Elements.Add(result);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
+
+
             }
 
             flatList.Add(xsdElementInformation);
