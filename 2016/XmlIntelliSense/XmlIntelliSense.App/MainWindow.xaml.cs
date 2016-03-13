@@ -223,19 +223,14 @@ namespace XmlIntelliSense.App
             //var GetActiveElementStartPath = XmlParser.GetActiveElementStartPath(textEditor.Text, textEditor.TextArea.Caret.Offset);
             //var GetParentElementPath = XmlParser.GetParentElementPath(textEditor.Text);
 
-            //var xsemmel = XmlParser.GetElementAtCursor(textEditor.Text, textEditor.TextArea.Caret.Offset);
+            //var GetElementAtCursor = XmlParser.GetElementAtCursor(textEditor.Text, textEditor.TextArea.Caret.Offset);
 
             //StringBuilder builder = new StringBuilder();
             //builder.AppendLine("GetActiveElementStartPath: " + GetActiveElementStartPath.ToString());
             //builder.AppendLine("GetParentElementPath: " + GetParentElementPath.ToString());
-            //builder.AppendLine("xsemmel: " + xsemmel.ToString());
-
-            ////StringBuilder builder = new StringBuilder();
-            ////string s = XParser.GetParentElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
-            ////string x = XParser.GetElementAtCursor(textEditor.Text, textEditor.CaretOffset - 1);
-            ////builder.AppendLine(s);
-            ////builder.AppendLine(x);
+            //builder.AppendLine("GetElementAtCursor: " + GetElementAtCursor.ToString());
             //this.CurrentPath.Text = builder.ToString();
+
         }
     }
 }
