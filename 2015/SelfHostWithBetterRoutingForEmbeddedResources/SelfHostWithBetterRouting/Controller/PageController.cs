@@ -25,13 +25,17 @@ namespace SelfHostWithBetterRouting.Controller
 
         public HttpResponseMessage Get()
         {
-            var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
+             var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
             string filename = this.Request.RequestUri.PathAndQuery;
 
-            filename = filename.Replace(virtualPathRoot, string.Empty);
-
+            // happens if it is hosted in IIS
+            if (virtualPathRoot != "/")
+            {
+                filename = filename.Replace(virtualPathRoot, string.Empty);
+            }
+            
             // input as /page-assets/js/scripts.js
-            if (filename == "/" || string.IsNullOrWhiteSpace(filename))
+            if (filename == "/")
             {
                 filename = ".index.html";
             }
