@@ -25,14 +25,16 @@ namespace SelfHostWithBetterRouting.Controller
 
         public HttpResponseMessage Get()
         {
+            var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
             string filename = this.Request.RequestUri.PathAndQuery;
 
+            filename = filename.Replace(virtualPathRoot, string.Empty);
+
             // input as /page-assets/js/scripts.js
-            if (filename == "/")
+            if (filename == "/" || string.IsNullOrWhiteSpace(filename))
             {
                 filename = ".index.html";
             }
-
             // folders will be seen as "namespaces" - so replace / with the .
             filename = filename.Replace("/", ".");
             // resources can't be named with -, so it will be replaced with a _
