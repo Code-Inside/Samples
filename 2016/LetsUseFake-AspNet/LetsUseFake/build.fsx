@@ -20,6 +20,7 @@ Target "BuildWebApp" (fun _ ->
      |> MSBuild artifactsBuildDir "Package"
         ["Configuration", "Release"
          "Platform", "AnyCPU"
+         "AutoParameterizationWebConfigConnectionStrings", "False"
          "_PackageTempDir", (@"..\" + artifactsDir + @"Release-Ready-WebApp")
          ]
      |> Log "AppBuild-Output: "
