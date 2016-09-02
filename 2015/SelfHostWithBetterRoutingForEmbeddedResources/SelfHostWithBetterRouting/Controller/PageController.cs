@@ -15,17 +15,26 @@ namespace SelfHostWithBetterRouting.Controller
     {
         private const string ResourcePath = "SelfHostWithBetterRouting.Pages{0}";
 
-        public static Stream GetStream(string folderAndFileInProjectPath)
+        public static string GetStreamContent(string folderAndFileInProjectPath)
         {
             var asm = Assembly.GetExecutingAssembly();
             var resource = string.Format(ResourcePath, folderAndFileInProjectPath);
-            return asm.GetManifestResourceStream(resource);
+
+            using (var stream = asm.GetManifestResourceStream(resource))
+            {
+                if (stream != null)
+                {
+                    var reader = new StreamReader(stream);
+                    return reader.ReadToEnd();
+                }
+            }
+            return String.Empty;
         }
 
 
         public HttpResponseMessage Get()
         {
-             var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
+            var virtualPathRoot = this.Request.GetRequestContext().VirtualPathRoot;
             string filename = this.Request.RequestUri.PathAndQuery;
 
             // happens if it is hosted in IIS
@@ -35,10 +44,11 @@ namespace SelfHostWithBetterRouting.Controller
             }
             
             // input as /page-assets/js/scripts.js
-            if (filename == "/")
+            if (filename == "/" || filename == "")
             {
                 filename = ".index.html";
             }
+
             // folders will be seen as "namespaces" - so replace / with the .
             filename = filename.Replace("/", ".");
             // resources can't be named with -, so it will be replaced with a _
@@ -46,17 +56,26 @@ namespace SelfHostWithBetterRouting.Controller
 
             var mimeType = System.Web.MimeMapping.GetMimeMapping(filename);
 
-            var fileStream = GetStream(filename);
+            var fileStreamContent = GetStreamContent(filename);
 
-            if (fileStream != null)
+            if (string.IsNullOrWhiteSpace(fileStreamContent))
             {
-                var response = new HttpResponseMessage();
-                response.Content = new StreamContent(fileStream);
-                response.Content.Headers.ContentType = new MediaTypeHeaderValue(mimeType);
-                return response;
+                throw new Exception(string.Format("Can't find embedded file for '{0}'", filename));
             }
 
-            return new HttpResponseMessage(System.Net.HttpStatusCode.NotFound);
+            if (virtualPathRoot != "/")
+            {
+                fileStreamContent = fileStreamContent.Replace("~/", virtualPathRoot + "/");
+            }
+            else
+            {
+                fileStreamContent = fileStreamContent.Replace("~/", virtualPathRoot);
+            }
+
+            var response = new HttpResponseMessage();
+            response.Content = new StringContent(fileStreamContent);
+            response.Content.Headers.ContentType = new MediaTypeHeaderValue(mimeType);
+            return response;
         }
 
     }
