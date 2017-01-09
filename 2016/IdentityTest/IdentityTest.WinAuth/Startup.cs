@@ -16,7 +16,7 @@ namespace IdentityTest.WinAuth
             {
                 IdpReplyUrl = "http://localhost:56482/was",
                 SigningCertificate = Certificate.Load(),
-                EnableOAuth2Endpoint = false,
+                EnableOAuth2Endpoint = true,
             });
         }
     }

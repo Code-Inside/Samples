@@ -44,7 +44,7 @@ namespace IdentityTest
                 AuthenticationType = "windows",
                 Caption = "Windows",
                 SignInAsAuthenticationType = signInAsType,
-                
+                CallbackPath = new PathString("/hello"),
                 MetadataAddress = "http://localhost:58773",
                 Wtrealm = "urn:idsrv3"
             };
