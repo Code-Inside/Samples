@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Windows;
 using System.Windows.Data;
@@ -31,75 +33,48 @@ namespace IdentityTest.WpfClient
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            var authority = "http://localhost:56482/";
-            var options = new OidcClientOptions(
-                authority: authority,
-                clientId: "wpfapp",
-                clientSecret: "secret",
-                scope: "openid all_claims offline_access",
-                webView: new WinFormsWebView(), 
-                redirectUri: "http://localhost/wpf.hybrid");
-
-            var client = new OidcClient(options);
-           
-
-            var state = await client.PrepareLoginAsync();
-            
-            var test = await client.LoginAsync(false);
-
-
-
-
-        }
-
-        private async void Button2_Click(object sender, RoutedEventArgs e)
-        {
-            LoginWebView _login;
-            _login = new LoginWebView();
-            _login.Done += _login_Done;
-
-            _login.Owner = this;
-
-            var settings = new OidcSettings
+            try
             {
-                Authority = "http://localhost:56482/",
-                ClientId = "wpfapp",
-                ClientSecret = "secret",
-                RedirectUri = "http://localhost/wpf.hybrid",
-                Scope = "openid all_claims offline_access",
-                LoadUserProfile = false
-            };
 
-            await _login.LoginAsync(settings);
-        }
+                var authority = "http://localhost:56482/";
+                var options = new OidcClientOptions(
+                    authority: authority,
+                    clientId: "wpfapp",
+                    clientSecret: "secret",
+                    scope: "openid all_claims",
+                    webView: new WinFormsWebView(),
 
-        void _login_Done(object sender, LoginResult e)
-        {
-            if (e.Success)
-            {
-                var sb = new StringBuilder(128);
+                    redirectUri: "http://localhost/wpf.hybrid");
 
-                foreach (var claim in e.User.Claims)
+                var client = new OidcClient(options);
+                client.Options.UseFormPost = true;
+
+                var state = await client.PrepareLoginAsync();
+
+                var test = await client.LoginAsync(false);
+
+                Result.Text = "Success!";
+                
+                StringBuilder sb = new StringBuilder();
+                sb.AppendLine("AccessToken: " + test.AccessToken);
+                sb.AppendLine("RefreshToken: " + test.RefreshToken);
+
+                sb.AppendLine("Claims... ");
+
+                foreach (var claim in test.Claims)
                 {
-                    sb.AppendLine($"{claim.Type}: {claim.Value}");
+                    sb.AppendLine("Claim: " + claim.Type + " - " + claim.Value);
                 }
 
-                sb.AppendLine();
-
-                sb.AppendLine($"Identity token: {e.IdentityToken}");
-                sb.AppendLine($"Access token: {e.AccessToken}");
-                sb.AppendLine($"Access token expiration: {e.AccessTokenExpiration}");
-                sb.AppendLine($"Refresh token: {e?.RefreshToken ?? "none" }");
-                string res = sb.ToString();
-                // IdentityTextBox.Text = sb.ToString();
+                Detailed.Text = sb.ToString();
             }
-            else
+            catch (Exception exc)
             {
-                string error = e.ErrorMessage;
-                //  IdentityTextBox.Text = e.ErrorMessage;
+                Result.Text = "Error: " + exc.Message;
+                Detailed.Text = "";
             }
-
 
         }
+
     }
 }

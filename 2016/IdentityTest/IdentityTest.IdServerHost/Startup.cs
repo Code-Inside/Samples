@@ -4,8 +4,10 @@ using IdentityServer3.Core.Services;
 using IdentityServer3.Host.Config;
 using IdentityTest.IdServerHost;
 using Microsoft.Owin;
+using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.WsFederation;
 using Owin;
+using AuthenticationOptions = IdentityServer3.Core.Configuration.AuthenticationOptions;
 
 [assembly: OwinStartup(typeof(IdentityTest.Startup))]
 
@@ -44,7 +46,6 @@ namespace IdentityTest
                 AuthenticationType = "windows",
                 Caption = "Windows",
                 SignInAsAuthenticationType = signInAsType,
-                CallbackPath = new PathString("/hello"),
                 MetadataAddress = "http://localhost:58773",
                 Wtrealm = "urn:idsrv3"
             };

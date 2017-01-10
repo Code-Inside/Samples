@@ -8,7 +8,10 @@
         Title="MainWindow" Height="350" Width="525">
     <StackPanel>
         <Button Height="40" Width="80" Click="Button_Click">Login</Button>
-        <Button Height="40" Width="80" Click="Button2_Click">Login 2</Button>
-
+        <Line />
+        <TextBlock x:Name="Result"></TextBlock>
+        <Line />
+        <TextBlock x:Name="Detailed"></TextBlock>
+        
     </StackPanel>
 </Window>

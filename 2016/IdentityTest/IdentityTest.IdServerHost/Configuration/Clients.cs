@@ -29,33 +29,6 @@ namespace IdentityServer3.Host.Config
             {
                 new Client
                 {
-                    ClientName = "WPF WebView Client Sample",
-                    ClientId = "wpf.webview.client",
-                    Flow = Flows.Implicit,
-
-                    AllowedScopes = new List<string>
-                    {
-                        Constants.StandardScopes.OpenId,
-                        Constants.StandardScopes.Profile,
-                        Constants.StandardScopes.Email,
-                        Constants.StandardScopes.Roles,
-                        Constants.StandardScopes.Address,
-                        "read",
-                        "write"
-                    },
-
-                    ClientUri = "https://identityserver.io",
-
-                    RequireConsent = false,
-                    AllowRememberConsent = false,
-
-                    RedirectUris = new List<string>
-                    {
-                        "oob://localhost/wpf.webview.client",
-                    },
-                },
-                new Client
-                {
                     ClientId = "webapp",
                     ClientName = "WebApp Demo",
                     Flow = Flows.Implicit,
@@ -65,19 +38,31 @@ namespace IdentityServer3.Host.Config
                     },
                     AllowedScopes = new List<string>
                     {   "openid",  "all_claims"
-                    }
+                    },
+                    RequireConsent = false,
                 },
                 new Client
                 {
-                    ClientId = "wpfapp",
                     ClientName = "WPFApp Demo",
+                    ClientId = "wpfapp",
                     Flow = Flows.HybridWithProofKey,
-                    ClientSecrets = new List<Secret>() { new Secret("secret".Sha256()) },
-                 AllowedScopes = new List<string>
-                 {   "openid",  "all_claims", "offline_access"
-                 },
-                     RequireConsent = false,
-                     RedirectUris = new List<string>() { "http://localhost/wpf.hybrid" }
+
+                    ClientSecrets = new List<Secret>
+                    {
+                        new Secret("secret".Sha256())
+                    },
+
+                    RedirectUris = new List<string>
+                    {
+                        "http://localhost/wpf.hybrid"
+                    },
+
+                    AllowedScopes = new List<string>
+                    {   "openid",  "all_claims"
+                    },
+                    RequireConsent = false,
+
+                    AccessTokenType = AccessTokenType.Reference
                 },
 
 
