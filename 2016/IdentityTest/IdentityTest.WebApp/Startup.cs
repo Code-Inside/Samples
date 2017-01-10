@@ -1,4 +1,5 @@
-﻿using IdentityTest.WebApp;
+﻿using IdentityServer3.AccessTokenValidation;
+using IdentityTest.WebApp;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.OpenIdConnect;
@@ -11,6 +12,12 @@ namespace IdentityTest.WebApp
     {
         public void Configuration(IAppBuilder app)
         {
+            app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
+            {
+                Authority = "http://localhost:56482/",
+                RequiredScopes = new[] { "openid" }
+            });
+
             app.UseCookieAuthentication(new CookieAuthenticationOptions()
             {
                 AuthenticationType = "cookies",

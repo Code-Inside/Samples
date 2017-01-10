@@ -17,6 +17,7 @@ using IdentityModel.Extensions;
 using IdentityModel.OidcClient;
 using IdentityModel.OidcClient.Logging;
 using IdentityTest.WpfClient.OidcStuff;
+using Newtonsoft.Json.Linq;
 using WebBrowser = System.Windows.Controls.WebBrowser;
 
 namespace IdentityTest.WpfClient
@@ -30,6 +31,8 @@ namespace IdentityTest.WpfClient
         {
             InitializeComponent();
         }
+
+        private string token = "";
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
@@ -51,7 +54,9 @@ namespace IdentityTest.WpfClient
 
                 var state = await client.PrepareLoginAsync();
 
-                var test = await client.LoginAsync(false);
+                var test = await client.LoginAsync(true);
+
+                token = test.AccessToken;
 
                 Result.Text = "Success!";
                 
@@ -76,5 +81,23 @@ namespace IdentityTest.WpfClient
 
         }
 
+        private async void ButtonApi_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                var client = new HttpClient();
+                client.SetBearerToken(token);
+
+                var json = await client.GetStringAsync("http://localhost:57884/api/values");
+                var test = JArray.Parse(json).ToString();
+
+                Api.Text = test;
+            }
+            catch (Exception exc)
+            {
+                Api.Text = "Error " + exc.Message;
+            }
+
+        }
     }
 }

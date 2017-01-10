@@ -12,6 +12,7 @@
         <TextBlock x:Name="Result"></TextBlock>
         <Line />
         <TextBlock x:Name="Detailed"></TextBlock>
-        
+        <Button Height="40" Width="80" Click="ButtonApi_Click">Call Api</Button>
+        <TextBlock x:Name="Api"></TextBlock>
     </StackPanel>
 </Window>
