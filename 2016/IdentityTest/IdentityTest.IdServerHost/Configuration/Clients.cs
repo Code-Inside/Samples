@@ -55,11 +55,11 @@ namespace IdentityServer3.Host.Config
 
                     RedirectUris = new List<string>
                     {
-                        "http://localhost/wpf.hybrid"
+                        "something://localhost/wpf.hybrid"
                     },
 
                     AllowedScopes = new List<string>
-                    {   "openid",  "all_claims"
+                    {   "openid",  "all_claims", "offline_access"
                     },
                     RequireConsent = false,
 

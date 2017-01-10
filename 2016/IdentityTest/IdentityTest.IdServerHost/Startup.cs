@@ -6,6 +6,7 @@ using IdentityServer3.Host.Config;
 using IdentityTest.IdServerHost;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.Google;
 using Microsoft.Owin.Security.WsFederation;
 using Owin;
 using AuthenticationOptions = IdentityServer3.Core.Configuration.AuthenticationOptions;
@@ -42,6 +43,16 @@ namespace IdentityTest
 
         private void ConfigureIdentityProviders(IAppBuilder app, string signInAsType)
         {
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
+            {
+                AuthenticationType = "Google",
+                Caption = "Sign-in with Google",
+                SignInAsAuthenticationType = signInAsType,
+
+                ClientId = "",
+                ClientSecret = ""
+            });
+
             var wsFederation = new WsFederationAuthenticationOptions
             {
                 AuthenticationType = "windows",

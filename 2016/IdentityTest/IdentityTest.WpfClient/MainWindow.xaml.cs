@@ -45,18 +45,18 @@ namespace IdentityTest.WpfClient
                     authority: authority,
                     clientId: "wpfapp",
                     clientSecret: "secret",
-                    scope: "openid all_claims",
+                    scope: "openid all_claims offline_access",
                     webView: new WinFormsWebView(),
 
-                    redirectUri: "http://localhost/wpf.hybrid");
+                    redirectUri: "something://localhost/wpf.hybrid");
 
                 var client = new OidcClient(options);
                 client.Options.UseFormPost = true;
-
+                
                 var state = await client.PrepareLoginAsync();
 
                 var test = await client.LoginAsync(true);
-
+                
                 token = test.AccessToken;
 
                 Result.Text = "Success!";
