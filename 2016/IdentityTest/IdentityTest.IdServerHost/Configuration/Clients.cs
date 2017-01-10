@@ -17,6 +17,7 @@
 using IdentityServer3.Core;
 using IdentityServer3.Core.Models;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Security.Claims;
 
 namespace IdentityServer3.Host.Config
@@ -34,7 +35,7 @@ namespace IdentityServer3.Host.Config
                     Flow = Flows.Implicit,
                     RedirectUris = new List<string>()
                     {
-                      "http://localhost:57884/"
+                        ConfigurationManager.AppSettings["Security.WebAppClientUrl"]
                     },
                     AllowedScopes = new List<string>
                     {   "openid",  "all_claims"

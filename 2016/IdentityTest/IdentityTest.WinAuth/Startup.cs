@@ -1,4 +1,5 @@
-﻿using Configuration;
+﻿using System.Configuration;
+using Configuration;
 using IdentityServer.WindowsAuthentication.Configuration;
 using IdentityServer.WindowsAuthentication.Services;
 using IdentityTest.WinAuth;
@@ -14,7 +15,7 @@ namespace IdentityTest.WinAuth
         {
             app.UseWindowsAuthenticationService(new WindowsAuthenticationOptions
             {
-                IdpReplyUrl = "http://localhost:56482/was",
+                IdpReplyUrl = ConfigurationManager.AppSettings["Security.IdpReplyUrl"],
                 SigningCertificate = Certificate.Load(),
                 EnableOAuth2Endpoint = false,
             });

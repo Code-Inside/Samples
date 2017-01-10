@@ -1,4 +1,5 @@
-﻿using IdentityServer3.AccessTokenValidation;
+﻿using System.Configuration;
+using IdentityServer3.AccessTokenValidation;
 using IdentityTest.WebApp;
 using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
@@ -14,7 +15,7 @@ namespace IdentityTest.WebApp
         {
             app.UseIdentityServerBearerTokenAuthentication(new IdentityServerBearerTokenAuthenticationOptions
             {
-                Authority = "http://localhost:56482/",
+                Authority = ConfigurationManager.AppSettings["Security.Authority"],
                 RequiredScopes = new[] { "openid" }
             });
 
@@ -27,9 +28,9 @@ namespace IdentityTest.WebApp
             {
                 AuthenticationType = "oidc",
                 SignInAsAuthenticationType = "cookies",
-                Authority = "http://localhost:56482/",
+                Authority = ConfigurationManager.AppSettings["Security.Authority"],
                 ClientId = "webapp",
-                RedirectUri = "http://localhost:57884/",
+                RedirectUri = ConfigurationManager.AppSettings["Security.RedirectUri"],
                 ResponseType = "id_token",
                 Scope = "openid all_claims"
             });

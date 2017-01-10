@@ -1,4 +1,5 @@
-﻿using Configuration;
+﻿using System.Configuration;
+using Configuration;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Services;
 using IdentityServer3.Host.Config;
@@ -46,7 +47,7 @@ namespace IdentityTest
                 AuthenticationType = "windows",
                 Caption = "Windows",
                 SignInAsAuthenticationType = signInAsType,
-                MetadataAddress = "http://localhost:58773",
+                MetadataAddress = ConfigurationManager.AppSettings["Security.WindowsAuthProviderAddress"],
                 Wtrealm = "urn:idsrv3"
             };
             app.UseWsFederationAuthentication(wsFederation);

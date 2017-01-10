@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -39,7 +40,7 @@ namespace IdentityTest.WpfClient
             try
             {
 
-                var authority = "http://localhost:56482/";
+                var authority = ConfigurationManager.AppSettings["Security.Authority"];
                 var options = new OidcClientOptions(
                     authority: authority,
                     clientId: "wpfapp",
@@ -88,7 +89,7 @@ namespace IdentityTest.WpfClient
                 var client = new HttpClient();
                 client.SetBearerToken(token);
 
-                var json = await client.GetStringAsync("http://localhost:57884/api/values");
+                var json = await client.GetStringAsync(ConfigurationManager.AppSettings["Security.WebAppClientUrl"] + "api/values");
                 var test = JArray.Parse(json).ToString();
 
                 Api.Text = test;
