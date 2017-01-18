@@ -33,37 +33,26 @@ namespace IdentityTest.WpfClient
             InitializeComponent();
         }
 
-        private string token = "";
+        private string accessToken = "";
+        private string refreshToken = "";
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
 
-                var authority = ConfigurationManager.AppSettings["Security.Authority"];
-                var options = new OidcClientOptions(
-                    authority: authority,
-                    clientId: "wpfapp",
-                    clientSecret: "secret",
-                    scope: "openid all_claims offline_access",
-                    webView: new WinFormsWebView(),
-
-                    redirectUri: "something://localhost/wpf.hybrid");
-
-                var client = new OidcClient(options);
-                client.Options.UseFormPost = true;
-                
-                var state = await client.PrepareLoginAsync();
+                var client = OidcClient();
 
                 var test = await client.LoginAsync(true);
-                
-                token = test.AccessToken;
 
+                accessToken = test.AccessToken;
+                refreshToken = test.RefreshToken;
                 Result.Text = "Success!";
                 
                 StringBuilder sb = new StringBuilder();
                 sb.AppendLine("AccessToken: " + test.AccessToken);
                 sb.AppendLine("RefreshToken: " + test.RefreshToken);
+                sb.AppendLine("AccessTokenExpiration: " + test.AccessTokenExpiration);
 
                 sb.AppendLine("Claims... ");
 
@@ -82,12 +71,29 @@ namespace IdentityTest.WpfClient
 
         }
 
+        private static OidcClient OidcClient()
+        {
+            var authority = ConfigurationManager.AppSettings["Security.Authority"];
+            var options = new OidcClientOptions(
+                authority: authority,
+                clientId: "wpfapp", 
+                clientSecret: "secret",
+                scope: "openid all_claims offline_access",
+                webView: new WinFormsWebView(),
+                redirectUri: "something://localhost/wpf.hybrid");
+
+            var client = new OidcClient(options);
+            client.Options.UseFormPost = true;
+
+            return client;
+        }
+
         private async void ButtonApi_Click(object sender, RoutedEventArgs e)
         {
             try
             {
                 var client = new HttpClient();
-                client.SetBearerToken(token);
+                client.SetBearerToken(accessToken);
 
                 var json = await client.GetStringAsync(ConfigurationManager.AppSettings["Security.WebAppClientUrl"] + "api/values");
                 var test = JArray.Parse(json).ToString();
@@ -99,6 +105,20 @@ namespace IdentityTest.WpfClient
                 Api.Text = "Error " + exc.Message;
             }
 
+        }
+
+        private async void ButtonRefresh_Click(object sender, RoutedEventArgs e)
+        {
+            var client = OidcClient();
+
+            var result = await client.RefreshTokenAsync(this.refreshToken);
+
+            if (result.Success)
+            {
+                this.accessToken = result.AccessToken;
+                this.refreshToken = result.RefreshToken;
+            }
+           
         }
     }
 }

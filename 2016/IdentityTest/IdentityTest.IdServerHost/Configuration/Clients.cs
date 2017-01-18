@@ -33,6 +33,7 @@ namespace IdentityServer3.Host.Config
                     ClientId = "webapp",
                     ClientName = "WebApp Demo",
                     Flow = Flows.Implicit,
+                    
                     RedirectUris = new List<string>()
                     {
                         ConfigurationManager.AppSettings["Security.WebAppClientUrl"]
@@ -52,7 +53,7 @@ namespace IdentityServer3.Host.Config
                     {
                         new Secret("secret".Sha256())
                     },
-
+                    
                     RedirectUris = new List<string>
                     {
                         "something://localhost/wpf.hybrid"

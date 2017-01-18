@@ -2,6 +2,7 @@
 using Configuration;
 using IdentityServer3.Core.Configuration;
 using IdentityServer3.Core.Services;
+using IdentityServer3.EntityFramework;
 using IdentityServer3.Host.Config;
 using IdentityTest.IdServerHost;
 using Microsoft.Owin;
@@ -24,12 +25,12 @@ namespace IdentityTest
                 .UseInMemoryClients(Clients.Get())
                 .UseInMemoryScopes(Scopes.Get());
             factory.UserService = new Registration<IUserService>(typeof(ExternalRegistrationUserService));
-
+            factory.RegisterOperationalServices(new EntityFrameworkServiceOptions() { ConnectionString = "test" });
             app.UseIdentityServer(new IdentityServerOptions
             {
                 SiteName = "Embedded IdentityServer",
                 SigningCertificate = Certificate.Load(),
-                Factory = factory,
+                Factory = factory, 
                 RequireSsl = false,
                 AuthenticationOptions = new AuthenticationOptions
                 {
@@ -43,23 +44,23 @@ namespace IdentityTest
 
         private void ConfigureIdentityProviders(IAppBuilder app, string signInAsType)
         {
-            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
-            {
-                AuthenticationType = "Google",
-                Caption = "Sign-in with Google",
-                SignInAsAuthenticationType = signInAsType,
+            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions
+            //{
+            //    AuthenticationType = "Google",
+            //    Caption = "Sign-in with Google",
+            //    SignInAsAuthenticationType = signInAsType,
 
-                ClientId = "",
-                ClientSecret = ""
-            });
+            //    ClientId = "key",
+            //    ClientSecret = "secret"
+            //});
 
             var wsFederation = new WsFederationAuthenticationOptions
             {
                 AuthenticationType = "windows",
-                Caption = "Windows",
+                Caption = "Windows - A",
                 SignInAsAuthenticationType = signInAsType,
                 MetadataAddress = ConfigurationManager.AppSettings["Security.WindowsAuthProviderAddress"],
-                Wtrealm = "urn:idsrv3"
+                Wtrealm = "urn:idsrv3", 
             };
             app.UseWsFederationAuthentication(wsFederation);
         }
