@@ -45,17 +45,9 @@ Task("BuildTests")
 
 });
 
-Task("Build")
-    .IsDependentOn("Restore-NuGet-Packages")
-    .Does(() =>
-{
-      MSBuild(@"./2_BuildALib.Lib/2_BuildALib.Lib.csproj", new MSBuildSettings().SetConfiguration("Release")
-																								  .WithProperty("OutDir", rootAbsoluteDir + @"/artifacts/lib/"));
-
-});
 
 // TASK TARGETS
-Task("Default").IsDependentOn("Build");
+Task("Default").IsDependentOn("RunTests");
 
 // EXECUTION
 RunTarget(target);

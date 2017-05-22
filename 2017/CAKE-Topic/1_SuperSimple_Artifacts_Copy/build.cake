@@ -14,8 +14,9 @@ Task("Build")
     .IsDependentOn("Restore-NuGet-Packages")
     .Does(() =>
 {
-      MSBuild(@"./1_SuperSimple.ConsoleApp/1_SuperSimple.ConsoleApp.csproj", new MSBuildSettings().SetConfiguration("Release")
-																								  .WithProperty("OutDir", rootAbsoluteDir + @"/artifacts/app/"));
+      MSBuild(@"./1_SuperSimple.ConsoleApp/1_SuperSimple.ConsoleApp.csproj", 
+		new MSBuildSettings().SetConfiguration("Release")
+						     .WithProperty("OutDir", rootAbsoluteDir + @"/artifacts/app/"));
 
 });
 
