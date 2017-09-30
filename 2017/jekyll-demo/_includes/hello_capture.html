@@ -1,0 +1,5 @@
+{% capture text %} 
+Hello {% if include.name == nil %} World {% else %} {{include.name}} {% endif %}! 
+{% endcapture %}
+
+<span>{{ text }}</span>

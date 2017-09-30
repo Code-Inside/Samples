@@ -1,0 +1,15 @@
+---
+title: Demo 4
+permalink: /demo4/
+variables: "page.variables - test case!"
+layout: nested
+---
+
+{% for feedItem in site.data.AspNetCore.Data.Blog.FeedItems limit: 5 %}
+<p>
+    <strong>{{ feedItem.Title }}</h4>
+    <span>
+		Published on {{ feedItem.PublishedOn | date_to_long_string }}
+    </span>
+</p>
+{% endfor %}
