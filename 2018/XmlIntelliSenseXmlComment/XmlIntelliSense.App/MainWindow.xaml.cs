@@ -39,7 +39,30 @@ namespace XmlIntelliSense.App
 
             textEditor.TextChanged += IntelliSense;
             textEditor.TextArea.TextEntered += TextArea_TextEntered;
+            textEditor.TextArea.KeyDown += TextArea_KeyDown;
             textEditor.TextArea.Caret.PositionChanged += IntelliSense;
+        }
+
+        private void TextArea_KeyDown(object sender, KeyEventArgs e)
+        {
+            var _editor = textEditor;
+
+            try
+            {
+
+                if (e.Key == Key.Space && e.KeyboardDevice.Modifiers == ModifierKeys.Control)
+                {
+                    var currentElement = XHelper.XmlParser.GetActiveElementStartPath(_editor.Text, _editor.CaretOffset);
+                    var attributeautocompletelist = ProvidePossibleAttributesAutocomplete(currentElement);
+                }
+
+
+                // InvokeCompletionWindow(attributeautocompletelist, true);
+            }
+            catch (Exception)
+            {
+                
+            }
         }
 
         private void TryToUpdateFoldings()
@@ -242,16 +265,18 @@ namespace XmlIntelliSense.App
         private void IntelliSense(object sender, EventArgs eventArgs)
         {
             TryToUpdateFoldings();
-            //var GetActiveElementStartPath = XmlParser.GetActiveElementStartPath(textEditor.Text, textEditor.TextArea.Caret.Offset);
-            //var GetParentElementPath = XmlParser.GetParentElementPath(textEditor.Text);
+            var GetActiveElementStartPath = XmlParser.GetActiveElementStartPath(textEditor.Text, textEditor.TextArea.Caret.Offset);
+            var GetParentElementPath = XmlParser.GetParentElementPath(textEditor.Text);
 
-            //var GetElementAtCursor = XmlParser.GetElementAtCursor(textEditor.Text, textEditor.TextArea.Caret.Offset);
+            var GetElementAtCursor = XmlParser.GetElementAtCursor(textEditor.Text, textEditor.TextArea.Caret.Offset);
 
-            //StringBuilder builder = new StringBuilder();
-            //builder.AppendLine("GetActiveElementStartPath: " + GetActiveElementStartPath.ToString());
-            //builder.AppendLine("GetParentElementPath: " + GetParentElementPath.ToString());
-            //builder.AppendLine("GetElementAtCursor: " + GetElementAtCursor.ToString());
-            //this.CurrentPath.Text = builder.ToString();
+            StringBuilder builder = new StringBuilder();
+            builder.AppendLine("GetActiveElementStartPath: " + GetActiveElementStartPath.ToString());
+            builder.AppendLine("GetActiveElementStartPath.CurrentAttribute: " + GetActiveElementStartPath.CurrentAttribute?.ToString());
+
+            builder.AppendLine("GetParentElementPath: " + GetParentElementPath.ToString());
+            builder.AppendLine("GetElementAtCursor: " + GetElementAtCursor.ToString());
+            this.CurrentPath.Text = builder.ToString();
 
         }
     }

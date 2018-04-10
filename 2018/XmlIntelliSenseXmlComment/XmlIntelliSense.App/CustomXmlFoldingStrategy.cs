@@ -11,7 +11,7 @@ namespace XmlIntelliSense.App
     /// <summary>
     /// Determines folds for an xml string in the editor.
     /// </summary>
-    public class CustomXmlFoldingStrategy
+    public class CustomXmlFoldingStrategy 
     {
         /// <summary>
         /// Flag indicating whether attributes should be displayed on folded
@@ -190,15 +190,6 @@ namespace XmlIntelliSense.App
             newFoldStart.StartOffset = document.GetOffset(newFoldStart.StartLine, lineInfo.LinePosition - 4);
 
             newFoldStart.Name = reader.Value.Replace("#region", "");
-
-            //if (this.ShowAttributesWhenFolded && reader.HasAttributes)
-            //{
-            //    newFoldStart.Name = String.Concat("<", reader.Name, " ", GetAttributeFoldText(reader), ">");
-            //}
-            //else
-            //{
-            //    newFoldStart.Name = String.Concat("<", reader.Name, ">");
-            //}
 
             return newFoldStart;
         }

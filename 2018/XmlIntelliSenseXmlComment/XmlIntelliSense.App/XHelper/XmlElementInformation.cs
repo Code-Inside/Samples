@@ -12,6 +12,8 @@ namespace XmlIntelliSense.App.XHelper
         {
         }
 
+        public string CurrentAttribute { get; set; }
+
         /// <summary>
         /// Gets the elements specifying the path.
         /// </summary>

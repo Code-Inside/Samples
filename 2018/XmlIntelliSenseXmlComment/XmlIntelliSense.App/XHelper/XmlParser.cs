@@ -126,11 +126,17 @@ namespace XmlIntelliSense.App.XHelper
         /// is returned.</remarks>
         public static XmlElementInformation GetActiveElementStartPath(string xml, int index)
         {
-            string elementText = GetActiveElementStartText(xml, index);
-            if (elementText != null)
+            var result = GetActiveElementStartTextAndActiveAttribute(xml, index);
+            if (result != null)
             {
-                return GetActiveElementStartPath(xml, index, elementText);
+                string elementText = result.Item1;
+
+                var element = GetActiveElementStartPath(xml, index, elementText);
+                element.CurrentAttribute = result.Item2;
+
+                return element;
             }
+
             return new XmlElementInformation();
         }
 
@@ -284,7 +290,7 @@ namespace XmlIntelliSense.App.XHelper
         /// <returns>
         /// Returns the text up to and including the start tag &lt; character.
         /// </returns>
-        static string GetActiveElementStartText(string xml, int index)
+        static Tuple<string, string> GetActiveElementStartTextAndActiveAttribute(string xml, int index)
         {
             int elementStartIndex = GetActiveElementStartIndex(xml, index);
             if (elementStartIndex >= 0)
@@ -294,7 +300,28 @@ namespace XmlIntelliSense.App.XHelper
                     int elementEndIndex = GetActiveElementEndIndex(xml, index);
                     if (elementEndIndex >= index)
                     {
-                        return xml.Substring(elementStartIndex, elementEndIndex - elementStartIndex);
+                        var searchingForAttribute = xml.Substring(elementStartIndex, index - elementStartIndex);
+                        string attribute = string.Empty;
+
+                        // only search for the last one, if the cursor is not in the whitespace area
+                        if (searchingForAttribute.TrimEnd().EndsWith("\"") == false)
+                        {
+                            // regex for last attribute: 
+
+                            var matches = Regex.Matches(searchingForAttribute + "\"",
+                                "(?<name>\\b\\w+\\b)\\s*=\\s*(?<value>\"[^\"]*\"|\'[^\']*\'|[^\"\'<>\\s]+)");
+
+                            if (matches.Count > 0)
+                            {
+                                var lastMatch = matches[matches.Count - 1];
+                                var currentAttribute = lastMatch.Groups["name"];
+                                attribute = currentAttribute.Value;
+
+                            }
+                        }
+                     
+                        //
+                        return new Tuple<string, string>(xml.Substring(elementStartIndex, elementEndIndex - elementStartIndex), attribute);
                     }
                 }
             }
