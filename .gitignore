@@ -191,3 +191,5 @@ FakesAssemblies/
 # Client Side JS and CSS Stuff
 node_modules
 bower_components
+*.ide
+*.lock
