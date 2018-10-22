@@ -193,3 +193,5 @@ node_modules
 bower_components
 *.ide
 *.lock
+*.ide-shm
+*.ide-wal
