@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OfficeAppWithDotNetCore.Web", "OfficeAppWithDotNetCore.Web\OfficeAppWithDotNetCore.Web.csproj", "{91ABF309-7D89-456D-80CA-D505B6059F00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OfficeAppWithDotNetCore.WordAddin", "OfficeAppWithDotNetCore.WordAddin\OfficeAppWithDotNetCore.WordAddin.csproj", "{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91ABF309-7D89-456D-80CA-D505B6059F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91ABF309-7D89-456D-80CA-D505B6059F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91ABF309-7D89-456D-80CA-D505B6059F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91ABF309-7D89-456D-80CA-D505B6059F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9407F2B1-7FE7-42F9-8C6B-F0FDA152A11C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8DDFCE7-BAD0-40C8-B29C-C05C0B288379}
+	EndGlobalSection
+EndGlobal

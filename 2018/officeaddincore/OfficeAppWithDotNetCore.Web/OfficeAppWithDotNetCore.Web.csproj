@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\officeaddin-files\Scripts\embedded\1.0\visio-web-embedded.debug-vsdoc.js" />
+    <Content Remove="wwwroot\officeaddin-files\Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Remove="wwwroot\officeaddin-files\Scripts\Office\1\office-vsdoc.js" />
+    <Content Remove="wwwroot\officeaddin-files\Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\OfficeAddin\Data\" />
+    <Folder Include="Areas\OfficeAddin\Models\" />
+    <Folder Include="wwwroot\officeaddin-files\_sites\Home\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\officeaddin-files\Scripts\embedded\1.0\visio-web-embedded.debug-vsdoc.js" />
+    <None Include="wwwroot\officeaddin-files\Scripts\jquery-3.3.1.intellisense.js" />
+    <None Include="wwwroot\officeaddin-files\Scripts\Office\1\office-vsdoc.js" />
+    <None Include="wwwroot\officeaddin-files\Scripts\Office\1\outlook-win32.debug-vsdoc.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Areas\OfficeAddin\Views\Home\FunctionFile.cshtml">
+      <Pack>$(IncludeRazorContentInPack)</Pack>
+    </Content>
+  </ItemGroup>
+
+</Project>
