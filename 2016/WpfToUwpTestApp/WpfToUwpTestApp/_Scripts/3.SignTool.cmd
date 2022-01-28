@@ -1,1 +1,0 @@
-"C:\Program Files (x86)\Windows Kits\10\bin\x64\signtool.exe" sign /f "App.pfx" -fd SHA256 /p apptest "App.appx"
