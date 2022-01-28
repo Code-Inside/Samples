@@ -1,8 +1,0 @@
-﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
-
-<p>
-    <h1>Greetings from the masterpage...</h1>
-    <asp:ContentPlaceHolder ID="Content" runat="server">
-        
-    </asp:ContentPlaceHolder>
-</p>
