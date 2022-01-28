@@ -1,9 +1,0 @@
-This assembly is from the GAC - the GAC Version is higher than the Assembly in the Reference Assembly folder.
-
-
-Link:
-http://blogs.msdn.com/b/bharry/archive/2013/02/11/ctp-for-visual-studio-2012-update-2-vs-2012-2-is-available.aspx
-
-Otherwise:
-[MissingMethodException: Method not found: 'Boolean Microsoft.TeamFoundation.WorkItemTracking.Proxy.IWorkItemRowSets.TryGetRowSet(System.String, Microsoft.TeamFoundation.WorkItemTracking.Proxy.IRowSet ByRef)'.]
- 

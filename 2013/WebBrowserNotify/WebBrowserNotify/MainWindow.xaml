@@ -1,9 +1,0 @@
-﻿<Window x:Class="WebBrowserNotify.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525">
-    <StackPanel>
-        <WebBrowser Height="200" x:Name="Host" />
-        <TextBlock x:Name="Result" />
-    </StackPanel>
-</Window>
